@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */; };
+		5A34CECB22121DD3002F2980 /* MonstersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34CEC922121DD3002F2980 /* MonstersViewController.swift */; };
+		5A34CECE22121F7C002F2980 /* Monsters.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A34CECD22121F7C002F2980 /* Monsters.storyboard */; };
 		5A6A1C6D22120E5B00A58EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A1C6C22120E5B00A58EAD /* AppDelegate.swift */; };
-		5A6A1C6F22120E5B00A58EAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A1C6E22120E5B00A58EAD /* ViewController.swift */; };
-		5A6A1C7222120E5B00A58EAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6A1C7022120E5B00A58EAD /* Main.storyboard */; };
 		5A6A1C7422120E5C00A58EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6A1C7322120E5C00A58EAD /* Assets.xcassets */; };
-		5A6A1C7722120E5C00A58EAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A6A1C7522120E5C00A58EAD /* LaunchScreen.storyboard */; };
 		5A6A1C8222120E5C00A58EAD /* gloomhavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A1C8122120E5C00A58EAD /* gloomhavenTests.swift */; };
+		5A6A1C8E2212145D00A58EAD /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A1C8D2212145D00A58EAD /* Monster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A34CEC922121DD3002F2980 /* MonstersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersViewController.swift; sourceTree = "<group>"; };
+		5A34CECD22121F7C002F2980 /* Monsters.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Monsters.storyboard; sourceTree = "<group>"; };
 		5A6A1C6922120E5B00A58EAD /* gloomhaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gloomhaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6A1C6C22120E5B00A58EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A6A1C6E22120E5B00A58EAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5A6A1C7122120E5B00A58EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A6A1C7322120E5C00A58EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5A6A1C7622120E5C00A58EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A6A1C7822120E5C00A58EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A6A1C7D22120E5C00A58EAD /* gloomhavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gloomhavenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6A1C8122120E5C00A58EAD /* gloomhavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gloomhavenTests.swift; sourceTree = "<group>"; };
 		5A6A1C8322120E5C00A58EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A6A1C8D2212145D00A58EAD /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A34CEC522121CB3002F2980 /* Monsters */ = {
+			isa = PBXGroup;
+			children = (
+				5A34CECD22121F7C002F2980 /* Monsters.storyboard */,
+				5A34CEC922121DD3002F2980 /* MonstersViewController.swift */,
+			);
+			path = Monsters;
+			sourceTree = "<group>";
+		};
+		5A34CEC622121CE8002F2980 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */,
+				5A6A1C7322120E5C00A58EAD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		5A6A1C6022120E5B00A58EAD = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +97,10 @@
 		5A6A1C6B22120E5B00A58EAD /* gloomhaven */ = {
 			isa = PBXGroup;
 			children = (
+				5A34CEC522121CB3002F2980 /* Monsters */,
+				5A6A1C8C2212145600A58EAD /* Model */,
 				5A6A1C6C22120E5B00A58EAD /* AppDelegate.swift */,
-				5A6A1C6E22120E5B00A58EAD /* ViewController.swift */,
-				5A6A1C7022120E5B00A58EAD /* Main.storyboard */,
-				5A6A1C7322120E5C00A58EAD /* Assets.xcassets */,
-				5A6A1C7522120E5C00A58EAD /* LaunchScreen.storyboard */,
+				5A34CEC622121CE8002F2980 /* Resources */,
 				5A6A1C7822120E5C00A58EAD /* Info.plist */,
 			);
 			path = gloomhaven;
@@ -94,6 +113,14 @@
 				5A6A1C8322120E5C00A58EAD /* Info.plist */,
 			);
 			path = gloomhavenTests;
+			sourceTree = "<group>";
+		};
+		5A6A1C8C2212145600A58EAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A6A1C8D2212145D00A58EAD /* Monster.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +204,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A6A1C7722120E5C00A58EAD /* LaunchScreen.storyboard in Resources */,
+				5A34CECE22121F7C002F2980 /* Monsters.storyboard in Resources */,
 				5A6A1C7422120E5C00A58EAD /* Assets.xcassets in Resources */,
-				5A6A1C7222120E5B00A58EAD /* Main.storyboard in Resources */,
+				5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A6A1C6F22120E5B00A58EAD /* ViewController.swift in Sources */,
+				5A6A1C8E2212145D00A58EAD /* Monster.swift in Sources */,
+				5A34CECB22121DD3002F2980 /* MonstersViewController.swift in Sources */,
 				5A6A1C6D22120E5B00A58EAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,25 +247,6 @@
 			targetProxy = 5A6A1C7E22120E5C00A58EAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5A6A1C7022120E5B00A58EAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A6A1C7122120E5B00A58EAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5A6A1C7522120E5C00A58EAD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5A6A1C7622120E5C00A58EAD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5A6A1C8422120E5C00A58EAD /* Debug */ = {
@@ -291,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -346,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -362,6 +371,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = gloomhaven/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = gloomhaven/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
