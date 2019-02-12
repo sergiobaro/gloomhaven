@@ -1,34 +1,23 @@
-//
-//  gloomhavenTests.swift
-//  gloomhavenTests
-//
-//  Created by Sergio Baro on 11/02/2019.
-//  Copyright © 2019 sbs. All rights reserved.
-//
-
 import XCTest
 @testable import gloomhaven
 
 class gloomhavenTests: XCTestCase {
-
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+  
+  func test() {
+    let url = Bundle.main.url(forResource: "monsters", withExtension: "json")!
+    let data = try! Data(contentsOf: url)
+    let json = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+    
+    let monsters = json.keys.reduce(into: [Monster]()) { result, name in
+      result.append(Monster(
+        name: name,
+        imageName: name.replacingOccurrences(of: " ", with: "-") + ".jpg",
+        levels: [:],
+        eliteLevels: [:]
+      ))
     }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+    
+    XCTAssertEqual(monsters.count, 34)
+  }
+  
 }

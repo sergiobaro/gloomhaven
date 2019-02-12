@@ -14,6 +14,8 @@
 		5A6A1C7422120E5C00A58EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6A1C7322120E5C00A58EAD /* Assets.xcassets */; };
 		5A6A1C8222120E5C00A58EAD /* gloomhavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A1C8122120E5C00A58EAD /* gloomhavenTests.swift */; };
 		5A6A1C8E2212145D00A58EAD /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A1C8D2212145D00A58EAD /* Monster.swift */; };
+		5AAF80FF2213630D007301E8 /* monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF80FE2213630D007301E8 /* monsters.json */; };
+		5AAF81012213675C007301E8 /* MonsterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF81002213675C007301E8 /* MonsterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		5A6A1C8122120E5C00A58EAD /* gloomhavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gloomhavenTests.swift; sourceTree = "<group>"; };
 		5A6A1C8322120E5C00A58EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A6A1C8D2212145D00A58EAD /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		5AAF80FE2213630D007301E8 /* monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsters.json; sourceTree = "<group>"; };
+		5AAF81002213675C007301E8 /* MonsterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			children = (
 				5A34CECD22121F7C002F2980 /* Monsters.storyboard */,
 				5A34CEC922121DD3002F2980 /* MonstersViewController.swift */,
+				5AAF81002213675C007301E8 /* MonsterCell.swift */,
 			);
 			path = Monsters;
 			sourceTree = "<group>";
@@ -70,6 +75,7 @@
 		5A34CEC622121CE8002F2980 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5AAF80FE2213630D007301E8 /* monsters.json */,
 				5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */,
 				5A6A1C7322120E5C00A58EAD /* Assets.xcassets */,
 			);
@@ -204,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AAF80FF2213630D007301E8 /* monsters.json in Resources */,
 				5A34CECE22121F7C002F2980 /* Monsters.storyboard in Resources */,
 				5A6A1C7422120E5C00A58EAD /* Assets.xcassets in Resources */,
 				5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */,
@@ -224,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AAF81012213675C007301E8 /* MonsterCell.swift in Sources */,
 				5A6A1C8E2212145D00A58EAD /* Monster.swift in Sources */,
 				5A34CECB22121DD3002F2980 /* MonstersViewController.swift in Sources */,
 				5A6A1C6D22120E5B00A58EAD /* AppDelegate.swift in Sources */,

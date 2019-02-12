@@ -1,29 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VKr-V8-IKv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5pt-Mo-eNC">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="w4k-J3-JKQ">
+        <!--Monsters View Controller-->
+        <scene sceneID="cKv-x7-Dn5">
             <objects>
-                <viewController id="VKr-V8-IKv" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wWL-zl-cXo">
+                <collectionViewController id="5pt-Mo-eNC" customClass="MonstersViewController" customModule="gloomhaven" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Zjo-Xs-4Wz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="agX-m7-iYU"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="G8Q-ui-1O5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="fAh-vn-5nm">
+                            <size key="itemSize" width="150" height="200"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="5"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MonsterCell" id="0td-s6-KCR" customClass="MonsterCell" customModule="gloomhaven" customModuleProvider="target">
+                                <rect key="frame" x="5" y="5" width="150" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ju-hC-sFn">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </view>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Mw-dG-Clx">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YI0-eg-7N6">
+                                            <rect key="frame" x="8" y="175" width="134" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="0Mw-dG-Clx" secondAttribute="bottom" id="6Gx-WU-Pk3"/>
+                                    <constraint firstItem="2Ju-hC-sFn" firstAttribute="top" secondItem="0td-s6-KCR" secondAttribute="top" id="SKW-VM-oFK"/>
+                                    <constraint firstAttribute="trailing" secondItem="2Ju-hC-sFn" secondAttribute="trailing" id="dzF-Ah-a3l"/>
+                                    <constraint firstItem="2Ju-hC-sFn" firstAttribute="leading" secondItem="0td-s6-KCR" secondAttribute="leading" id="feP-P3-bTy"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="YI0-eg-7N6" secondAttribute="trailing" id="nH1-xq-zh4"/>
+                                    <constraint firstItem="YI0-eg-7N6" firstAttribute="leading" secondItem="0td-s6-KCR" secondAttribute="leadingMargin" id="ofF-ix-Ct6"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="YI0-eg-7N6" secondAttribute="bottom" id="v8z-Pv-i1w"/>
+                                    <constraint firstAttribute="trailing" secondItem="0Mw-dG-Clx" secondAttribute="trailing" id="vOm-0N-8RD"/>
+                                    <constraint firstAttribute="bottom" secondItem="2Ju-hC-sFn" secondAttribute="bottom" id="vrV-NT-eGT"/>
+                                    <constraint firstItem="0Mw-dG-Clx" firstAttribute="top" secondItem="0td-s6-KCR" secondAttribute="top" id="wm2-aL-VLf"/>
+                                    <constraint firstItem="0Mw-dG-Clx" firstAttribute="leading" secondItem="0td-s6-KCR" secondAttribute="leading" id="wzl-Po-Wkj"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="0Mw-dG-Clx" id="nKJ-Wg-3JV"/>
+                                    <outlet property="nameLabel" destination="YI0-eg-7N6" id="k9I-z1-0o1"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="5pt-Mo-eNC" id="PI9-iA-fnD"/>
+                            <outlet property="delegate" destination="5pt-Mo-eNC" id="2M7-d3-RDl"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xkp-Ml-bBe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-654" y="-613"/>
+            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
         </scene>
     </scenes>
 </document>
