@@ -46,4 +46,8 @@ struct Monster {
   let name: String
   let imageName: String
   let levels: [Int: MonsterLevel]
+  let eliteLevels: [Int: MonsterLevel]
 }
+
+// https://github.com/j13huang/gloomhaven/blob/master/src/lib/monsters/index.js
+// https://github.com/any2cards/gloomhaven
