@@ -14,14 +14,15 @@ class MonstersViewController: UICollectionViewController {
     let data = try! Data(contentsOf: url)
     let json = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
     
-    self.monsters = json.keys.reduce(into: [Monster]()) { result, name in
-      result.append(Monster(
-        name: name,
-        imageName: name.replacingOccurrences(of: " ", with: "-") + ".jpg",
-        levels: [:],
-        eliteLevels: [:]
-      ))
-    }
+    self.monsters = json.keys
+      .map({ name in
+        return Monster(
+          name: name,
+          imageName: name.replacingOccurrences(of: " ", with: "-") + ".jpg",
+          levels: [:],
+          eliteLevels: [:]
+        )
+      })
       .sorted(by: { $0.name < $1.name })
   }
   
@@ -37,6 +38,11 @@ class MonstersViewController: UICollectionViewController {
     cell.imageView.image =  UIImage(named: monster.imageName)
     
     return cell
+  }
+  
+  override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    let monster = self.monsters[indexPath.row]
+    print(monster.name)
   }
   
 }

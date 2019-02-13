@@ -60,6 +60,7 @@
                                     <constraint firstItem="0Mw-dG-Clx" firstAttribute="leading" secondItem="0td-s6-KCR" secondAttribute="leading" id="wzl-Po-Wkj"/>
                                 </constraints>
                                 <connections>
+                                    <outlet property="imageBackgroundView" destination="2Ju-hC-sFn" id="aFe-nG-aMH"/>
                                     <outlet property="imageView" destination="0Mw-dG-Clx" id="nKJ-Wg-3JV"/>
                                     <outlet property="nameLabel" destination="YI0-eg-7N6" id="k9I-z1-0o1"/>
                                 </connections>
