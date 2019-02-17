@@ -42,14 +42,14 @@ extension MonsterDetailViewController: UITableViewDataSource {
     cell.moveNormalLabel.text = String(levelNormal.move)
     cell.attackNormalLabel.text = String(levelNormal.attack)
     cell.rangeNormalLabel.text = String(levelNormal.range)
-    cell.traitsNormalLabel.attributedText = self.presenter.string(traits: levelNormal.traits)
+    cell.traitsNormalLabel.attributedText = self.presenter.traitsString(monsterLevel: levelNormal, icons: true)
     
     let levelElite = self.monster.levels[index + 1]
     cell.lifeEliteLabel.text = String(levelElite.life)
     cell.moveEliteLabel.text = String(levelElite.move)
     cell.attackEliteLabel.text = String(levelElite.attack)
     cell.rangeEliteLabel.text = String(levelElite.range)
-    cell.traitsEliteLabel.attributedText = self.presenter.string(traits: levelElite.traits)
+    cell.traitsEliteLabel.attributedText = self.presenter.traitsString(monsterLevel: levelElite, icons: true)
     
     return cell
   }

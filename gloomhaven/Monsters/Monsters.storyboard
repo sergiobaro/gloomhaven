@@ -156,7 +156,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="HkL-L1-wcZ" firstAttribute="top" secondItem="3jW-fP-Jpl" secondAttribute="top" id="Tvk-6V-21F"/>
                                                         <constraint firstAttribute="trailing" secondItem="HkL-L1-wcZ" secondAttribute="trailing" id="hc5-oC-cHd"/>
@@ -306,11 +306,11 @@
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traits" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JW2-Wt-nmW">
                                                             <rect key="frame" x="0.0" y="0.0" width="125" height="16"/>
                                                             <fontDescription key="fontDescription" name="Nyala-Regular" family="Nyala" pointSize="17"/>
-                                                            <nil key="textColor"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="JW2-Wt-nmW" firstAttribute="leading" secondItem="qMT-5n-SGD" secondAttribute="leading" id="KyS-r0-JFZ"/>
                                                         <constraint firstAttribute="trailing" secondItem="JW2-Wt-nmW" secondAttribute="trailing" id="Yrn-fB-wtf"/>
