@@ -22,9 +22,9 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>HighTower</string>
-		<string>PirataOne</string>
-		<string>Nyala</string>
+		<string>HighTower.ttf</string>
+		<string>PirataOne.ttf</string>
+		<string>Nyala.ttf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

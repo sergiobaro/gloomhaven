@@ -10,8 +10,10 @@
 		5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */; };
 		5A34CECB22121DD3002F2980 /* MonstersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34CEC922121DD3002F2980 /* MonstersViewController.swift */; };
 		5A34CECE22121F7C002F2980 /* Monsters.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A34CECD22121F7C002F2980 /* Monsters.storyboard */; };
+		5A547FCC221A17A7006760EE /* FontsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A547FCB221A17A7006760EE /* FontsTests.swift */; };
 		5A62B648221A087D00B98CCD /* EffectIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62B647221A087D00B98CCD /* EffectIconsTests.swift */; };
 		5A62B64A221A0AF300B98CCD /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62B649221A0AF200B98CCD /* Effect.swift */; };
+		5A62B64C221A144900B98CCD /* UIFont+factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62B64B221A144900B98CCD /* UIFont+factory.swift */; };
 		5A6A1C6D22120E5B00A58EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A1C6C22120E5B00A58EAD /* AppDelegate.swift */; };
 		5A6A1C7422120E5C00A58EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6A1C7322120E5C00A58EAD /* Assets.xcassets */; };
 		5A6A1C8222120E5C00A58EAD /* MonsterTraitsParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A1C8122120E5C00A58EAD /* MonsterTraitsParseTests.swift */; };
@@ -47,8 +49,10 @@
 		5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A34CEC922121DD3002F2980 /* MonstersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersViewController.swift; sourceTree = "<group>"; };
 		5A34CECD22121F7C002F2980 /* Monsters.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Monsters.storyboard; sourceTree = "<group>"; };
+		5A547FCB221A17A7006760EE /* FontsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsTests.swift; sourceTree = "<group>"; };
 		5A62B647221A087D00B98CCD /* EffectIconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectIconsTests.swift; sourceTree = "<group>"; };
 		5A62B649221A0AF200B98CCD /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
+		5A62B64B221A144900B98CCD /* UIFont+factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+factory.swift"; sourceTree = "<group>"; };
 		5A6A1C6922120E5B00A58EAD /* gloomhaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gloomhaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6A1C6C22120E5B00A58EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A6A1C7322120E5C00A58EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 				5A6A1C8122120E5C00A58EAD /* MonsterTraitsParseTests.swift */,
 				5A97A2872219EA51004B75D1 /* MonsterDetailPresenterTests.swift */,
 				5A62B647221A087D00B98CCD /* EffectIconsTests.swift */,
+				5A547FCB221A17A7006760EE /* FontsTests.swift */,
 				5A6A1C8322120E5C00A58EAD /* Info.plist */,
 			);
 			path = gloomhavenTests;
@@ -198,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				5A97A2982219FDC1004B75D1 /* UIImage+tinted.swift */,
+				5A62B64B221A144900B98CCD /* UIFont+factory.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -332,6 +338,7 @@
 				5AAF81012213675C007301E8 /* MonsterCell.swift in Sources */,
 				5A62B64A221A0AF300B98CCD /* Effect.swift in Sources */,
 				5A6A1C8E2212145D00A58EAD /* Monster.swift in Sources */,
+				5A62B64C221A144900B98CCD /* UIFont+factory.swift in Sources */,
 				5A34CECB22121DD3002F2980 /* MonstersViewController.swift in Sources */,
 				5ADCAD982219BD580036171B /* MonsterDetailCell.swift in Sources */,
 				5A97A2802219DF77004B75D1 /* MonstersParser.swift in Sources */,
@@ -351,6 +358,7 @@
 				5A62B648221A087D00B98CCD /* EffectIconsTests.swift in Sources */,
 				5A97A2842219E081004B75D1 /* MonsterParserTests.swift in Sources */,
 				5A97A2882219EA51004B75D1 /* MonsterDetailPresenterTests.swift in Sources */,
+				5A547FCC221A17A7006760EE /* FontsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
