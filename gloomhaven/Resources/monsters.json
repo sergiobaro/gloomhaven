@@ -1,4522 +1,4522 @@
 {
     "Ancient Artillery": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 0,
                     "attack": 2,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 0,
                     "attack": 3,
                     "range": 5,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 0,
                     "attack": 2,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 0,
                     "attack": 3,
                     "range": 5,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 0,
                     "attack": 2,
                     "range": 5,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 0,
                     "attack": 3,
                     "range": 6,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 0,
                     "attack": 3,
                     "range": 5,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 0,
                     "attack": 4,
                     "range": 6,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 0,
                     "attack": 4,
                     "range": 5,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 0,
                     "attack": 4,
                     "range": 6,
-                    "extra": ["action(TARGET, 2)"]
+                    "abilities": ["action(TARGET, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 0,
                     "attack": 4,
                     "range": 6,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 0,
                     "attack": 4,
                     "range": 7,
-                    "extra": ["action(TARGET, 2)"]
+                    "abilities": ["action(TARGET, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 0,
                     "attack": 4,
                     "range": 6,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 0,
                     "attack": 5,
                     "range": 7,
-                    "extra": ["action(TARGET, 2)"]
+                    "abilities": ["action(TARGET, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 0,
                     "attack": 4,
                     "range": 7,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 20,
+                    "life": 20,
                     "move": 0,
                     "attack": 5,
                     "range": 7,
-                    "extra": ["action(TARGET, 2)"]
+                    "abilities": ["action(TARGET, 2)"]
                 }
             }
         ]
     },
     "Bandit Archer": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 2,
                     "attack": 2,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 2,
                     "attack": 2,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 2,
                     "attack": 3,
                     "range": 5,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 3,
                     "attack": 2,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 3,
                     "attack": 3,
                     "range": 5,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
-                    "move": 3,
-                    "attack": 3,
-                    "range": 4,
-                    "extra": []
-                },
-                "elite": {
-                    "maxHP": 10,
-                    "move": 3,
-                    "attack": 4,
-                    "range": 5,
-                    "extra": []
-                }
-            },
-            {
-                "normal": {
-                    "maxHP": 8,
+                    "life": 6,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 4,
-                    "range": 6,
-                    "extra": ["action(POISON)"]
+                    "range": 5,
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 8,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "abilities": []
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 6,
+                    "abilities": ["action(POISON)"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
                     "move": 3,
                     "attack": 3,
                     "range": 5,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 4,
                     "attack": 4,
                     "range": 6,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 4,
                     "attack": 5,
                     "range": 6,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 4,
                     "attack": 5,
                     "range": 6,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             }
         ]
     },
     "Bandit Guard": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(MUDDLE)", "action(SHIELD, 2)"]
+                    "abilities": ["action(MUDDLE)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(MUDDLE)", "action(SHIELD, 2)"]
+                    "abilities": ["action(MUDDLE)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(MUDDLE)", "action(SHIELD, 2)"]
+                    "abilities": ["action(MUDDLE)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(MUDDLE)", "action(SHIELD, 3)"]
+                    "abilities": ["action(MUDDLE)", "action(SHIELD, 3)"]
                 }
             }
         ]
     },
     "Black Imp": {
         "tokenCount": 10,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 1,
                     "attack": 1,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 1,
                     "attack": 1,
                     "range": 3,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 1,
                     "attack": 1,
                     "range": 4,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 1,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 1,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 1,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["Attackers gain disadvantage", "action(POISON)"]
+                    "abilities": ["Attackers gain disadvantage", "action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 1,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 1,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["Attackers gain disadvantage", "action(POISON)"]
+                    "abilities": ["Attackers gain disadvantage", "action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 1,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 1,
                     "attack": 3,
                     "range": 5,
-                    "extra": ["Attackers gain disadvantage", "action(POISON)"]
+                    "abilities": ["Attackers gain disadvantage", "action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 1,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 1,
                     "attack": 4,
                     "range": 5,
-                    "extra": ["Attackers gain disadvantage", "action(POISON)"]
+                    "abilities": ["Attackers gain disadvantage", "action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 1,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 1,
                     "attack": 4,
                     "range": 5,
-                    "extra": ["Attackers gain disadvantage", "action(POISON)"]
+                    "abilities": ["Attackers gain disadvantage", "action(POISON)"]
                 }
             }
         ]
     },
     "Cave Bear": {
         "tokenCount": 4,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 20,
+                    "life": 20,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 21,
+                    "life": 21,
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 24,
+                    "life": 24,
                     "move": 5,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 19,
+                    "life": 19,
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 28,
+                    "life": 28,
                     "move": 5,
                     "attack": 7,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 22,
+                    "life": 22,
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 33,
+                    "life": 33,
                     "move": 5,
                     "attack": 7,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             }
         ]
     },
     "City Archer": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 1,
                     "attack": 3,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 1,
                     "attack": 2,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 1,
                     "attack": 3,
                     "range": 5,
-                    "extra": ["action(PIERCE, 1)", "action(SHIELD, 1)"]
+                    "abilities": ["action(PIERCE, 1)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 1,
                     "attack": 3,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 1,
                     "attack": 4,
                     "range": 5,
-                    "extra": ["action(PIERCE, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(PIERCE, 2)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 2,
                     "attack": 4,
                     "range": 5,
-                    "extra": ["action(PIERCE, 2)", "action(SHIELD, 2)"]
+                    "abilities": ["action(PIERCE, 2)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 2,
                     "attack": 3,
                     "range": 5,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 2,
                     "attack": 4,
                     "range": 6,
-                    "extra": ["action(PIERCE, 2)", "action(SHIELD, 2)"]
+                    "abilities": ["action(PIERCE, 2)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 4,
                     "range": 5,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 2,
                     "attack": 5,
                     "range": 6,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 6,
                     "range": 6,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 4,
                     "range": 6,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 3,
                     "attack": 6,
                     "range": 7,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 3)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 3)"]
                 }
             }
         ]
     },
     "City Guard": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)", "action(SHIELD, 2)"]
+                    "abilities": ["action(RETALIATE, 1)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)", "action(SHIELD, 2)"]
+                    "abilities": ["action(RETALIATE, 2)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)", "action(SHIELD, 3)"]
+                    "abilities": ["action(RETALIATE, 2)", "action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)", "action(SHIELD, 3)"]
+                    "abilities": ["action(RETALIATE, 3)", "action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 3,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)", "action(SHIELD, 3)"]
+                    "abilities": ["action(RETALIATE, 3)", "action(SHIELD, 3)"]
                 }
             }
         ]
     },
     "Cultist": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 2,
                     "attack": 1,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
-                    "move": 2,
-                    "attack": 1,
-                    "range": 0,
-                    "extra": []
-                },
-                "elite": {
-                    "maxHP": 9,
-                    "move": 2,
-                    "attack": 2,
-                    "range": 0,
-                    "extra": []
-                }
-            },
-            {
-                "normal": {
-                    "maxHP": 7,
+                    "life": 5,
                     "move": 2,
                     "attack": 1,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 9,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 7,
+                    "move": 2,
+                    "attack": 1,
+                    "range": 0,
+                    "abilities": []
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "abilities": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
                     "move": 3,
                     "attack": 1,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(CURSE)"]
+                    "abilities": ["action(CURSE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(CURSE)"]
+                    "abilities": ["action(CURSE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(CURSE)"]
+                    "abilities": ["action(CURSE)"]
                 },
                 "elite": {
-                    "maxHP": 18,
+                    "life": 18,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(CURSE)"]
+                    "abilities": ["action(CURSE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(CURSE)"]
+                    "abilities": ["action(CURSE)"]
                 },
                 "elite": {
-                    "maxHP": 22,
+                    "life": 22,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(CURSE)"]
+                    "abilities": ["action(CURSE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(CURSE)"]
+                    "abilities": ["action(CURSE)"]
                 },
                 "elite": {
-                    "maxHP": 25,
+                    "life": 25,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(CURSE)"]
+                    "abilities": ["action(CURSE)"]
                 }
             }
         ]
     },
     "Deep Terror": {
         "tokenCount": 10,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 0,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 0,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 0,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 0,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 0,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 0,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 0,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 0,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 0,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 0,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 0,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 0,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 0,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 0,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 0,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 4)"]
+                    "abilities": ["action(RETALIATE, 4)"]
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 0,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 4)"]
+                    "abilities": ["action(RETALIATE, 4)"]
                 }
             }
         ]
     },
     "Earth Demon": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 18,
+                    "life": 18,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 20,
+                    "life": 20,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(IMMOBILIZE)"]
+                    "abilities": ["action(IMMOBILIZE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 21,
+                    "life": 21,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(IMMOBILIZE)"]
+                    "abilities": ["action(IMMOBILIZE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(IMMOBILIZE)"]
+                    "abilities": ["action(IMMOBILIZE)"]
                 },
                 "elite": {
-                    "maxHP": 25,
+                    "life": 25,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(IMMOBILIZE)"]
+                    "abilities": ["action(IMMOBILIZE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 20,
+                    "life": 20,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(IMMOBILIZE)"]
+                    "abilities": ["action(IMMOBILIZE)"]
                 },
                 "elite": {
-                    "maxHP": 27,
+                    "life": 27,
                     "move": 3,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(IMMOBILIZE)"]
+                    "abilities": ["action(IMMOBILIZE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 22,
+                    "life": 22,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(IMMOBILIZE)"]
+                    "abilities": ["action(IMMOBILIZE)"]
                 },
                 "elite": {
-                    "maxHP": 32,
+                    "life": 32,
                     "move": 3,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(IMMOBILIZE)"]
+                    "abilities": ["action(IMMOBILIZE)"]
                 }
             }
         ]
     },
     "Flame Demon": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 2,
+                    "life": 2,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(FLYING)", "action(SHIELD, 3)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 2,
+                    "life": 2,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(FLYING)", "action(SHIELD, 3)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(RETALIATE, 2, [action(RANGE, 2)])", "action(SHIELD, 4)"]
+                    "abilities": ["action(FLYING)", "action(RETALIATE, 2, [action(RANGE, 2)])", "action(SHIELD, 4)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "extra": ["action(FLYING)", "action(SHIELD, 3)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(RETALIATE, 3, [action(RANGE, 2)])", "action(SHIELD, 4)"]
+                    "abilities": ["action(FLYING)", "action(RETALIATE, 3, [action(RANGE, 2)])", "action(SHIELD, 4)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(RETALIATE, 2, [action(RANGE, 2)])", "action(SHIELD, 3)"]
+                    "abilities": ["action(FLYING)", "action(RETALIATE, 2, [action(RANGE, 2)])", "action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 3,
                     "attack": 3,
                     "range": 5,
-                    "extra": ["action(FLYING)", "action(RETALIATE, 3, [action(RANGE, 3)])", "action(SHIELD, 4)"]
+                    "abilities": ["action(FLYING)", "action(RETALIATE, 3, [action(RANGE, 3)])", "action(SHIELD, 4)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(RETALIATE, 3, [action(RANGE, 2)])", "action(SHIELD, 3)"]
+                    "abilities": ["action(FLYING)", "action(RETALIATE, 3, [action(RANGE, 2)])", "action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 4,
                     "attack": 4,
                     "range": 5,
-                    "extra": ["action(FLYING)", "action(RETALIATE, 4, [action(RANGE, 3)])", "action(SHIELD, 4)"]
+                    "abilities": ["action(FLYING)", "action(RETALIATE, 4, [action(RANGE, 3)])", "action(SHIELD, 4)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(RETALIATE, 3, [action(RANGE, 2)])", "action(SHIELD, 4)"]
+                    "abilities": ["action(FLYING)", "action(RETALIATE, 3, [action(RANGE, 2)])", "action(SHIELD, 4)"]
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 4,
                     "attack": 4,
                     "range": 5,
-                    "extra": ["action(FLYING)", "action(RETALIATE, 4, [action(RANGE, 3)])", "action(SHIELD, 5)"]
+                    "abilities": ["action(FLYING)", "action(RETALIATE, 4, [action(RANGE, 3)])", "action(SHIELD, 5)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(RETALIATE, 4, [action(RANGE, 2)])", "action(SHIELD, 4)"]
+                    "abilities": ["action(FLYING)", "action(RETALIATE, 4, [action(RANGE, 2)])", "action(SHIELD, 4)"]
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 4,
                     "attack": 5,
                     "range": 5,
-                    "extra": ["action(FLYING)", "action(RETALIATE, 5, [action(RANGE, 3)])", "action(SHIELD, 5)"]
+                    "abilities": ["action(FLYING)", "action(RETALIATE, 5, [action(RANGE, 3)])", "action(SHIELD, 5)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 4,
                     "attack": 4,
                     "range": 5,
-                    "extra": ["action(FLYING)", "action(RETALIATE, 4, [action(RANGE, 3)])", "action(SHIELD, 4)"]
+                    "abilities": ["action(FLYING)", "action(RETALIATE, 4, [action(RANGE, 3)])", "action(SHIELD, 4)"]
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 4,
                     "attack": 5,
                     "range": 6,
-                    "extra": ["action(FLYING)", "action(RETALIATE, 5, [action(RANGE, 4)])", "action(SHIELD, 5)"]
+                    "abilities": ["action(FLYING)", "action(RETALIATE, 5, [action(RANGE, 4)])", "action(SHIELD, 5)"]
                 }
             }
         ]
     },
     "Frost Demon": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 18,
+                    "life": 18,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 },
                 "elite": {
-                    "maxHP": 20,
+                    "life": 20,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 },
                 "elite": {
-                    "maxHP": 22,
+                    "life": 22,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 4)"]
+                    "abilities": ["action(RETALIATE, 4)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 },
                 "elite": {
-                    "maxHP": 25,
+                    "life": 25,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 4)"]
+                    "abilities": ["action(RETALIATE, 4)"]
                 }
             }
         ]
     },
     "Forest Imp": {
         "tokenCount": 10,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 1,
+                    "life": 1,
                     "move": 3,
                     "attack": 1,
                     "range": 3,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 3,
                     "attack": 1,
                     "range": 3,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 2,
+                    "life": 2,
                     "move": 3,
                     "attack": 1,
                     "range": 3,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 2,
+                    "life": 2,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(CURSE)", "action(SHIELD, 1)"]
+                    "abilities": ["action(CURSE)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 4,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 4,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(CURSE)", "action(SHIELD, 1)"]
+                    "abilities": ["action(CURSE)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 4,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 4,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 4,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
                 }
             }
         ]
     },
     "Giant Viper": {
         "tokenCount": 10,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 2,
+                    "life": 2,
                     "move": 2,
                     "attack": 1,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 2,
                     "attack": 1,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 3,
                     "attack": 1,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             }
         ]
     },
     "Harrower Infester": {
         "tokenCount": 4,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 19,
+                    "life": 19,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 },
                 "elite": {
-                    "maxHP": 21,
+                    "life": 21,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 },
                 "elite": {
-                    "maxHP": 22,
+                    "life": 22,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 4)"]
+                    "abilities": ["action(RETALIATE, 4)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 4)"]
+                    "abilities": ["action(RETALIATE, 4)"]
                 },
                 "elite": {
-                    "maxHP": 26,
+                    "life": 26,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 4)"]
+                    "abilities": ["action(RETALIATE, 4)"]
                 }
             }
         ]
     },
     "Hound": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 5,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 4,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 5,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 4,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 5,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 4,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 5,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 6,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 5,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 6,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 4)"]
+                    "abilities": ["action(RETALIATE, 4)"]
                 }
             }
         ]
     },
     "Inox Archer": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 2,
                     "attack": 2,
                     "range": 2,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 2,
                     "attack": 2,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 2,
                     "attack": 2,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 2,
                     "attack": 4,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 19,
+                    "life": 19,
                     "move": 3,
                     "attack": 5,
                     "range": 5,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 23,
+                    "life": 23,
                     "move": 3,
                     "attack": 5,
                     "range": 5,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             }
         ]
     },
     "Inox Guard": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 3)"]
+                    "abilities": ["action(RETALIATE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 19,
+                    "life": 19,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 4)"]
+                    "abilities": ["action(RETALIATE, 4)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 1)"]
+                    "abilities": ["action(RETALIATE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 21,
+                    "life": 21,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 4)"]
+                    "abilities": ["action(RETALIATE, 4)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 19,
+                    "life": 19,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 2)"]
+                    "abilities": ["action(RETALIATE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 23,
+                    "life": 23,
                     "move": 3,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(RETALIATE, 4)"]
+                    "abilities": ["action(RETALIATE, 4)"]
                 }
             }
         ]
     },
     "Inox Shaman": {
         "tokenCount": 4,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 2,
                     "attack": 2,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 2,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 20,
+                    "life": 20,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 24,
+                    "life": 24,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 27,
+                    "life": 27,
                     "move": 4,
                     "attack": 5,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 }
             }
         ]
     },
     "Living Bones": {
         "tokenCount": 10,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 2,
                     "attack": 1,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)"]
+                    "abilities": ["action(TARGET, 2)"]
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 4,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)"]
+                    "abilities": ["action(TARGET, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 3,
                     "attack": 1,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 4,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(TARGET, 3)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(TARGET, 3)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(TARGET, 3)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(TARGET, 3)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(TARGET, 3)", "action(SHIELD, 2)"]
+                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 6,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(TARGET, 3)", "action(SHIELD, 2)"]
+                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 6,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(TARGET, 3)", "action(SHIELD, 2)"]
+                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 2)"]
                 }
             }
         ]
     },
     "Living Corpse": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 1,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 1,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 1,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 2,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 21,
+                    "life": 21,
                     "move": 2,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 25,
+                    "life": 25,
                     "move": 2,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 }
             }
         ]
     },
     "Living Spirit": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 2,
+                    "life": 2,
                     "move": 2,
                     "attack": 2,
                     "range": 2,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 2,
+                    "life": 2,
                     "move": 2,
                     "attack": 2,
                     "range": 2,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 2,
+                    "life": 2,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
-                    "move": 3,
-                    "attack": 3,
-                    "range": 3,
-                    "extra": ["action(SHIELD, 2)"]
-                },
-                "elite": {
-                    "maxHP": 4,
-                    "move": 4,
-                    "attack": 4,
-                    "range": 4,
-                    "extra": ["action(SHIELD, 3)"]
-                }
-            },
-            {
-                "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(SHIELD, 4)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 3,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 3,
+                    "abilities": ["action(SHIELD, 3)"]
+                },
+                "elite": {
+                    "life": 4,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 4,
+                    "abilities": ["action(SHIELD, 4)"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(SHIELD, 4)"]
+                    "abilities": ["action(SHIELD, 4)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 4,
                     "attack": 5,
                     "range": 5,
-                    "extra": ["action(SHIELD, 4)"]
+                    "abilities": ["action(SHIELD, 4)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 4,
                     "attack": 5,
                     "range": 5,
-                    "extra": ["action(SHIELD, 4)"]
+                    "abilities": ["action(SHIELD, 4)"]
                 }
             }
         ]
     },
     "Lurker": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)"]
+                    "abilities": ["action(TARGET, 2)"]
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 1)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 1)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 1)"]
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 2)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 2)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 2)"]
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 2)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 2)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 3)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 2)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 2)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 3)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 3)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 4)", "action(SHIELD, 2)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 4)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 3)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 18,
+                    "life": 18,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(TARGET, 2)", "action(PIERCE, 4)", "action(SHIELD, 2)"]
+                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 4)", "action(SHIELD, 2)"]
                 }
             }
         ]
     },
     "Night Demon": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 },
                 "elite": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 },
                 "elite": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 5,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 },
                 "elite": {
-                    "maxHP": 21,
+                    "life": 21,
                     "move": 5,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 4,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 },
                 "elite": {
-                    "maxHP": 21,
+                    "life": 21,
                     "move": 5,
                     "attack": 8,
                     "range": 0,
-                    "extra": ["Attackers gain disadvantage"]
+                    "abilities": ["Attackers gain disadvantage"]
                 }
             }
         ]
     },
     "Ooze": {
         "tokenCount": 10,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 1,
                     "attack": 2,
                     "range": 2,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 1,
                     "attack": 2,
                     "range": 2,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 1,
                     "attack": 3,
                     "range": 3,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 1,
                     "attack": 3,
                     "range": 3,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(POISON)", "action(SHIELD, 1)"]
+                    "abilities": ["action(POISON)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 2,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(POISON)", "action(SHIELD, 1)"]
+                    "abilities": ["action(POISON)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "extra": ["action(POISON)", "action(SHIELD, 1)"]
+                    "abilities": ["action(POISON)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(POISON)", "action(SHIELD, 1)"]
+                    "abilities": ["action(POISON)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 2,
                     "attack": 4,
                     "range": 3,
-                    "extra": ["action(POISON)", "action(SHIELD, 1)"]
+                    "abilities": ["action(POISON)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(POISON)", "action(SHIELD, 2)"]
+                    "abilities": ["action(POISON)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 2,
                     "attack": 4,
                     "range": 3,
-                    "extra": ["action(POISON)", "action(SHIELD, 1)"]
+                    "abilities": ["action(POISON)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 18,
+                    "life": 18,
                     "move": 3,
                     "attack": 5,
                     "range": 4,
-                    "extra": ["action(POISON)", "action(SHIELD, 2)"]
+                    "abilities": ["action(POISON)", "action(SHIELD, 2)"]
                 }
             }
         ]
     },
     "Rending Drake": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 5,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 6,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 6,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 6,
                     "attack": 7,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 18,
+                    "life": 18,
                     "move": 6,
                     "attack": 7,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             }
         ]
     },
     "Savvas Icestorm": {
         "tokenCount": 4,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 2,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(PIERCE, 3)"]
+                    "abilities": ["action(PIERCE, 3)"]
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(PIERCE, 3)"]
+                    "abilities": ["action(PIERCE, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 2,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(PIERCE, 3)"]
+                    "abilities": ["action(PIERCE, 3)"]
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 2,
                     "attack": 3,
                     "range": 5,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(PIERCE, 3)"]
+                    "abilities": ["action(PIERCE, 3)"]
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 3,
                     "attack": 3,
                     "range": 5,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 18,
+                    "life": 18,
                     "move": 3,
                     "attack": 4,
                     "range": 6,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 3,
                     "attack": 3,
                     "range": 5,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 19,
+                    "life": 19,
                     "move": 4,
                     "attack": 4,
                     "range": 6,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 21,
+                    "life": 21,
                     "move": 4,
                     "attack": 5,
                     "range": 6,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 23,
+                    "life": 23,
                     "move": 4,
                     "attack": 6,
                     "range": 6,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 4,
                     "attack": 4,
                     "range": 6,
-                    "extra": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 24,
+                    "life": 24,
                     "move": 4,
                     "attack": 6,
                     "range": 6,
-                    "extra": ["action(PIERCE, 4)", "action(SHIELD, 3)"]
+                    "abilities": ["action(PIERCE, 4)", "action(SHIELD, 3)"]
                 }
             }
         ]
     },
     "Savvas Lavaflow": {
         "tokenCount": 4,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(WOUND)"]
+                    "abilities": ["action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 18,
+                    "life": 18,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(POISON)", "action(WOUND)"]
+                    "abilities": ["action(POISON)", "action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 21,
+                    "life": 21,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(POISON)", "action(WOUND)"]
+                    "abilities": ["action(POISON)", "action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(POISON)"]
+                    "abilities": ["action(POISON)"]
                 },
                 "elite": {
-                    "maxHP": 24,
+                    "life": 24,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(POISON)", "action(WOUND)"]
+                    "abilities": ["action(POISON)", "action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 18,
+                    "life": 18,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(POISON)", "action(WOUND)"]
+                    "abilities": ["action(POISON)", "action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 27,
+                    "life": 27,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(POISON)", "action(WOUND)"]
+                    "abilities": ["action(POISON)", "action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 20,
+                    "life": 20,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(POISON)", "action(WOUND)"]
+                    "abilities": ["action(POISON)", "action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 30,
+                    "life": 30,
                     "move": 4,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(POISON)", "action(WOUND)"]
+                    "abilities": ["action(POISON)", "action(WOUND)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 24,
+                    "life": 24,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(POISON)", "action(WOUND)"]
+                    "abilities": ["action(POISON)", "action(WOUND)"]
                 },
                 "elite": {
-                    "maxHP": 35,
+                    "life": 35,
                     "move": 4,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(POISON)", "action(WOUND)"]
+                    "abilities": ["action(POISON)", "action(WOUND)"]
                 }
             }
         ]
     },
     "Spitting Drake": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(MUDDLE)"]
+                    "abilities": ["action(MUDDLE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "extra": ["action(MUDDLE)"]
+                    "abilities": ["action(MUDDLE)"]
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 3,
                     "attack": 5,
                     "range": 4,
-                    "extra": ["action(MUDDLE)"]
+                    "abilities": ["action(MUDDLE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(MUDDLE)"]
+                    "abilities": ["action(MUDDLE)"]
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
-                    "attack": 5,
-                    "range": 5,
-                    "extra": ["action(MUDDLE)"]
-                }
-            },
-            {
-                "normal": {
-                    "maxHP": 9,
-                    "move": 4,
-                    "attack": 4,
-                    "range": 4,
-                    "extra": ["action(MUDDLE)"]
-                },
-                "elite": {
-                    "maxHP": 14,
-                    "move": 4,
                     "attack": 5,
                     "range": 5,
-                    "extra": ["action(MUDDLE)"]
+                    "abilities": ["action(MUDDLE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 9,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(MUDDLE)"]
+                    "abilities": ["action(MUDDLE)"]
                 },
                 "elite": {
-                    "maxHP": 16,
+                    "life": 14,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 5,
+                    "abilities": ["action(MUDDLE)"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 4,
+                    "abilities": ["action(MUDDLE)"]
+                },
+                "elite": {
+                    "life": 16,
                     "move": 4,
                     "attack": 6,
                     "range": 5,
-                    "extra": ["action(MUDDLE)"]
+                    "abilities": ["action(MUDDLE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 4,
                     "attack": 5,
                     "range": 4,
-                    "extra": ["action(MUDDLE)"]
+                    "abilities": ["action(MUDDLE)"]
                 },
                 "elite": {
-                    "maxHP": 19,
+                    "life": 19,
                     "move": 4,
                     "attack": 6,
                     "range": 5,
-                    "extra": ["action(MUDDLE)"]
+                    "abilities": ["action(MUDDLE)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 4,
                     "attack": 5,
                     "range": 4,
-                    "extra": ["action(MUDDLE)"]
+                    "abilities": ["action(MUDDLE)"]
                 },
                 "elite": {
-                    "maxHP": 21,
+                    "life": 21,
                     "move": 4,
                     "attack": 7,
                     "range": 5,
-                    "extra": ["action(MUDDLE)"]
+                    "abilities": ["action(MUDDLE)"]
                 }
             }
         ]
     },
     "Stone Golem": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 1,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(SHIELD, 1)"]
+                    "abilities": ["action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 14,
+                    "life": 14,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 1,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 17,
+                    "life": 17,
                     "move": 2,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 19,
+                    "life": 19,
                     "move": 3,
                     "attack": 6,
                     "range": 0,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 20,
+                    "life": 20,
                     "move": 3,
                     "attack": 7,
                     "range": 0,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 21,
+                    "life": 21,
                     "move": 3,
                     "attack": 7,
                     "range": 0,
-                    "extra": ["action(SHIELD, 4)"]
+                    "abilities": ["action(SHIELD, 4)"]
                 }
             }
         ]
     },
     "Sun Demon": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 1)"]
+                    "abilities": ["advantage", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 1)"]
+                    "abilities": ["advantage", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 1)"]
+                    "abilities": ["advantage", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 1)"]
+                    "abilities": ["advantage", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 1)"]
+                    "abilities": ["advantage", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 1)"]
+                    "abilities": ["advantage", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 1)"]
+                    "abilities": ["advantage", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 1)"]
+                    "abilities": ["advantage", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 1)"]
+                    "abilities": ["advantage", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 1)"]
+                    "abilities": ["advantage", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 2)"]
+                    "abilities": ["advantage", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 16,
+                    "life": 16,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 2)"]
+                    "abilities": ["advantage", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 2)"]
+                    "abilities": ["advantage", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 18,
+                    "life": 18,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 2)"]
+                    "abilities": ["advantage", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 2)"]
+                    "abilities": ["advantage", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 22,
+                    "life": 22,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "extra": ["advantage", "action(SHIELD, 2)"]
+                    "abilities": ["advantage", "action(SHIELD, 2)"]
                 }
             }
         ]
     },
     "Vermling Scout": {
         "tokenCount": 10,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 2,
+                    "life": 2,
                     "move": 3,
                     "attack": 1,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 1,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 },
                 "elite": {
-                    "maxHP": 15,
+                    "life": 15,
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "extra": []
+                    "abilities": []
                 }
             }
         ]
     },
     "Vermling Shaman": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 2,
+                    "life": 2,
                     "move": 2,
                     "attack": 1,
                     "range": 3,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(SHIELD, 2)"]
+                    "abilities": ["action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 2,
+                    "life": 2,
                     "move": 2,
                     "attack": 1,
                     "range": 3,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 2,
                     "attack": 1,
                     "range": 4,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 3,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 2,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(SHIELD, 3)"]
+                    "abilities": ["action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 2,
                     "range": 4,
-                    "extra": ["action(MUDDLE)", "action(SHIELD, 3)"]
+                    "abilities": ["action(MUDDLE)", "action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(MUDDLE)", "action(SHIELD, 4)"]
+                    "abilities": ["action(MUDDLE)", "action(SHIELD, 4)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(MUDDLE)", "action(SHIELD, 3)"]
+                    "abilities": ["action(MUDDLE)", "action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(MUDDLE)", "action(SHIELD, 4)"]
+                    "abilities": ["action(MUDDLE)", "action(SHIELD, 4)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(MUDDLE)", "action(SHIELD, 3)"]
+                    "abilities": ["action(MUDDLE)", "action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 6,
+                    "life": 6,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(MUDDLE)", "action(SHIELD, 5)"]
+                    "abilities": ["action(MUDDLE)", "action(SHIELD, 5)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(MUDDLE)", "action(SHIELD, 3)"]
+                    "abilities": ["action(MUDDLE)", "action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(MUDDLE)", "action(SHIELD, 5)"]
+                    "abilities": ["action(MUDDLE)", "action(SHIELD, 5)"]
                 }
             }
         ]
     },
     "Wind Demon": {
         "tokenCount": 6,
-        "stats": [
+        "levels": [
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(FLYING)", "action(SHIELD, 1)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 1)"]
                 },
                 "elite": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(SHIELD, 1)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 1)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 3,
+                    "life": 3,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 4,
+                    "life": 4,
                     "move": 4,
                     "attack": 2,
                     "range": 3,
-                    "extra": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 5,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 5,
+                    "life": 5,
                     "move": 4,
                     "attack": 3,
                     "range": 3,
-                    "extra": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 5,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 7,
+                    "life": 7,
                     "move": 4,
                     "attack": 3,
                     "range": 3,
-                    "extra": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 8,
+                    "life": 8,
                     "move": 5,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(DISARM)", "action(SHIELD, 2)"]
+                    "abilities": ["action(FLYING)", "action(DISARM)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 9,
+                    "life": 9,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
                 },
                 "elite": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 5,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(DISARM)", "action(SHIELD, 2)"]
+                    "abilities": ["action(FLYING)", "action(DISARM)", "action(SHIELD, 2)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 10,
+                    "life": 10,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(SHIELD, 3)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 12,
+                    "life": 12,
                     "move": 5,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(DISARM)", "action(SHIELD, 3)"]
+                    "abilities": ["action(FLYING)", "action(DISARM)", "action(SHIELD, 3)"]
                 }
             },
             {
                 "normal": {
-                    "maxHP": 11,
+                    "life": 11,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(SHIELD, 3)"]
+                    "abilities": ["action(FLYING)", "action(SHIELD, 3)"]
                 },
                 "elite": {
-                    "maxHP": 13,
+                    "life": 13,
                     "move": 5,
                     "attack": 5,
                     "range": 4,
-                    "extra": ["action(FLYING)", "action(DISARM)", "action(SHIELD, 3)"]
+                    "abilities": ["action(FLYING)", "action(DISARM)", "action(SHIELD, 3)"]
                 }
             }
         ]

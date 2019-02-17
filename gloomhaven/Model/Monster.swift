@@ -1,8 +1,8 @@
 import Foundation
 
-enum MonsterNumber {
-  case regular(Int)
-  case modified(Int, String)
+enum MonsterType: String {
+  case normal
+  case elite
 }
 
 enum Effect {
@@ -35,18 +35,19 @@ struct Trait {
 
 struct MonsterLevel {
   let level: Int
-  let life: MonsterNumber
-  let movement: MonsterNumber
-  let attack: MonsterNumber
-  let immunities: [Effect]
+  let type: MonsterType
+  let life: Int
+  let move: Int
+  let attack: Int
+  let range: Int
   let traits: [Trait]
 }
 
 struct Monster {
   let name: String
   let imageName: String
-  let levels: [Int: MonsterLevel]
-  let eliteLevels: [Int: MonsterLevel]
+  let tokenCount: Int
+  let levels: [MonsterLevel]
 }
 
 // https://github.com/j13huang/gloomhaven/blob/master/src/lib/monsters/index.js
