@@ -10,7 +10,7 @@ class MonsterDetailPresenterTests: XCTestCase {
     
     let result = self.presenter.string(traits: traits)
     
-    XCTAssertEqual(result, "Wound")
+    XCTAssertEqual(result.string, "Wound")
   }
   
   func test_pierce() {
@@ -18,7 +18,7 @@ class MonsterDetailPresenterTests: XCTestCase {
     
     let result = self.presenter.string(traits: traits)
     
-    XCTAssertEqual(result, "Pierce 3")
+    XCTAssertEqual(result.string, "Pierce 3")
   }
   
   func test_retaliate() {
@@ -26,7 +26,7 @@ class MonsterDetailPresenterTests: XCTestCase {
     
     let result = self.presenter.string(traits: traits)
     
-    XCTAssertEqual(result, "Retaliate 2\nRange 2")
+    XCTAssertEqual(result.string, "Retaliate 2\nRange 2")
   }
   
   func test_multi() {
@@ -39,7 +39,7 @@ class MonsterDetailPresenterTests: XCTestCase {
     let result = self.presenter.string(traits: traits)
     
     let expected = ["Flying", "Retaliate 2", "Range 2", "Shield 2"].joined(separator: "\n")
-    XCTAssertEqual(result, expected)
+    XCTAssertEqual(result.string, expected)
   }
   
 }

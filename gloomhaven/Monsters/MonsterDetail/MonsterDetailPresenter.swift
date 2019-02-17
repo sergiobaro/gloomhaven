@@ -1,20 +1,38 @@
 import Foundation
+import UIKit
 
 class MonsterDetailPresenter {
   
-  func string(traits: [Trait]) -> String {
+  func string(traits: [Trait]) -> NSAttributedString {
+    let big: [NSAttributedString.Key: Any] = [.font: UIFont(name: "Nyala", size: 18.0)!]
+    let small: [NSAttributedString.Key: Any] = [.font: UIFont(name: "Nyala", size: 14.0)!]
+    
     return traits
-      .map({ trait -> String in
-        var result = trait.effect.rawValue.capitalized
+      .map({ trait -> NSAttributedString in
+        let result = NSMutableAttributedString(string: trait.effect.rawValue.capitalized, attributes: big)
         if trait.amount > 0 {
-          result += " " + String(trait.amount)
+          result.append(NSAttributedString(
+            string: " \(trait.amount)",
+            attributes: big)
+          )
         }
         if let range = trait.range {
-          result += "\nRange \(range)"
+          result.append(NSAttributedString(
+            string: "\nRange \(range)",
+            attributes: small)
+          )
         }
         return result
       })
-      .joined(separator: "\n")
+      .reduce(NSMutableAttributedString(), { result, string in
+        if !result.string.isEmpty {
+          result.append(NSAttributedString(string: "\n"))
+        }
+        
+        result.append(string)
+        
+        return result
+      })
   }
   
 }

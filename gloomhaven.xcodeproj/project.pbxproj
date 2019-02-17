@@ -19,10 +19,13 @@
 		5A97A2842219E081004B75D1 /* MonsterParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97A2832219E081004B75D1 /* MonsterParserTests.swift */; };
 		5A97A2862219E9DE004B75D1 /* MonsterDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97A2852219E9DE004B75D1 /* MonsterDetailPresenter.swift */; };
 		5A97A2882219EA51004B75D1 /* MonsterDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97A2872219EA51004B75D1 /* MonsterDetailPresenterTests.swift */; };
+		5A97A28D2219EEC5004B75D1 /* HighTower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A97A28A2219EEC5004B75D1 /* HighTower.ttf */; };
+		5A97A28E2219EEC5004B75D1 /* PirataOne.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A97A28B2219EEC5004B75D1 /* PirataOne.ttf */; };
+		5A97A28F2219EEC5004B75D1 /* Nyala.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A97A28C2219EEC5004B75D1 /* Nyala.ttf */; };
+		5A97A2922219EED6004B75D1 /* monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A97A2912219EED6004B75D1 /* monsters.json */; };
 		5AAAD4F42218028D00ECC54C /* MonstersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAAD4F32218028D00ECC54C /* MonstersPresenter.swift */; };
 		5AAAD4F6221802B400ECC54C /* MonstersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAAD4F5221802B400ECC54C /* MonstersRepository.swift */; };
 		5AAAD4F82218047D00ECC54C /* MonsterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAAD4F72218047D00ECC54C /* MonsterDetailViewController.swift */; };
-		5AAF80FF2213630D007301E8 /* monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AAF80FE2213630D007301E8 /* monsters.json */; };
 		5AAF81012213675C007301E8 /* MonsterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF81002213675C007301E8 /* MonsterCell.swift */; };
 		5ADCAD982219BD580036171B /* MonsterDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADCAD972219BD580036171B /* MonsterDetailCell.swift */; };
 /* End PBXBuildFile section */
@@ -54,10 +57,13 @@
 		5A97A2832219E081004B75D1 /* MonsterParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterParserTests.swift; sourceTree = "<group>"; };
 		5A97A2852219E9DE004B75D1 /* MonsterDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailPresenter.swift; sourceTree = "<group>"; };
 		5A97A2872219EA51004B75D1 /* MonsterDetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailPresenterTests.swift; sourceTree = "<group>"; };
+		5A97A28A2219EEC5004B75D1 /* HighTower.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HighTower.ttf; sourceTree = "<group>"; };
+		5A97A28B2219EEC5004B75D1 /* PirataOne.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PirataOne.ttf; sourceTree = "<group>"; };
+		5A97A28C2219EEC5004B75D1 /* Nyala.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nyala.ttf; sourceTree = "<group>"; };
+		5A97A2912219EED6004B75D1 /* monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsters.json; sourceTree = "<group>"; };
 		5AAAD4F32218028D00ECC54C /* MonstersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersPresenter.swift; sourceTree = "<group>"; };
 		5AAAD4F5221802B400ECC54C /* MonstersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersRepository.swift; sourceTree = "<group>"; };
 		5AAAD4F72218047D00ECC54C /* MonsterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailViewController.swift; sourceTree = "<group>"; };
-		5AAF80FE2213630D007301E8 /* monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsters.json; sourceTree = "<group>"; };
 		5AAF81002213675C007301E8 /* MonsterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCell.swift; sourceTree = "<group>"; };
 		5ADCAD972219BD580036171B /* MonsterDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,7 +100,8 @@
 		5A34CEC622121CE8002F2980 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				5AAF80FE2213630D007301E8 /* monsters.json */,
+				5A97A2902219EED6004B75D1 /* Data */,
+				5A97A2892219EEC5004B75D1 /* Fonts */,
 				5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */,
 				5A6A1C7322120E5C00A58EAD /* Assets.xcassets */,
 			);
@@ -158,6 +165,24 @@
 				5A97A2812219DFC7004B75D1 /* MonsterTraitsParser.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		5A97A2892219EEC5004B75D1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5A97A28A2219EEC5004B75D1 /* HighTower.ttf */,
+				5A97A28B2219EEC5004B75D1 /* PirataOne.ttf */,
+				5A97A28C2219EEC5004B75D1 /* Nyala.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5A97A2902219EED6004B75D1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5A97A2912219EED6004B75D1 /* monsters.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		5ADCAD952219BD430036171B /* MonsterGallery */ = {
@@ -261,10 +286,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AAF80FF2213630D007301E8 /* monsters.json in Resources */,
+				5A97A2922219EED6004B75D1 /* monsters.json in Resources */,
+				5A97A28E2219EEC5004B75D1 /* PirataOne.ttf in Resources */,
 				5A34CECE22121F7C002F2980 /* Monsters.storyboard in Resources */,
 				5A6A1C7422120E5C00A58EAD /* Assets.xcassets in Resources */,
 				5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */,
+				5A97A28F2219EEC5004B75D1 /* Nyala.ttf in Resources */,
+				5A97A28D2219EEC5004B75D1 /* HighTower.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

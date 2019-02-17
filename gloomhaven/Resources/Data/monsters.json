@@ -1,0 +1,4524 @@
+{
+    "Ancient Artillery": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 0,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 0,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 0,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 0,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 0,
+                    "attack": 2,
+                    "range": 5,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 0,
+                    "attack": 3,
+                    "range": 6,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 0,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 0,
+                    "attack": 4,
+                    "range": 6,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 0,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 0,
+                    "attack": 4,
+                    "range": 6,
+                    "traits": ["TARGET, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 0,
+                    "attack": 4,
+                    "range": 6,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 0,
+                    "attack": 4,
+                    "range": 7,
+                    "traits": ["TARGET, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 14,
+                    "move": 0,
+                    "attack": 4,
+                    "range": 6,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 16,
+                    "move": 0,
+                    "attack": 5,
+                    "range": 7,
+                    "traits": ["TARGET, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 16,
+                    "move": 0,
+                    "attack": 4,
+                    "range": 7,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 20,
+                    "move": 0,
+                    "attack": 5,
+                    "range": 7,
+                    "traits": ["TARGET, 2"]
+                }
+            }
+        ]
+    },
+    "Bandit Archer": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 6,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 6,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 6,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 13,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 17,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 6,
+                    "traits": ["POISON"]
+                }
+            }
+        ]
+    },
+    "Bandit Guard": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["MUDDLE", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["MUDDLE", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 14,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["MUDDLE", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 16,
+                    "move": 5,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["MUDDLE", "SHIELD, 3"]
+                }
+            }
+        ]
+    },
+    "Black Imp": {
+        "tokenCount": 10,
+        "levels": [
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 1,
+                    "attack": 1,
+                    "range": 3,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 4,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 1,
+                    "attack": 1,
+                    "range": 3,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 1,
+                    "attack": 1,
+                    "range": 4,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["DISADVANTAGE", "POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["DISADVANTAGE", "POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": ["DISADVANTAGE", "POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 1,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": ["DISADVANTAGE", "POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 17,
+                    "move": 1,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": ["DISADVANTAGE", "POISON"]
+                }
+            }
+        ]
+    },
+    "Cave Bear": {
+        "tokenCount": 4,
+        "levels": [
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 17,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 13,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 20,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 16,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 21,
+                    "move": 5,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 17,
+                    "move": 5,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                },
+                "elite": {
+                    "life": 24,
+                    "move": 5,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 19,
+                    "move": 5,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                },
+                "elite": {
+                    "life": 28,
+                    "move": 5,
+                    "attack": 7,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 22,
+                    "move": 5,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                },
+                "elite": {
+                    "life": 33,
+                    "move": 5,
+                    "attack": 7,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                }
+            }
+        ]
+    },
+    "City Archer": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": ["PIERCE, 1", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 1,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": ["PIERCE, 2", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": ["PIERCE, 2", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 6,
+                    "traits": ["PIERCE, 2", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 2,
+                    "attack": 5,
+                    "range": 6,
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 6,
+                    "range": 6,
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 6,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 3,
+                    "attack": 6,
+                    "range": 7,
+                    "traits": ["PIERCE, 3", "SHIELD, 3"]
+                }
+            }
+        ]
+    },
+    "City Guard": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2", "SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3", "SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 13,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 3,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3", "SHIELD, 3"]
+                }
+            }
+        ]
+    },
+    "Cultist": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 2,
+                    "attack": 1,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 2,
+                    "attack": 1,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 2,
+                    "attack": 1,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 3,
+                    "attack": 1,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["CURSE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["CURSE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["CURSE"]
+                },
+                "elite": {
+                    "life": 18,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["CURSE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 14,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["CURSE"]
+                },
+                "elite": {
+                    "life": 22,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["CURSE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 15,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["CURSE"]
+                },
+                "elite": {
+                    "life": 25,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["CURSE"]
+                }
+            }
+        ]
+    },
+    "Deep Terror": {
+        "tokenCount": 10,
+        "levels": [
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 0,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 5,
+                    "move": 0,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 0,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 0,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 0,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 0,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 0,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 0,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 0,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 0,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 0,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 0,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 0,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 0,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 0,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 4"]
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 0,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["RETALIATE, 4"]
+                }
+            }
+        ]
+    },
+    "Earth Demon": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 18,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 13,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 20,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["IMMOBILIZE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 15,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 21,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["IMMOBILIZE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 17,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["IMMOBILIZE"]
+                },
+                "elite": {
+                    "life": 25,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["IMMOBILIZE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 20,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["IMMOBILIZE"]
+                },
+                "elite": {
+                    "life": 27,
+                    "move": 3,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["IMMOBILIZE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 22,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["IMMOBILIZE"]
+                },
+                "elite": {
+                    "life": 32,
+                    "move": 3,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["IMMOBILIZE"]
+                }
+            }
+        ]
+    },
+    "Flame Demon": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 2,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["FLYING", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["FLYING", "SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 2,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["FLYING", "SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["FLYING", "RETALIATE, 2, 2", "SHIELD, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": ["FLYING", "SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 4,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["FLYING", "RETALIATE, 3, 2", "SHIELD, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["FLYING", "RETALIATE, 2, 2", "SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 5,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": ["FLYING", "RETALIATE, 3, 3", "SHIELD, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["FLYING", "RETALIATE, 3, 2", "SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 5,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": ["FLYING", "RETALIATE, 4, 3", "SHIELD, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["FLYING", "RETALIATE, 3, 2", "SHIELD, 4"]
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": ["FLYING", "RETALIATE, 4, 3", "SHIELD, 5"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["FLYING", "RETALIATE, 4, 2", "SHIELD, 4"]
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 5,
+                    "traits": ["FLYING", "RETALIATE, 5, 3", "SHIELD, 5"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": ["FLYING", "RETALIATE, 4, 3", "SHIELD, 4"]
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 6,
+                    "traits": ["FLYING", "RETALIATE, 5, 4", "SHIELD, 5"]
+                }
+            }
+        ]
+    },
+    "Frost Demon": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                },
+                "elite": {
+                    "life": 18,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                },
+                "elite": {
+                    "life": 20,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                },
+                "elite": {
+                    "life": 22,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 14,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                },
+                "elite": {
+                    "life": 25,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 4"]
+                }
+            }
+        ]
+    },
+    "Forest Imp": {
+        "tokenCount": 10,
+        "levels": [
+            {
+                "normal": {
+                    "life": 1,
+                    "move": 3,
+                    "attack": 1,
+                    "range": 3,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 4,
+                    "move": 3,
+                    "attack": 1,
+                    "range": 3,
+                    "traits": ["SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 2,
+                    "move": 3,
+                    "attack": 1,
+                    "range": 3,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 5,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 2,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["CURSE", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 4,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 4,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["CURSE", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 4,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 4,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["CURSE", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 4,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["CURSE", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["CURSE", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["CURSE", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["CURSE", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["CURSE", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["CURSE", "SHIELD, 2"]
+                }
+            }
+        ]
+    },
+    "Giant Viper": {
+        "tokenCount": 10,
+        "levels": [
+            {
+                "normal": {
+                    "life": 2,
+                    "move": 2,
+                    "attack": 1,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 3,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 2,
+                    "attack": 1,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 5,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 3,
+                    "attack": 1,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 17,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["POISON"]
+                }
+            }
+        ]
+    },
+    "Harrower Infester": {
+        "tokenCount": 4,
+        "levels": [
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                },
+                "elite": {
+                    "life": 17,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                },
+                "elite": {
+                    "life": 19,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                },
+                "elite": {
+                    "life": 21,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 15,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                },
+                "elite": {
+                    "life": 22,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 17,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 4"]
+                },
+                "elite": {
+                    "life": 26,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 4"]
+                }
+            }
+        ]
+    },
+    "Hound": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 5,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 4,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 5,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 4,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 5,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 4,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 5,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 5,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 5,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 5,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 6,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 15,
+                    "move": 5,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 6,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 4"]
+                }
+            }
+        ]
+    },
+    "Inox Archer": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 2,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 17,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["WOUND"]
+                },
+                "elite": {
+                    "life": 19,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 5,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 15,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["WOUND"]
+                },
+                "elite": {
+                    "life": 23,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 5,
+                    "traits": ["WOUND"]
+                }
+            }
+        ]
+    },
+    "Inox Guard": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                },
+                "elite": {
+                    "life": 17,
+                    "move": 2,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 13,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                },
+                "elite": {
+                    "life": 19,
+                    "move": 2,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 16,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 1"]
+                },
+                "elite": {
+                    "life": 21,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["RETALIATE, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 19,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["RETALIATE, 2"]
+                },
+                "elite": {
+                    "life": 23,
+                    "move": 3,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["RETALIATE, 4"]
+                }
+            }
+        ]
+    },
+    "Inox Shaman": {
+        "tokenCount": 4,
+        "levels": [
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 16,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 13,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 20,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 15,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 24,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 16,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 27,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 4,
+                    "traits": []
+                }
+            }
+        ]
+    },
+    "Living Bones": {
+        "tokenCount": 10,
+        "levels": [
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 2,
+                    "attack": 1,
+                    "range": 0,
+                    "traits": ["TARGET, 2"]
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 4,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["TARGET, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 3,
+                    "attack": 1,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 4,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["TARGET, 3", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["TARGET, 3", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["TARGET, 3", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["TARGET, 3", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["TARGET, 3", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 6,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["TARGET, 3", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 13,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 6,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["TARGET, 3", "SHIELD, 2"]
+                }
+            }
+        ]
+    },
+    "Living Corpse": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 1,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 1,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 1,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 2,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 2,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 13,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 17,
+                    "move": 2,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 14,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 21,
+                    "move": 2,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["POISON"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 15,
+                    "move": 2,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 25,
+                    "move": 2,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["POISON"]
+                }
+            }
+        ]
+    },
+    "Living Spirit": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 2,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 2,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": ["SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 2,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 2,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": ["SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 2,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 3,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 4,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": ["SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 4,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["SHIELD, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["SHIELD, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 5,
+                    "traits": ["SHIELD, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 5,
+                    "traits": ["SHIELD, 4"]
+                }
+            }
+        ]
+    },
+    "Lurker": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["TARGET, 2"]
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 1"]
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 1", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 1"]
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 2", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 2"]
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 2", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 2", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 3", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 2", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 3", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 3", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 16,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 4", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 14,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 3", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 18,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["TARGET, 2", "PIERCE, 4", "SHIELD, 2"]
+                }
+            }
+        ]
+    },
+    "Night Demon": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                },
+                "elite": {
+                    "life": 5,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 5,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                },
+                "elite": {
+                    "life": 17,
+                    "move": 5,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 14,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                },
+                "elite": {
+                    "life": 21,
+                    "move": 5,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 15,
+                    "move": 4,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                },
+                "elite": {
+                    "life": 21,
+                    "move": 5,
+                    "attack": 8,
+                    "range": 0,
+                    "traits": ["DISADVANTAGE"]
+                }
+            }
+        ]
+    },
+    "Ooze": {
+        "tokenCount": 10,
+        "levels": [
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 2,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 2,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 1,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": ["SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["POISON", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["POISON", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": ["POISON", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["POISON", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 3,
+                    "traits": ["POISON", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 16,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["POISON", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 14,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 3,
+                    "traits": ["POISON", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 18,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 4,
+                    "traits": ["POISON", "SHIELD, 2"]
+                }
+            }
+        ]
+    },
+    "Rending Drake": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 5,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 5,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 6,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 6,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 5,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 6,
+                    "attack": 7,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 14,
+                    "move": 5,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                },
+                "elite": {
+                    "life": 18,
+                    "move": 6,
+                    "attack": 7,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                }
+            }
+        ]
+    },
+    "Savvas Icestorm": {
+        "tokenCount": 4,
+        "levels": [
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["PIERCE, 3"]
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["PIERCE, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["PIERCE, 3"]
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": ["PIERCE, 3", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["PIERCE, 3"]
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": ["PIERCE, 3", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["PIERCE, 3", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 18,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 6,
+                    "traits": ["PIERCE, 3", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 14,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 5,
+                    "traits": ["PIERCE, 3", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 19,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 6,
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 16,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": ["PIERCE, 3", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 21,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 6,
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 16,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 5,
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 23,
+                    "move": 4,
+                    "attack": 6,
+                    "range": 6,
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 17,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 6,
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 24,
+                    "move": 4,
+                    "attack": 6,
+                    "range": 6,
+                    "traits": ["PIERCE, 4", "SHIELD, 3"]
+                }
+            }
+        ]
+    },
+    "Savvas Lavaflow": {
+        "tokenCount": 4,
+        "levels": [
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 18,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["POISON", "WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 14,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 21,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["POISON", "WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 16,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["POISON"]
+                },
+                "elite": {
+                    "life": 24,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["POISON", "WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 18,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["POISON", "WOUND"]
+                },
+                "elite": {
+                    "life": 27,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["POISON", "WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 20,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["POISON", "WOUND"]
+                },
+                "elite": {
+                    "life": 30,
+                    "move": 4,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["POISON", "WOUND"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 24,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["POISON", "WOUND"]
+                },
+                "elite": {
+                    "life": 35,
+                    "move": 4,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["POISON", "WOUND"]
+                }
+            }
+        ]
+    },
+    "Spitting Drake": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["MUDDLE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": ["MUDDLE"]
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 4,
+                    "traits": ["MUDDLE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["MUDDLE"]
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 5,
+                    "traits": ["MUDDLE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["MUDDLE"]
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 5,
+                    "traits": ["MUDDLE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["MUDDLE"]
+                },
+                "elite": {
+                    "life": 16,
+                    "move": 4,
+                    "attack": 6,
+                    "range": 5,
+                    "traits": ["MUDDLE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 13,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 4,
+                    "traits": ["MUDDLE"]
+                },
+                "elite": {
+                    "life": 19,
+                    "move": 4,
+                    "attack": 6,
+                    "range": 5,
+                    "traits": ["MUDDLE"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 16,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 4,
+                    "traits": ["MUDDLE"]
+                },
+                "elite": {
+                    "life": 21,
+                    "move": 4,
+                    "attack": 7,
+                    "range": 5,
+                    "traits": ["MUDDLE"]
+                }
+            }
+        ]
+    },
+    "Stone Golem": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 10,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 1,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 1,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 14,
+                    "move": 2,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 1,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 2,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 17,
+                    "move": 2,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 13,
+                    "move": 2,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 19,
+                    "move": 3,
+                    "attack": 6,
+                    "range": 0,
+                    "traits": ["SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 16,
+                    "move": 2,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 20,
+                    "move": 3,
+                    "attack": 7,
+                    "range": 0,
+                    "traits": ["SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 16,
+                    "move": 2,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 21,
+                    "move": 3,
+                    "attack": 7,
+                    "range": 0,
+                    "traits": ["SHIELD, 4"]
+                }
+            }
+        ]
+    },
+    "Sun Demon": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 2,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 2,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 16,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 16,
+                    "move": 3,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 12,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 18,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 15,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 22,
+                    "move": 4,
+                    "attack": 5,
+                    "range": 0,
+                    "traits": ["ADVANTAGE", "SHIELD, 2"]
+                }
+            }
+        ]
+    },
+    "Vermling Scout": {
+        "tokenCount": 10,
+        "levels": [
+            {
+                "normal": {
+                    "life": 2,
+                    "move": 3,
+                    "attack": 1,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 4,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 1,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 5,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 5,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 8,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 5,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 0,
+                    "traits": []
+                },
+                "elite": {
+                    "life": 15,
+                    "move": 5,
+                    "attack": 4,
+                    "range": 0,
+                    "traits": []
+                }
+            }
+        ]
+    },
+    "Vermling Shaman": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 2,
+                    "move": 2,
+                    "attack": 1,
+                    "range": 3,
+                    "traits": ["SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 2,
+                    "move": 2,
+                    "attack": 1,
+                    "range": 3,
+                    "traits": ["SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 2,
+                    "attack": 1,
+                    "range": 4,
+                    "traits": ["SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 4,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 2,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 5,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 4,
+                    "traits": ["MUDDLE", "SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 5,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["MUDDLE", "SHIELD, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 3,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["MUDDLE", "SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["MUDDLE", "SHIELD, 4"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["MUDDLE", "SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 6,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["MUDDLE", "SHIELD, 5"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["MUDDLE", "SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 3,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["MUDDLE", "SHIELD, 5"]
+                }
+            }
+        ]
+    },
+    "Wind Demon": {
+        "tokenCount": 6,
+        "levels": [
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["FLYING", "SHIELD, 1"]
+                },
+                "elite": {
+                    "life": 5,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["FLYING", "SHIELD, 1"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 3,
+                    "move": 3,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["FLYING", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 5,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["FLYING", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 4,
+                    "move": 4,
+                    "attack": 2,
+                    "range": 3,
+                    "traits": ["FLYING", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 7,
+                    "move": 5,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["FLYING", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 5,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": ["FLYING", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 5,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["FLYING", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 7,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 3,
+                    "traits": ["FLYING", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 8,
+                    "move": 5,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["FLYING", "DISARM", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 9,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["FLYING", "SHIELD, 2"]
+                },
+                "elite": {
+                    "life": 11,
+                    "move": 5,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["FLYING", "DISARM", "SHIELD, 2"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 10,
+                    "move": 4,
+                    "attack": 3,
+                    "range": 4,
+                    "traits": ["FLYING", "SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 12,
+                    "move": 5,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["FLYING", "DISARM", "SHIELD, 3"]
+                }
+            },
+            {
+                "normal": {
+                    "life": 11,
+                    "move": 4,
+                    "attack": 4,
+                    "range": 4,
+                    "traits": ["FLYING", "SHIELD, 3"]
+                },
+                "elite": {
+                    "life": 13,
+                    "move": 5,
+                    "attack": 5,
+                    "range": 4,
+                    "traits": ["FLYING", "DISARM", "SHIELD, 3"]
+                }
+            }
+        ]
+    }
+}
