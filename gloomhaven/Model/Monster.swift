@@ -5,7 +5,7 @@ enum MonsterType: String {
   case elite
 }
 
-enum Effect {
+enum Effect: String {
   case bless
   case curse
   case disarm
@@ -21,10 +21,11 @@ enum Effect {
   case stun
   case strengthen
   case advantage
-  case attackersDisadvantage
+  case disadvantage
   case retaliate
   case shield
-  case fly
+  case flying
+  case target
 }
 
 struct Trait {

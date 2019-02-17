@@ -1,10 +1,10 @@
 import Foundation
 
-class MonstersRepository {
+class MonstersParser {
   
-  func loadMonsters() -> [Monster] {
-    let json = self.loadJson(name: "monsters")
-    
+  private let traitsParser = MonsterTraitsParser()
+  
+  func parse(json: [String: Any]) -> [Monster] {
     return json.keys
       .map({ name in
         let jsonMonster = json[name] as! [String: Any]
@@ -23,6 +23,8 @@ class MonstersRepository {
       })
   }
   
+  // MARK: - Private
+  
   private func mapMonsterLevels(level: Int, json: [String: Any]) -> [MonsterLevel] {
     let normal = self.mapMonsterLevel(level: level, type: .normal, json: json)
     let elite = self.mapMonsterLevel(level: level, type: .elite, json: json)
@@ -34,20 +36,14 @@ class MonstersRepository {
     let jsonLevel = json[type.rawValue] as! [String: Any]
     
     return MonsterLevel(
-        level: level,
-        type: type,
-        life: jsonLevel["life"] as! Int,
-        move: jsonLevel["move"] as! Int,
-        attack: jsonLevel["attack"] as! Int,
-        range: jsonLevel["range"] as! Int,
-        traits: []
+      level: level,
+      type: type,
+      life: jsonLevel["life"] as! Int,
+      move: jsonLevel["move"] as! Int,
+      attack: jsonLevel["attack"] as! Int,
+      range: jsonLevel["range"] as! Int,
+      traits: traitsParser.parse(traits: jsonLevel["traits"] as! [String])
     )
-  }
-  
-  private func loadJson(name: String) -> [String: Any] {
-    let url = Bundle.main.url(forResource: "monsters", withExtension: "json")!
-    let data = try! Data(contentsOf: url)
-    return try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
   }
   
 }

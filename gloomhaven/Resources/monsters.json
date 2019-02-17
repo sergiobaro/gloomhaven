@@ -8,14 +8,14 @@
                     "move": 0,
                     "attack": 2,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 7,
                     "move": 0,
                     "attack": 3,
                     "range": 5,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -24,14 +24,14 @@
                     "move": 0,
                     "attack": 2,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 9,
                     "move": 0,
                     "attack": 3,
                     "range": 5,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -40,14 +40,14 @@
                     "move": 0,
                     "attack": 2,
                     "range": 5,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 11,
                     "move": 0,
                     "attack": 3,
                     "range": 6,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -56,14 +56,14 @@
                     "move": 0,
                     "attack": 3,
                     "range": 5,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 13,
                     "move": 0,
                     "attack": 4,
                     "range": 6,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -72,14 +72,14 @@
                     "move": 0,
                     "attack": 4,
                     "range": 5,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 13,
                     "move": 0,
                     "attack": 4,
                     "range": 6,
-                    "abilities": ["action(TARGET, 2)"]
+                    "traits": ["TARGET, 2"]
                 }
             },
             {
@@ -88,14 +88,14 @@
                     "move": 0,
                     "attack": 4,
                     "range": 6,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 15,
                     "move": 0,
                     "attack": 4,
                     "range": 7,
-                    "abilities": ["action(TARGET, 2)"]
+                    "traits": ["TARGET, 2"]
                 }
             },
             {
@@ -104,14 +104,14 @@
                     "move": 0,
                     "attack": 4,
                     "range": 6,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 16,
                     "move": 0,
                     "attack": 5,
                     "range": 7,
-                    "abilities": ["action(TARGET, 2)"]
+                    "traits": ["TARGET, 2"]
                 }
             },
             {
@@ -120,14 +120,14 @@
                     "move": 0,
                     "attack": 4,
                     "range": 7,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 20,
                     "move": 0,
                     "attack": 5,
                     "range": 7,
-                    "abilities": ["action(TARGET, 2)"]
+                    "traits": ["TARGET, 2"]
                 }
             }
         ]
@@ -141,14 +141,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 6,
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -157,14 +157,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 7,
                     "move": 2,
                     "attack": 3,
                     "range": 5,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -173,14 +173,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 9,
                     "move": 3,
                     "attack": 3,
                     "range": 5,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -189,14 +189,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 10,
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -205,14 +205,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 10,
                     "move": 3,
                     "attack": 4,
                     "range": 6,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -221,14 +221,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 5,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 12,
                     "move": 4,
                     "attack": 4,
                     "range": 6,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -237,14 +237,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 13,
                     "move": 4,
                     "attack": 5,
                     "range": 6,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -253,14 +253,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 17,
                     "move": 4,
                     "attack": 5,
                     "range": 6,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             }
         ]
@@ -274,14 +274,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -290,14 +290,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 }
             },
             {
@@ -306,14 +306,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 10,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 }
             },
             {
@@ -322,14 +322,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 10,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 }
             },
             {
@@ -338,14 +338,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 11,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(MUDDLE)", "action(SHIELD, 2)"]
+                    "traits": ["MUDDLE", "SHIELD, 2"]
                 }
             },
             {
@@ -354,14 +354,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 12,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(MUDDLE)", "action(SHIELD, 2)"]
+                    "traits": ["MUDDLE", "SHIELD, 2"]
                 }
             },
             {
@@ -370,14 +370,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 14,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(MUDDLE)", "action(SHIELD, 2)"]
+                    "traits": ["MUDDLE", "SHIELD, 2"]
                 }
             },
             {
@@ -386,14 +386,14 @@
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 14,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(MUDDLE)", "action(SHIELD, 3)"]
+                    "traits": ["MUDDLE", "SHIELD, 3"]
                 }
             }
         ]
@@ -407,14 +407,14 @@
                     "move": 1,
                     "attack": 1,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 4,
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -423,14 +423,14 @@
                     "move": 1,
                     "attack": 1,
                     "range": 3,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 6,
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -439,14 +439,14 @@
                     "move": 1,
                     "attack": 1,
                     "range": 4,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 8,
                     "move": 1,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -455,14 +455,14 @@
                     "move": 1,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 8,
                     "move": 1,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["Attackers gain disadvantage", "action(POISON)"]
+                    "traits": ["DISADVANTAGE", "POISON"]
                 }
             },
             {
@@ -471,14 +471,14 @@
                     "move": 1,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 1,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["Attackers gain disadvantage", "action(POISON)"]
+                    "traits": ["DISADVANTAGE", "POISON"]
                 }
             },
             {
@@ -487,14 +487,14 @@
                     "move": 1,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 12,
                     "move": 1,
                     "attack": 3,
                     "range": 5,
-                    "abilities": ["Attackers gain disadvantage", "action(POISON)"]
+                    "traits": ["DISADVANTAGE", "POISON"]
                 }
             },
             {
@@ -503,14 +503,14 @@
                     "move": 1,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 14,
                     "move": 1,
                     "attack": 4,
                     "range": 5,
-                    "abilities": ["Attackers gain disadvantage", "action(POISON)"]
+                    "traits": ["DISADVANTAGE", "POISON"]
                 }
             },
             {
@@ -519,14 +519,14 @@
                     "move": 1,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 17,
                     "move": 1,
                     "attack": 4,
                     "range": 5,
-                    "abilities": ["Attackers gain disadvantage", "action(POISON)"]
+                    "traits": ["DISADVANTAGE", "POISON"]
                 }
             }
         ]
@@ -540,14 +540,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 11,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -556,14 +556,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 14,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -572,14 +572,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 17,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -588,14 +588,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 20,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -604,14 +604,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 21,
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -620,14 +620,14 @@
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 },
                 "elite": {
                     "life": 24,
                     "move": 5,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -636,14 +636,14 @@
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 },
                 "elite": {
                     "life": 28,
                     "move": 5,
                     "attack": 7,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -652,14 +652,14 @@
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 },
                 "elite": {
                     "life": 33,
                     "move": 5,
                     "attack": 7,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             }
         ]
@@ -673,14 +673,14 @@
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 6,
                     "move": 1,
                     "attack": 3,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -689,14 +689,14 @@
                     "move": 1,
                     "attack": 2,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 6,
                     "move": 1,
                     "attack": 3,
                     "range": 5,
-                    "abilities": ["action(PIERCE, 1)", "action(SHIELD, 1)"]
+                    "traits": ["PIERCE, 1", "SHIELD, 1"]
                 }
             },
             {
@@ -705,14 +705,14 @@
                     "move": 1,
                     "attack": 3,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 7,
                     "move": 1,
                     "attack": 4,
                     "range": 5,
-                    "abilities": ["action(PIERCE, 2)", "action(SHIELD, 1)"]
+                    "traits": ["PIERCE, 2", "SHIELD, 1"]
                 }
             },
             {
@@ -721,14 +721,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 8,
                     "move": 2,
                     "attack": 4,
                     "range": 5,
-                    "abilities": ["action(PIERCE, 2)", "action(SHIELD, 2)"]
+                    "traits": ["PIERCE, 2", "SHIELD, 2"]
                 }
             },
             {
@@ -737,14 +737,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 5,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 10,
                     "move": 2,
                     "attack": 4,
                     "range": 6,
-                    "abilities": ["action(PIERCE, 2)", "action(SHIELD, 2)"]
+                    "traits": ["PIERCE, 2", "SHIELD, 2"]
                 }
             },
             {
@@ -753,14 +753,14 @@
                     "move": 2,
                     "attack": 4,
                     "range": 5,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 2,
                     "attack": 5,
                     "range": 6,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
                 }
             },
             {
@@ -769,14 +769,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 12,
                     "move": 3,
                     "attack": 6,
                     "range": 6,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
                 }
             },
             {
@@ -785,14 +785,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 6,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 13,
                     "move": 3,
                     "attack": 6,
                     "range": 7,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 3)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 3"]
                 }
             }
         ]
@@ -806,14 +806,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 6,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 }
             },
             {
@@ -822,14 +822,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 6,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 }
             },
             {
@@ -838,14 +838,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 }
             },
             {
@@ -854,14 +854,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 9,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)", "action(SHIELD, 2)"]
+                    "traits": ["RETALIATE, 1", "SHIELD, 2"]
                 }
             },
             {
@@ -870,14 +870,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 10,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)", "action(SHIELD, 2)"]
+                    "traits": ["RETALIATE, 2", "SHIELD, 2"]
                 }
             },
             {
@@ -886,14 +886,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 12,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)", "action(SHIELD, 3)"]
+                    "traits": ["RETALIATE, 2", "SHIELD, 3"]
                 }
             },
             {
@@ -902,14 +902,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 13,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)", "action(SHIELD, 3)"]
+                    "traits": ["RETALIATE, 3", "SHIELD, 3"]
                 }
             },
             {
@@ -918,14 +918,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 14,
                     "move": 3,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)", "action(SHIELD, 3)"]
+                    "traits": ["RETALIATE, 3", "SHIELD, 3"]
                 }
             }
         ]
@@ -939,14 +939,14 @@
                     "move": 2,
                     "attack": 1,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 7,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -955,14 +955,14 @@
                     "move": 2,
                     "attack": 1,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 9,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -971,14 +971,14 @@
                     "move": 2,
                     "attack": 1,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 12,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -987,14 +987,14 @@
                     "move": 3,
                     "attack": 1,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 13,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(CURSE)"]
+                    "traits": ["CURSE"]
                 }
             },
             {
@@ -1003,14 +1003,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 15,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(CURSE)"]
+                    "traits": ["CURSE"]
                 }
             },
             {
@@ -1019,14 +1019,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(CURSE)"]
+                    "traits": ["CURSE"]
                 },
                 "elite": {
                     "life": 18,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(CURSE)"]
+                    "traits": ["CURSE"]
                 }
             },
             {
@@ -1035,14 +1035,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(CURSE)"]
+                    "traits": ["CURSE"]
                 },
                 "elite": {
                     "life": 22,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(CURSE)"]
+                    "traits": ["CURSE"]
                 }
             },
             {
@@ -1051,14 +1051,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(CURSE)"]
+                    "traits": ["CURSE"]
                 },
                 "elite": {
                     "life": 25,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(CURSE)"]
+                    "traits": ["CURSE"]
                 }
             }
         ]
@@ -1072,14 +1072,14 @@
                     "move": 0,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 5,
                     "move": 0,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -1088,14 +1088,14 @@
                     "move": 0,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 },
                 "elite": {
                     "life": 6,
                     "move": 0,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 }
             },
             {
@@ -1104,14 +1104,14 @@
                     "move": 0,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 },
                 "elite": {
                     "life": 7,
                     "move": 0,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 }
             },
             {
@@ -1120,14 +1120,14 @@
                     "move": 0,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 },
                 "elite": {
                     "life": 8,
                     "move": 0,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 }
             },
             {
@@ -1136,14 +1136,14 @@
                     "move": 0,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 },
                 "elite": {
                     "life": 9,
                     "move": 0,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 }
             },
             {
@@ -1152,14 +1152,14 @@
                     "move": 0,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 0,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 }
             },
             {
@@ -1168,14 +1168,14 @@
                     "move": 0,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 },
                 "elite": {
                     "life": 13,
                     "move": 0,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 }
             },
             {
@@ -1184,14 +1184,14 @@
                     "move": 0,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 4)"]
+                    "traits": ["RETALIATE, 4"]
                 },
                 "elite": {
                     "life": 15,
                     "move": 0,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 4)"]
+                    "traits": ["RETALIATE, 4"]
                 }
             }
         ]
@@ -1205,14 +1205,14 @@
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 10,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -1221,14 +1221,14 @@
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 13,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -1237,14 +1237,14 @@
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 18,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -1253,14 +1253,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 20,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(IMMOBILIZE)"]
+                    "traits": ["IMMOBILIZE"]
                 }
             },
             {
@@ -1269,14 +1269,14 @@
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 21,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(IMMOBILIZE)"]
+                    "traits": ["IMMOBILIZE"]
                 }
             },
             {
@@ -1285,14 +1285,14 @@
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(IMMOBILIZE)"]
+                    "traits": ["IMMOBILIZE"]
                 },
                 "elite": {
                     "life": 25,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(IMMOBILIZE)"]
+                    "traits": ["IMMOBILIZE"]
                 }
             },
             {
@@ -1301,14 +1301,14 @@
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(IMMOBILIZE)"]
+                    "traits": ["IMMOBILIZE"]
                 },
                 "elite": {
                     "life": 27,
                     "move": 3,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(IMMOBILIZE)"]
+                    "traits": ["IMMOBILIZE"]
                 }
             },
             {
@@ -1317,14 +1317,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(IMMOBILIZE)"]
+                    "traits": ["IMMOBILIZE"]
                 },
                 "elite": {
                     "life": 32,
                     "move": 3,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(IMMOBILIZE)"]
+                    "traits": ["IMMOBILIZE"]
                 }
             }
         ]
@@ -1338,14 +1338,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "traits": ["FLYING", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 3,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 3)"]
+                    "traits": ["FLYING", "SHIELD, 3"]
                 }
             },
             {
@@ -1354,14 +1354,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 3)"]
+                    "traits": ["FLYING", "SHIELD, 3"]
                 },
                 "elite": {
                     "life": 3,
                     "move": 3,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(RETALIATE, 2, [action(RANGE, 2)])", "action(SHIELD, 4)"]
+                    "traits": ["FLYING", "RETALIATE, 2, 2", "SHIELD, 4"]
                 }
             },
             {
@@ -1370,14 +1370,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 3)"]
+                    "traits": ["FLYING", "SHIELD, 3"]
                 },
                 "elite": {
                     "life": 4,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(RETALIATE, 3, [action(RANGE, 2)])", "action(SHIELD, 4)"]
+                    "traits": ["FLYING", "RETALIATE, 3, 2", "SHIELD, 4"]
                 }
             },
             {
@@ -1386,14 +1386,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(RETALIATE, 2, [action(RANGE, 2)])", "action(SHIELD, 3)"]
+                    "traits": ["FLYING", "RETALIATE, 2, 2", "SHIELD, 3"]
                 },
                 "elite": {
                     "life": 5,
                     "move": 3,
                     "attack": 3,
                     "range": 5,
-                    "abilities": ["action(FLYING)", "action(RETALIATE, 3, [action(RANGE, 3)])", "action(SHIELD, 4)"]
+                    "traits": ["FLYING", "RETALIATE, 3, 3", "SHIELD, 4"]
                 }
             },
             {
@@ -1402,14 +1402,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(RETALIATE, 3, [action(RANGE, 2)])", "action(SHIELD, 3)"]
+                    "traits": ["FLYING", "RETALIATE, 3, 2", "SHIELD, 3"]
                 },
                 "elite": {
                     "life": 5,
                     "move": 4,
                     "attack": 4,
                     "range": 5,
-                    "abilities": ["action(FLYING)", "action(RETALIATE, 4, [action(RANGE, 3)])", "action(SHIELD, 4)"]
+                    "traits": ["FLYING", "RETALIATE, 4, 3", "SHIELD, 4"]
                 }
             },
             {
@@ -1418,14 +1418,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(RETALIATE, 3, [action(RANGE, 2)])", "action(SHIELD, 4)"]
+                    "traits": ["FLYING", "RETALIATE, 3, 2", "SHIELD, 4"]
                 },
                 "elite": {
                     "life": 6,
                     "move": 4,
                     "attack": 4,
                     "range": 5,
-                    "abilities": ["action(FLYING)", "action(RETALIATE, 4, [action(RANGE, 3)])", "action(SHIELD, 5)"]
+                    "traits": ["FLYING", "RETALIATE, 4, 3", "SHIELD, 5"]
                 }
             },
             {
@@ -1434,14 +1434,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(RETALIATE, 4, [action(RANGE, 2)])", "action(SHIELD, 4)"]
+                    "traits": ["FLYING", "RETALIATE, 4, 2", "SHIELD, 4"]
                 },
                 "elite": {
                     "life": 7,
                     "move": 4,
                     "attack": 5,
                     "range": 5,
-                    "abilities": ["action(FLYING)", "action(RETALIATE, 5, [action(RANGE, 3)])", "action(SHIELD, 5)"]
+                    "traits": ["FLYING", "RETALIATE, 5, 3", "SHIELD, 5"]
                 }
             },
             {
@@ -1450,14 +1450,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 5,
-                    "abilities": ["action(FLYING)", "action(RETALIATE, 4, [action(RANGE, 3)])", "action(SHIELD, 4)"]
+                    "traits": ["FLYING", "RETALIATE, 4, 3", "SHIELD, 4"]
                 },
                 "elite": {
                     "life": 8,
                     "move": 4,
                     "attack": 5,
                     "range": 6,
-                    "abilities": ["action(FLYING)", "action(RETALIATE, 5, [action(RANGE, 4)])", "action(SHIELD, 5)"]
+                    "traits": ["FLYING", "RETALIATE, 5, 4", "SHIELD, 5"]
                 }
             }
         ]
@@ -1471,14 +1471,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 10,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -1487,14 +1487,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 },
                 "elite": {
                     "life": 10,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 }
             },
             {
@@ -1503,14 +1503,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 },
                 "elite": {
                     "life": 12,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 }
             },
             {
@@ -1519,14 +1519,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 },
                 "elite": {
                     "life": 14,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 }
             },
             {
@@ -1535,14 +1535,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 },
                 "elite": {
                     "life": 18,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 }
             },
             {
@@ -1551,14 +1551,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 },
                 "elite": {
                     "life": 20,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 }
             },
             {
@@ -1567,14 +1567,14 @@
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 },
                 "elite": {
                     "life": 22,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 4)"]
+                    "traits": ["RETALIATE, 4"]
                 }
             },
             {
@@ -1583,14 +1583,14 @@
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 },
                 "elite": {
                     "life": 25,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 4)"]
+                    "traits": ["RETALIATE, 4"]
                 }
             }
         ]
@@ -1604,14 +1604,14 @@
                     "move": 3,
                     "attack": 1,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 4,
                     "move": 3,
                     "attack": 1,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 }
             },
             {
@@ -1620,14 +1620,14 @@
                     "move": 3,
                     "attack": 1,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 5,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 }
             },
             {
@@ -1636,14 +1636,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 6,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(CURSE)", "action(SHIELD, 1)"]
+                    "traits": ["CURSE", "SHIELD, 1"]
                 }
             },
             {
@@ -1652,14 +1652,14 @@
                     "move": 4,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 7,
                     "move": 4,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(CURSE)", "action(SHIELD, 1)"]
+                    "traits": ["CURSE", "SHIELD, 1"]
                 }
             },
             {
@@ -1668,14 +1668,14 @@
                     "move": 4,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 7,
                     "move": 4,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "traits": ["CURSE", "SHIELD, 2"]
                 }
             },
             {
@@ -1684,14 +1684,14 @@
                     "move": 4,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "traits": ["CURSE", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 8,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "traits": ["CURSE", "SHIELD, 2"]
                 }
             },
             {
@@ -1700,14 +1700,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "traits": ["CURSE", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 9,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "traits": ["CURSE", "SHIELD, 2"]
                 }
             },
             {
@@ -1716,14 +1716,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "traits": ["CURSE", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(CURSE)", "action(SHIELD, 2)"]
+                    "traits": ["CURSE", "SHIELD, 2"]
                 }
             }
         ]
@@ -1737,14 +1737,14 @@
                     "move": 2,
                     "attack": 1,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 3,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -1753,14 +1753,14 @@
                     "move": 2,
                     "attack": 1,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 5,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -1769,14 +1769,14 @@
                     "move": 3,
                     "attack": 1,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 7,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -1785,14 +1785,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 8,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -1801,14 +1801,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -1817,14 +1817,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 13,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -1833,14 +1833,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 14,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -1849,14 +1849,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 17,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             }
         ]
@@ -1870,14 +1870,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 12,
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -1886,14 +1886,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 },
                 "elite": {
                     "life": 12,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 }
             },
             {
@@ -1902,14 +1902,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 },
                 "elite": {
                     "life": 14,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 }
             },
             {
@@ -1918,14 +1918,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 },
                 "elite": {
                     "life": 17,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 }
             },
             {
@@ -1934,14 +1934,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 },
                 "elite": {
                     "life": 19,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 }
             },
             {
@@ -1950,14 +1950,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 },
                 "elite": {
                     "life": 21,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 }
             },
             {
@@ -1966,14 +1966,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 },
                 "elite": {
                     "life": 22,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 4)"]
+                    "traits": ["RETALIATE, 4"]
                 }
             },
             {
@@ -1982,14 +1982,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 4)"]
+                    "traits": ["RETALIATE, 4"]
                 },
                 "elite": {
                     "life": 26,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 4)"]
+                    "traits": ["RETALIATE, 4"]
                 }
             }
         ]
@@ -2003,14 +2003,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 6,
                     "move": 5,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2019,14 +2019,14 @@
                     "move": 4,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 },
                 "elite": {
                     "life": 6,
                     "move": 5,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 }
             },
             {
@@ -2035,14 +2035,14 @@
                     "move": 4,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 },
                 "elite": {
                     "life": 7,
                     "move": 5,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 }
             },
             {
@@ -2051,14 +2051,14 @@
                     "move": 4,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 },
                 "elite": {
                     "life": 8,
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 }
             },
             {
@@ -2067,14 +2067,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 }
             },
             {
@@ -2083,14 +2083,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 },
                 "elite": {
                     "life": 12,
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 }
             },
             {
@@ -2099,14 +2099,14 @@
                     "move": 5,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 },
                 "elite": {
                     "life": 15,
                     "move": 6,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 }
             },
             {
@@ -2115,14 +2115,14 @@
                     "move": 5,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 },
                 "elite": {
                     "life": 15,
                     "move": 6,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 4)"]
+                    "traits": ["RETALIATE, 4"]
                 }
             }
         ]
@@ -2136,14 +2136,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 2,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 7,
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2152,14 +2152,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 8,
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2168,14 +2168,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 11,
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2184,14 +2184,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 13,
                     "move": 2,
                     "attack": 4,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2200,14 +2200,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 14,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -2216,14 +2216,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 17,
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -2232,14 +2232,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 },
                 "elite": {
                     "life": 19,
                     "move": 3,
                     "attack": 5,
                     "range": 5,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -2248,14 +2248,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 },
                 "elite": {
                     "life": 23,
                     "move": 3,
                     "attack": 5,
                     "range": 5,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             }
         ]
@@ -2269,14 +2269,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 9,
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 }
             },
             {
@@ -2285,14 +2285,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 10,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 }
             },
             {
@@ -2301,14 +2301,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 12,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 }
             },
             {
@@ -2317,14 +2317,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 15,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 }
             },
             {
@@ -2333,14 +2333,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 },
                 "elite": {
                     "life": 17,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 3)"]
+                    "traits": ["RETALIATE, 3"]
                 }
             },
             {
@@ -2349,14 +2349,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 },
                 "elite": {
                     "life": 19,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 4)"]
+                    "traits": ["RETALIATE, 4"]
                 }
             },
             {
@@ -2365,14 +2365,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 1)"]
+                    "traits": ["RETALIATE, 1"]
                 },
                 "elite": {
                     "life": 21,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 4)"]
+                    "traits": ["RETALIATE, 4"]
                 }
             },
             {
@@ -2381,14 +2381,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 2)"]
+                    "traits": ["RETALIATE, 2"]
                 },
                 "elite": {
                     "life": 23,
                     "move": 3,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(RETALIATE, 4)"]
+                    "traits": ["RETALIATE, 4"]
                 }
             }
         ]
@@ -2402,14 +2402,14 @@
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 6,
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2418,14 +2418,14 @@
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2434,14 +2434,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 11,
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2450,14 +2450,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 14,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2466,14 +2466,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 16,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2482,14 +2482,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 20,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2498,14 +2498,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 24,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2514,14 +2514,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 27,
                     "move": 4,
                     "attack": 5,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 }
             }
         ]
@@ -2535,14 +2535,14 @@
                     "move": 2,
                     "attack": 1,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)"]
+                    "traits": ["TARGET, 2"]
                 },
                 "elite": {
                     "life": 6,
                     "move": 4,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)"]
+                    "traits": ["TARGET, 2"]
                 }
             },
             {
@@ -2551,14 +2551,14 @@
                     "move": 3,
                     "attack": 1,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 6,
                     "move": 4,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 3", "SHIELD, 1"]
                 }
             },
             {
@@ -2567,14 +2567,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 7,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 3", "SHIELD, 1"]
                 }
             },
             {
@@ -2583,14 +2583,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 10,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 3", "SHIELD, 1"]
                 }
             },
             {
@@ -2599,14 +2599,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 3", "SHIELD, 1"]
                 }
             },
             {
@@ -2615,14 +2615,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 2)"]
+                    "traits": ["TARGET, 3", "SHIELD, 2"]
                 }
             },
             {
@@ -2631,14 +2631,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 6,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 2)"]
+                    "traits": ["TARGET, 3", "SHIELD, 2"]
                 }
             },
             {
@@ -2647,14 +2647,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 14,
                     "move": 6,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(TARGET, 3)", "action(SHIELD, 2)"]
+                    "traits": ["TARGET, 3", "SHIELD, 2"]
                 }
             }
         ]
@@ -2668,14 +2668,14 @@
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 10,
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2684,14 +2684,14 @@
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 10,
                     "move": 1,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2700,14 +2700,14 @@
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 13,
                     "move": 1,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2716,14 +2716,14 @@
                     "move": 1,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 13,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -2732,14 +2732,14 @@
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 15,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -2748,14 +2748,14 @@
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 17,
                     "move": 2,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -2764,14 +2764,14 @@
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 21,
                     "move": 2,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             },
             {
@@ -2780,14 +2780,14 @@
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 25,
                     "move": 2,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 }
             }
         ]
@@ -2801,14 +2801,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 2,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 3,
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 }
             },
             {
@@ -2817,14 +2817,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 2,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 3,
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 }
             },
             {
@@ -2833,14 +2833,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 3,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 }
             },
             {
@@ -2849,14 +2849,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 4,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 }
             },
             {
@@ -2865,14 +2865,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 },
                 "elite": {
                     "life": 4,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 4)"]
+                    "traits": ["SHIELD, 4"]
                 }
             },
             {
@@ -2881,14 +2881,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 },
                 "elite": {
                     "life": 6,
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 4)"]
+                    "traits": ["SHIELD, 4"]
                 }
             },
             {
@@ -2897,14 +2897,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 },
                 "elite": {
                     "life": 7,
                     "move": 4,
                     "attack": 5,
                     "range": 5,
-                    "abilities": ["action(SHIELD, 4)"]
+                    "traits": ["SHIELD, 4"]
                 }
             },
             {
@@ -2913,14 +2913,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 },
                 "elite": {
                     "life": 9,
                     "move": 4,
                     "attack": 5,
                     "range": 5,
-                    "abilities": ["action(SHIELD, 4)"]
+                    "traits": ["SHIELD, 4"]
                 }
             }
         ]
@@ -2934,14 +2934,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)"]
+                    "traits": ["TARGET, 2"]
                 },
                 "elite": {
                     "life": 7,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "SHIELD, 1"]
                 }
             },
             {
@@ -2950,14 +2950,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 1)"]
+                    "traits": ["TARGET, 2", "PIERCE, 1"]
                 },
                 "elite": {
                     "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 1)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "PIERCE, 1", "SHIELD, 1"]
                 }
             },
             {
@@ -2966,14 +2966,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 1)"]
+                    "traits": ["TARGET, 2", "PIERCE, 1"]
                 },
                 "elite": {
                     "life": 12,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 2)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "PIERCE, 2", "SHIELD, 1"]
                 }
             },
             {
@@ -2982,14 +2982,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 2)"]
+                    "traits": ["TARGET, 2", "PIERCE, 2"]
                 },
                 "elite": {
                     "life": 14,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 2)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "PIERCE, 2", "SHIELD, 1"]
                 }
             },
             {
@@ -2998,14 +2998,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 2)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "PIERCE, 2", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 14,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "traits": ["TARGET, 2", "PIERCE, 3", "SHIELD, 2"]
                 }
             },
             {
@@ -3014,14 +3014,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 2)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "PIERCE, 2", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 15,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "traits": ["TARGET, 2", "PIERCE, 3", "SHIELD, 2"]
                 }
             },
             {
@@ -3030,14 +3030,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "PIERCE, 3", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 16,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 4)", "action(SHIELD, 2)"]
+                    "traits": ["TARGET, 2", "PIERCE, 4", "SHIELD, 2"]
                 }
             },
             {
@@ -3046,14 +3046,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "traits": ["TARGET, 2", "PIERCE, 3", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 18,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(TARGET, 2)", "action(PIERCE, 4)", "action(SHIELD, 2)"]
+                    "traits": ["TARGET, 2", "PIERCE, 4", "SHIELD, 2"]
                 }
             }
         ]
@@ -3067,14 +3067,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 },
                 "elite": {
                     "life": 5,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 }
             },
             {
@@ -3083,14 +3083,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 },
                 "elite": {
                     "life": 8,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 }
             },
             {
@@ -3099,14 +3099,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 }
             },
             {
@@ -3115,14 +3115,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 },
                 "elite": {
                     "life": 13,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 }
             },
             {
@@ -3131,14 +3131,14 @@
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 },
                 "elite": {
                     "life": 15,
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 }
             },
             {
@@ -3147,14 +3147,14 @@
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 },
                 "elite": {
                     "life": 17,
                     "move": 5,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 }
             },
             {
@@ -3163,14 +3163,14 @@
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 },
                 "elite": {
                     "life": 21,
                     "move": 5,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 }
             },
             {
@@ -3179,14 +3179,14 @@
                     "move": 4,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 },
                 "elite": {
                     "life": 21,
                     "move": 5,
                     "attack": 8,
                     "range": 0,
-                    "abilities": ["Attackers gain disadvantage"]
+                    "traits": ["DISADVANTAGE"]
                 }
             }
         ]
@@ -3200,14 +3200,14 @@
                     "move": 1,
                     "attack": 2,
                     "range": 2,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 8,
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -3216,14 +3216,14 @@
                     "move": 1,
                     "attack": 2,
                     "range": 2,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 9,
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 }
             },
             {
@@ -3232,14 +3232,14 @@
                     "move": 1,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 1,
                     "attack": 3,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 }
             },
             {
@@ -3248,14 +3248,14 @@
                     "move": 1,
                     "attack": 3,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(POISON)", "action(SHIELD, 1)"]
+                    "traits": ["POISON", "SHIELD, 1"]
                 }
             },
             {
@@ -3264,14 +3264,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 13,
                     "move": 2,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(POISON)", "action(SHIELD, 1)"]
+                    "traits": ["POISON", "SHIELD, 1"]
                 }
             },
             {
@@ -3280,14 +3280,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 3,
-                    "abilities": ["action(POISON)", "action(SHIELD, 1)"]
+                    "traits": ["POISON", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 15,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(POISON)", "action(SHIELD, 1)"]
+                    "traits": ["POISON", "SHIELD, 1"]
                 }
             },
             {
@@ -3296,14 +3296,14 @@
                     "move": 2,
                     "attack": 4,
                     "range": 3,
-                    "abilities": ["action(POISON)", "action(SHIELD, 1)"]
+                    "traits": ["POISON", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 16,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(POISON)", "action(SHIELD, 2)"]
+                    "traits": ["POISON", "SHIELD, 2"]
                 }
             },
             {
@@ -3312,14 +3312,14 @@
                     "move": 2,
                     "attack": 4,
                     "range": 3,
-                    "abilities": ["action(POISON)", "action(SHIELD, 1)"]
+                    "traits": ["POISON", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 18,
                     "move": 3,
                     "attack": 5,
                     "range": 4,
-                    "abilities": ["action(POISON)", "action(SHIELD, 2)"]
+                    "traits": ["POISON", "SHIELD, 2"]
                 }
             }
         ]
@@ -3333,14 +3333,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 7,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -3349,14 +3349,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 },
                 "elite": {
                     "life": 7,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -3365,14 +3365,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 },
                 "elite": {
                     "life": 9,
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -3381,14 +3381,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 },
                 "elite": {
                     "life": 10,
                     "move": 5,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -3397,14 +3397,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 6,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -3413,14 +3413,14 @@
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 },
                 "elite": {
                     "life": 14,
                     "move": 6,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -3429,14 +3429,14 @@
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 },
                 "elite": {
                     "life": 15,
                     "move": 6,
                     "attack": 7,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -3445,14 +3445,14 @@
                     "move": 5,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 },
                 "elite": {
                     "life": 18,
                     "move": 6,
                     "attack": 7,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             }
         ]
@@ -3466,14 +3466,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(PIERCE, 3)"]
+                    "traits": ["PIERCE, 3"]
                 },
                 "elite": {
                     "life": 12,
                     "move": 2,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(PIERCE, 3)"]
+                    "traits": ["PIERCE, 3"]
                 }
             },
             {
@@ -3482,14 +3482,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(PIERCE, 3)"]
+                    "traits": ["PIERCE, 3"]
                 },
                 "elite": {
                     "life": 12,
                     "move": 2,
                     "attack": 3,
                     "range": 5,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 1"]
                 }
             },
             {
@@ -3498,14 +3498,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(PIERCE, 3)"]
+                    "traits": ["PIERCE, 3"]
                 },
                 "elite": {
                     "life": 15,
                     "move": 3,
                     "attack": 3,
                     "range": 5,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 1"]
                 }
             },
             {
@@ -3514,14 +3514,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 18,
                     "move": 3,
                     "attack": 4,
                     "range": 6,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 1"]
                 }
             },
             {
@@ -3530,14 +3530,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 5,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 19,
                     "move": 4,
                     "attack": 4,
                     "range": 6,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
                 }
             },
             {
@@ -3546,14 +3546,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 1)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 21,
                     "move": 4,
                     "attack": 5,
                     "range": 6,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
                 }
             },
             {
@@ -3562,14 +3562,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 5,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 23,
                     "move": 4,
                     "attack": 6,
                     "range": 6,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
                 }
             },
             {
@@ -3578,14 +3578,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 6,
-                    "abilities": ["action(PIERCE, 3)", "action(SHIELD, 2)"]
+                    "traits": ["PIERCE, 3", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 24,
                     "move": 4,
                     "attack": 6,
                     "range": 6,
-                    "abilities": ["action(PIERCE, 4)", "action(SHIELD, 3)"]
+                    "traits": ["PIERCE, 4", "SHIELD, 3"]
                 }
             }
         ]
@@ -3599,14 +3599,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 13,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -3615,14 +3615,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 15,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(WOUND)"]
+                    "traits": ["WOUND"]
                 }
             },
             {
@@ -3631,14 +3631,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 18,
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(POISON)", "action(WOUND)"]
+                    "traits": ["POISON", "WOUND"]
                 }
             },
             {
@@ -3647,14 +3647,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 21,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(POISON)", "action(WOUND)"]
+                    "traits": ["POISON", "WOUND"]
                 }
             },
             {
@@ -3663,14 +3663,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(POISON)"]
+                    "traits": ["POISON"]
                 },
                 "elite": {
                     "life": 24,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(POISON)", "action(WOUND)"]
+                    "traits": ["POISON", "WOUND"]
                 }
             },
             {
@@ -3679,14 +3679,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(POISON)", "action(WOUND)"]
+                    "traits": ["POISON", "WOUND"]
                 },
                 "elite": {
                     "life": 27,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(POISON)", "action(WOUND)"]
+                    "traits": ["POISON", "WOUND"]
                 }
             },
             {
@@ -3695,14 +3695,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(POISON)", "action(WOUND)"]
+                    "traits": ["POISON", "WOUND"]
                 },
                 "elite": {
                     "life": 30,
                     "move": 4,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(POISON)", "action(WOUND)"]
+                    "traits": ["POISON", "WOUND"]
                 }
             },
             {
@@ -3711,14 +3711,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(POISON)", "action(WOUND)"]
+                    "traits": ["POISON", "WOUND"]
                 },
                 "elite": {
                     "life": 35,
                     "move": 4,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(POISON)", "action(WOUND)"]
+                    "traits": ["POISON", "WOUND"]
                 }
             }
         ]
@@ -3732,14 +3732,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 8,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -3748,14 +3748,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 9,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 }
             },
             {
@@ -3764,14 +3764,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 3,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 },
                 "elite": {
                     "life": 10,
                     "move": 3,
                     "attack": 5,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 }
             },
             {
@@ -3780,14 +3780,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 },
                 "elite": {
                     "life": 12,
                     "move": 3,
                     "attack": 5,
                     "range": 5,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 }
             },
             {
@@ -3796,14 +3796,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 },
                 "elite": {
                     "life": 14,
                     "move": 4,
                     "attack": 5,
                     "range": 5,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 }
             },
             {
@@ -3812,14 +3812,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 },
                 "elite": {
                     "life": 16,
                     "move": 4,
                     "attack": 6,
                     "range": 5,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 }
             },
             {
@@ -3828,14 +3828,14 @@
                     "move": 4,
                     "attack": 5,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 },
                 "elite": {
                     "life": 19,
                     "move": 4,
                     "attack": 6,
                     "range": 5,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 }
             },
             {
@@ -3844,14 +3844,14 @@
                     "move": 4,
                     "attack": 5,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 },
                 "elite": {
                     "life": 21,
                     "move": 4,
                     "attack": 7,
                     "range": 5,
-                    "abilities": ["action(MUDDLE)"]
+                    "traits": ["MUDDLE"]
                 }
             }
         ]
@@ -3865,14 +3865,14 @@
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 10,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 }
             },
             {
@@ -3881,14 +3881,14 @@
                     "move": 1,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 }
             },
             {
@@ -3897,14 +3897,14 @@
                     "move": 1,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 1)"]
+                    "traits": ["SHIELD, 1"]
                 },
                 "elite": {
                     "life": 14,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 }
             },
             {
@@ -3913,14 +3913,14 @@
                     "move": 1,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 15,
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 }
             },
             {
@@ -3929,14 +3929,14 @@
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 17,
                     "move": 2,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 }
             },
             {
@@ -3945,14 +3945,14 @@
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 19,
                     "move": 3,
                     "attack": 6,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 }
             },
             {
@@ -3961,14 +3961,14 @@
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 20,
                     "move": 3,
                     "attack": 7,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 }
             },
             {
@@ -3977,14 +3977,14 @@
                     "move": 2,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 },
                 "elite": {
                     "life": 21,
                     "move": 3,
                     "attack": 7,
                     "range": 0,
-                    "abilities": ["action(SHIELD, 4)"]
+                    "traits": ["SHIELD, 4"]
                 }
             }
         ]
@@ -3998,14 +3998,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 1)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 9,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 1)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
                 }
             },
             {
@@ -4014,14 +4014,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 1)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 12,
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 1)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
                 }
             },
             {
@@ -4030,14 +4030,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 1)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 13,
                     "move": 2,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 1)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
                 }
             },
             {
@@ -4046,14 +4046,14 @@
                     "move": 2,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 1)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 15,
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 1)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
                 }
             },
             {
@@ -4062,14 +4062,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 1)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 16,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 1)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 1"]
                 }
             },
             {
@@ -4078,14 +4078,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 2)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 16,
                     "move": 3,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 2)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 2"]
                 }
             },
             {
@@ -4094,14 +4094,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 2)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 18,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 2)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 2"]
                 }
             },
             {
@@ -4110,14 +4110,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 2)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 22,
                     "move": 4,
                     "attack": 5,
                     "range": 0,
-                    "abilities": ["advantage", "action(SHIELD, 2)"]
+                    "traits": ["ADVANTAGE", "SHIELD, 2"]
                 }
             }
         ]
@@ -4131,14 +4131,14 @@
                     "move": 3,
                     "attack": 1,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 4,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -4147,14 +4147,14 @@
                     "move": 3,
                     "attack": 1,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 5,
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -4163,14 +4163,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 5,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -4179,14 +4179,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 7,
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -4195,14 +4195,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 8,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -4211,14 +4211,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 11,
                     "move": 4,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -4227,14 +4227,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 12,
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             },
             {
@@ -4243,14 +4243,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 },
                 "elite": {
                     "life": 15,
                     "move": 5,
                     "attack": 4,
                     "range": 0,
-                    "abilities": []
+                    "traits": []
                 }
             }
         ]
@@ -4264,14 +4264,14 @@
                     "move": 2,
                     "attack": 1,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 },
                 "elite": {
                     "life": 3,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 2)"]
+                    "traits": ["SHIELD, 2"]
                 }
             },
             {
@@ -4280,14 +4280,14 @@
                     "move": 2,
                     "attack": 1,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 },
                 "elite": {
                     "life": 3,
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 }
             },
             {
@@ -4296,14 +4296,14 @@
                     "move": 2,
                     "attack": 1,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 },
                 "elite": {
                     "life": 4,
                     "move": 3,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 }
             },
             {
@@ -4312,14 +4312,14 @@
                     "move": 2,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 },
                 "elite": {
                     "life": 5,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(SHIELD, 3)"]
+                    "traits": ["SHIELD, 3"]
                 }
             },
             {
@@ -4328,14 +4328,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)", "action(SHIELD, 3)"]
+                    "traits": ["MUDDLE", "SHIELD, 3"]
                 },
                 "elite": {
                     "life": 5,
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)", "action(SHIELD, 4)"]
+                    "traits": ["MUDDLE", "SHIELD, 4"]
                 }
             },
             {
@@ -4344,14 +4344,14 @@
                     "move": 3,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)", "action(SHIELD, 3)"]
+                    "traits": ["MUDDLE", "SHIELD, 3"]
                 },
                 "elite": {
                     "life": 6,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)", "action(SHIELD, 4)"]
+                    "traits": ["MUDDLE", "SHIELD, 4"]
                 }
             },
             {
@@ -4360,14 +4360,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)", "action(SHIELD, 3)"]
+                    "traits": ["MUDDLE", "SHIELD, 3"]
                 },
                 "elite": {
                     "life": 6,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)", "action(SHIELD, 5)"]
+                    "traits": ["MUDDLE", "SHIELD, 5"]
                 }
             },
             {
@@ -4376,14 +4376,14 @@
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)", "action(SHIELD, 3)"]
+                    "traits": ["MUDDLE", "SHIELD, 3"]
                 },
                 "elite": {
                     "life": 8,
                     "move": 3,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(MUDDLE)", "action(SHIELD, 5)"]
+                    "traits": ["MUDDLE", "SHIELD, 5"]
                 }
             }
         ]
@@ -4397,14 +4397,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 1)"]
+                    "traits": ["FLYING", "SHIELD, 1"]
                 },
                 "elite": {
                     "life": 5,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 1)"]
+                    "traits": ["FLYING", "SHIELD, 1"]
                 }
             },
             {
@@ -4413,14 +4413,14 @@
                     "move": 3,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "traits": ["FLYING", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 5,
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "traits": ["FLYING", "SHIELD, 2"]
                 }
             },
             {
@@ -4429,14 +4429,14 @@
                     "move": 4,
                     "attack": 2,
                     "range": 3,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "traits": ["FLYING", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 7,
                     "move": 5,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "traits": ["FLYING", "SHIELD, 2"]
                 }
             },
             {
@@ -4445,14 +4445,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 3,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "traits": ["FLYING", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 8,
                     "move": 5,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "traits": ["FLYING", "SHIELD, 2"]
                 }
             },
             {
@@ -4461,14 +4461,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 3,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "traits": ["FLYING", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 8,
                     "move": 5,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(DISARM)", "action(SHIELD, 2)"]
+                    "traits": ["FLYING", "DISARM", "SHIELD, 2"]
                 }
             },
             {
@@ -4477,14 +4477,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 2)"]
+                    "traits": ["FLYING", "SHIELD, 2"]
                 },
                 "elite": {
                     "life": 11,
                     "move": 5,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(DISARM)", "action(SHIELD, 2)"]
+                    "traits": ["FLYING", "DISARM", "SHIELD, 2"]
                 }
             },
             {
@@ -4493,14 +4493,14 @@
                     "move": 4,
                     "attack": 3,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 3)"]
+                    "traits": ["FLYING", "SHIELD, 3"]
                 },
                 "elite": {
                     "life": 12,
                     "move": 5,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(DISARM)", "action(SHIELD, 3)"]
+                    "traits": ["FLYING", "DISARM", "SHIELD, 3"]
                 }
             },
             {
@@ -4509,14 +4509,14 @@
                     "move": 4,
                     "attack": 4,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(SHIELD, 3)"]
+                    "traits": ["FLYING", "SHIELD, 3"]
                 },
                 "elite": {
                     "life": 13,
                     "move": 5,
                     "attack": 5,
                     "range": 4,
-                    "abilities": ["action(FLYING)", "action(DISARM)", "action(SHIELD, 3)"]
+                    "traits": ["FLYING", "DISARM", "SHIELD, 3"]
                 }
             }
         ]
