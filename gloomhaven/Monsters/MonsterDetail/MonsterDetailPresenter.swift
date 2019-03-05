@@ -10,10 +10,10 @@ class MonsterDetailPresenter {
   private let attributes: [NSAttributedString.Key: Any] = [.font: UIFont(name: "Nyala", size: 18.0)!]
   private let smallAttributes: [NSAttributedString.Key: Any] = [.font: UIFont(name: "Nyala", size: 14.0)!]
   
-  func traitsString(monsterLevel: MonsterLevel, icons: Bool) -> NSAttributedString {
-    let color = monsterLevel.type == .normal ? UIColor.black : UIColor.white
+  func traitsString(stats: MonsterLevelStats, elite: Bool, icons: Bool) -> NSAttributedString {
+    let color = !elite ? UIColor.black : UIColor.white
     
-    return monsterLevel.traits
+    return stats.traits
       .map({ trait -> NSAttributedString in
         let effectName = trait.effect.rawValue
         let result = NSMutableAttributedString(string: effectName.capitalized, attributes: self.attributes)

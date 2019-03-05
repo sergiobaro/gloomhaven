@@ -1,10 +1,5 @@
 import Foundation
 
-enum MonsterType: String {
-  case normal
-  case elite
-}
-
 struct Trait {
   let effect: Effect
   let amount: Int
@@ -13,7 +8,12 @@ struct Trait {
 
 struct MonsterLevel {
   let level: Int
-  let type: MonsterType
+  
+  let normal: MonsterLevelStats
+  let elite: MonsterLevelStats
+}
+
+struct MonsterLevelStats {
   let life: Int
   let move: Int
   let attack: Int

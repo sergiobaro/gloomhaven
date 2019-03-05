@@ -20,7 +20,7 @@ class MonsterParserTests: XCTestCase {
     let monsters = self.parser.parse(json: json)
     
     let ancientArtillery = monsters.first(where: { $0.name == "Ancient Artillery" })
-    let level4Elite = ancientArtillery!.levels[9]
+    let level4Elite = ancientArtillery!.levels[7].elite
     
     XCTAssertEqual(level4Elite.traits.count, 1)
   }

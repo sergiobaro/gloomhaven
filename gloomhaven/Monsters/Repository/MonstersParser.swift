@@ -14,10 +14,10 @@ class MonstersParser {
           name: name,
           imageName: name.replacingOccurrences(of: " ", with: "-") + ".jpg",
           tokenCount: jsonMonster["tokenCount"] as! Int,
-          levels: jsonLevels.enumerated().flatMap({ arg -> [MonsterLevel] in
+          levels: jsonLevels.enumerated().map({ arg -> MonsterLevel in
             let (index, json) = arg
             
-            return self.mapMonsterLevels(level: index, json: json)
+            return self.mapMonsterLevel(level: index, json: json)
           })
         )
       })
@@ -25,19 +25,17 @@ class MonstersParser {
   
   // MARK: - Private
   
-  private func mapMonsterLevels(level: Int, json: [String: Any]) -> [MonsterLevel] {
-    let normal = self.mapMonsterLevel(level: level, type: .normal, json: json)
-    let elite = self.mapMonsterLevel(level: level, type: .elite, json: json)
+  private func mapMonsterLevel(level: Int, json: [String: Any]) -> MonsterLevel {
+    let normal = self.mapStats(type: "normal", json: json)
+    let elite = self.mapStats(type: "elite", json: json)
     
-    return [normal, elite]
+    return MonsterLevel(level: level, normal: normal, elite: elite)
   }
   
-  private func mapMonsterLevel(level: Int, type: MonsterType, json: [String: Any]) -> MonsterLevel {
-    let jsonLevel = json[type.rawValue] as! [String: Any]
+  private func mapStats(type: String, json: [String: Any]) -> MonsterLevelStats {
+    let jsonLevel = json[type] as! [String: Any]
     
-    return MonsterLevel(
-      level: level,
-      type: type,
+    return MonsterLevelStats(
       life: jsonLevel["life"] as! Int,
       move: jsonLevel["move"] as! Int,
       attack: jsonLevel["attack"] as! Int,
