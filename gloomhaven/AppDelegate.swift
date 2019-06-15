@@ -9,12 +9,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     _ application: UIApplication,
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
-    UINavigationBar.appearance().titleTextAttributes = [.font: UIFont.pirataOne(size: 20.0)]
-    UITabBar.appearance().tintColor = .black
-    UINavigationBar.appearance().tintColor = .black
+    Appearance.apply()
 
     self.window = UIWindow(frame: UIScreen.main.bounds)
-    self.window?.rootViewController = UIStoryboard(name: "Monsters", bundle: nil).instantiateInitialViewController()
+    self.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
     self.window?.makeKeyAndVisible()
 
     return true

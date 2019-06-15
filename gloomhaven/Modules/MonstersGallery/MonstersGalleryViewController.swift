@@ -1,16 +1,17 @@
 import UIKit
 
-class MonstersViewController: UICollectionViewController {
+class MonstersGalleryViewController: UICollectionViewController {
 
-  let presenter = MonstersPresenter()
+  var presenter: MonstersGalleryPresenter!
   var monsters = [Monster]()
-  var selectedMonster: Monster?
 
   override func viewDidLoad() {
     super.viewDidLoad()
 
     self.title = "Monsters"
     self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+
+    self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(tapCancel))
 
     let search = UISearchController(searchResultsController: nil)
     search.obscuresBackgroundDuringPresentation = false
@@ -20,19 +21,21 @@ class MonstersViewController: UICollectionViewController {
     self.showAllMonsters()
   }
 
+  // MARK: - Actions
+
+  @objc func tapCancel() {
+    self.dismiss(animated: true)
+  }
+
+  // MARK: - Private
+
   private func showAllMonsters() {
     self.monsters = self.presenter.monsters()
     self.collectionView.reloadData()
   }
-
-  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    if let destination = segue.destination as? MonsterDetailViewController {
-      destination.monster = self.selectedMonster
-    }
-  }
 }
 
-extension MonstersViewController { //  UICollectionViewDelegate, UICollectionViewDataSource
+extension MonstersGalleryViewController { //  UICollectionViewDelegate, UICollectionViewDataSource
 
   override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     return monsters.count
@@ -57,12 +60,12 @@ extension MonstersViewController { //  UICollectionViewDelegate, UICollectionVie
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     self.navigationItem.searchController?.isActive = false
     
-    self.selectedMonster = self.monsters[indexPath.row]
-    self.performSegue(withIdentifier: "MonsterDetailSegue", sender: self)
+    let monster = self.monsters[indexPath.row]
+    self.presenter.select(monster: monster)
   }
 }
 
-extension MonstersViewController: UISearchResultsUpdating {
+extension MonstersGalleryViewController: UISearchResultsUpdating {
 
   func updateSearchResults(for searchController: UISearchController) {
     guard let text = searchController.searchBar.text, !text.isEmpty else {

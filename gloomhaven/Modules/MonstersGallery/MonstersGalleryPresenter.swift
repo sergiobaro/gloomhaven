@@ -1,6 +1,6 @@
 import Foundation
 
-class MonstersPresenter {
+class MonstersGalleryPresenter {
 
   private let repository = MonstersRepository()
 
@@ -14,4 +14,7 @@ class MonstersPresenter {
       .filter({ $0.name.lowercased().contains(search.lowercased()) })
   }
 
+  func select(monster: Monster) {
+    // todo: notify delegate
+  }
 }
