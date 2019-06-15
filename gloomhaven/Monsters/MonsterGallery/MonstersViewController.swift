@@ -12,9 +12,27 @@ class MonstersViewController: UICollectionViewController {
     self.title = "Monsters"
     self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
 
+    let search = UISearchController(searchResultsController: nil)
+    search.obscuresBackgroundDuringPresentation = false
+    search.searchResultsUpdater = self
+    self.navigationItem.searchController = search
+
+    self.showAllMonsters()
+  }
+
+  private func showAllMonsters() {
     self.monsters = self.presenter.monsters()
     self.collectionView.reloadData()
   }
+
+  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if let destination = segue.destination as? MonsterDetailViewController {
+      destination.monster = self.selectedMonster
+    }
+  }
+}
+
+extension MonstersViewController { //  UICollectionViewDelegate, UICollectionViewDataSource
 
   override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     return monsters.count
@@ -37,14 +55,22 @@ class MonstersViewController: UICollectionViewController {
   }
 
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    self.navigationItem.searchController?.isActive = false
+    
     self.selectedMonster = self.monsters[indexPath.row]
     self.performSegue(withIdentifier: "MonsterDetailSegue", sender: self)
   }
+}
 
-  override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    if let destination = segue.destination as? MonsterDetailViewController {
-      destination.monster = self.selectedMonster
+extension MonstersViewController: UISearchResultsUpdating {
+
+  func updateSearchResults(for searchController: UISearchController) {
+    guard let text = searchController.searchBar.text, !text.isEmpty else {
+      self.showAllMonsters()
+      return
     }
-  }
 
+    self.monsters = self.presenter.monsters(search: text)
+    self.collectionView.reloadData()
+  }
 }
