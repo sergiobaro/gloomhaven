@@ -2,7 +2,12 @@ import Foundation
 
 class MonstersGalleryPresenter {
 
+  private weak var delegate: MonstersGalleryDelegate?
   private let repository = MonstersRepository()
+
+  init(delegate: MonstersGalleryDelegate?) {
+    self.delegate = delegate
+  }
 
   func monsters() -> [Monster] {
     return self.repository.loadMonsters()
@@ -15,6 +20,6 @@ class MonstersGalleryPresenter {
   }
 
   func select(monster: Monster) {
-    // todo: notify delegate
+    // todo
   }
 }

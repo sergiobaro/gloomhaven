@@ -1,8 +1,7 @@
 import UIKit
 
 protocol MonstersGalleryDelegate: class {
-  func monstersGalleryDidSelect(monster: Monster)
-  func monstersGalleryDidCancel()
+  func monstersGalleryDidSelect(monsters: [Monster])
 }
 
 class MonstersGalleryModule {
@@ -11,7 +10,20 @@ class MonstersGalleryModule {
     let viewController = UIStoryboard(name: "MonstersGallery", bundle: nil)
       .instantiateInitialViewController() as! MonstersGalleryViewController
 
-    viewController.presenter = MonstersGalleryPresenter()
+    viewController.presenter = MonstersGalleryPresenter(
+      delegate: nil
+    )
+
+    return UINavigationController(rootViewController: viewController)
+  }
+
+  static func makeMonsterSelection(delegate: MonstersGalleryDelegate) -> UINavigationController {
+    let viewController = UIStoryboard(name: "MonstersGallery", bundle: nil)
+      .instantiateInitialViewController() as! MonstersGalleryViewController
+
+    viewController.presenter = MonstersGalleryPresenter(
+      delegate: delegate
+    )
 
     return UINavigationController(rootViewController: viewController)
   }

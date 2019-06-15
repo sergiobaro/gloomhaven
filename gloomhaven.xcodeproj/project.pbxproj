@@ -16,6 +16,9 @@
 		5A417BC122B51DE800CE332A /* MainModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BC022B51DE800CE332A /* MainModule.swift */; };
 		5A417BC322B520FD00CE332A /* SelectLevelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BC222B520FD00CE332A /* SelectLevelButton.swift */; };
 		5A417BC522B5268900CE332A /* UIImage+color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BC422B5268900CE332A /* UIImage+color.swift */; };
+		5A417BC822B52C4800CE332A /* SceneModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BC722B52C4800CE332A /* SceneModule.swift */; };
+		5A417BCA22B52C6900CE332A /* Scene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A417BC922B52C6900CE332A /* Scene.storyboard */; };
+		5A417BCC22B52DB400CE332A /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BCB22B52DB400CE332A /* SceneViewController.swift */; };
 		5A45685422B4FDD8007BD436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A45685322B4FDD8007BD436 /* Main.storyboard */; };
 		5A45685622B4FEF2007BD436 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45685522B4FEF2007BD436 /* MainViewController.swift */; };
 		5A45685822B4FF69007BD436 /* MonstersGalleryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45685722B4FF69007BD436 /* MonstersGalleryModule.swift */; };
@@ -63,6 +66,9 @@
 		5A417BC022B51DE800CE332A /* MainModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModule.swift; sourceTree = "<group>"; };
 		5A417BC222B520FD00CE332A /* SelectLevelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelButton.swift; sourceTree = "<group>"; };
 		5A417BC422B5268900CE332A /* UIImage+color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+color.swift"; sourceTree = "<group>"; };
+		5A417BC722B52C4800CE332A /* SceneModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneModule.swift; sourceTree = "<group>"; };
+		5A417BC922B52C6900CE332A /* Scene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Scene.storyboard; sourceTree = "<group>"; };
+		5A417BCB22B52DB400CE332A /* SceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
 		5A45685322B4FDD8007BD436 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5A45685522B4FEF2007BD436 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5A45685722B4FF69007BD436 /* MonstersGalleryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersGalleryModule.swift; sourceTree = "<group>"; };
@@ -117,6 +123,7 @@
 			children = (
 				5A45685222B4FDCE007BD436 /* Main */,
 				5A417BB922B519CC00CE332A /* StartSceneForm */,
+				5A417BC622B52C3F00CE332A /* Scene */,
 				5ADCAD952219BD430036171B /* MonstersGallery */,
 			);
 			path = Modules;
@@ -142,6 +149,16 @@
 				5A417BC222B520FD00CE332A /* SelectLevelButton.swift */,
 			);
 			path = StartSceneForm;
+			sourceTree = "<group>";
+		};
+		5A417BC622B52C3F00CE332A /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				5A417BC722B52C4800CE332A /* SceneModule.swift */,
+				5A417BC922B52C6900CE332A /* Scene.storyboard */,
+				5A417BCB22B52DB400CE332A /* SceneViewController.swift */,
+			);
+			path = Scene;
 			sourceTree = "<group>";
 		};
 		5A45685122B4FD3F007BD436 /* Monsters */ = {
@@ -373,6 +390,7 @@
 				5A6A1C7422120E5C00A58EAD /* Assets.xcassets in Resources */,
 				5A45685422B4FDD8007BD436 /* Main.storyboard in Resources */,
 				5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */,
+				5A417BCA22B52C6900CE332A /* Scene.storyboard in Resources */,
 				5A97A28F2219EEC5004B75D1 /* Nyala.ttf in Resources */,
 				5A97A28D2219EEC5004B75D1 /* HighTower.ttf in Resources */,
 			);
@@ -429,7 +447,9 @@
 				5A6A1C6D22120E5B00A58EAD /* AppDelegate.swift in Sources */,
 				5A45685E22B50085007BD436 /* Button.swift in Sources */,
 				5A417BBB22B519D900CE332A /* StartSceneFormModule.swift in Sources */,
+				5A417BC822B52C4800CE332A /* SceneModule.swift in Sources */,
 				5A97A2992219FDC1004B75D1 /* UIImage+tinted.swift in Sources */,
+				5A417BCC22B52DB400CE332A /* SceneViewController.swift in Sources */,
 				5A45685B22B50053007BD436 /* Appearance.swift in Sources */,
 				5A417BC522B5268900CE332A /* UIImage+color.swift in Sources */,
 				5A97A2822219DFC7004B75D1 /* MonsterTraitsParser.swift in Sources */,

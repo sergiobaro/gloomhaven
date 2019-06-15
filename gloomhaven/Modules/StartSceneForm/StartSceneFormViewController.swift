@@ -40,8 +40,9 @@ class StartSceneFormViewController: UIViewController {
       .map({ $0.titleLabel!.text! })
       .map({ Int($0)! })
 
-    self.delegate?.startSceneFormDidSelectLevel(level!)
-    self.dismiss(animated: true)
+    self.dismiss(animated: true) {
+      self.delegate?.startSceneFormDidSelectLevel(level!)
+    }
   }
 
   @objc func tapLevelButton(button: UIButton) {

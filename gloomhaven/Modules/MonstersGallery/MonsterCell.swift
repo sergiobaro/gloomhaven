@@ -6,12 +6,6 @@ class MonsterCell: UICollectionViewCell {
   @IBOutlet weak var imageView: UIImageView!
   @IBOutlet weak var nameLabel: UILabel!
 
-  override var isHighlighted: Bool {
-    didSet {
-      self.imageView.alpha = self.isHighlighted ? 0.5 : 1.0
-    }
-  }
-
   override func awakeFromNib() {
     super.awakeFromNib()
 

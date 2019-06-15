@@ -9,25 +9,28 @@ class MonstersGalleryViewController: UICollectionViewController {
     super.viewDidLoad()
 
     self.title = "Monsters"
-    self.navigationItem.backBarButtonItem = UIBarButtonItem(
-      title: "",
-      style: .plain,
-      target: nil,
-      action: nil
-    )
 
+    self.setupNavigationBar()
+    self.setupSearch()
+
+    self.showAllMonsters()
+  }
+
+  // MARK: - Setup
+
+  private func setupNavigationBar() {
     self.navigationItem.leftBarButtonItem = UIBarButtonItem(
       barButtonSystemItem: .cancel,
       target: self,
       action: #selector(tapCancel)
     )
+  }
 
+  private func setupSearch() {
     let search = UISearchController(searchResultsController: nil)
     search.obscuresBackgroundDuringPresentation = false
     search.searchResultsUpdater = self
     self.navigationItem.searchController = search
-
-    self.showAllMonsters()
   }
 
   // MARK: - Actions
@@ -54,6 +57,7 @@ extension MonstersGalleryViewController { //  UICollectionViewDelegate, UICollec
     _ collectionView: UICollectionView,
     cellForItemAt indexPath: IndexPath
   ) -> UICollectionViewCell {
+
     let cell = collectionView.dequeueReusableCell(
       withReuseIdentifier: "MonsterCell",
       for: indexPath
@@ -67,8 +71,6 @@ extension MonstersGalleryViewController { //  UICollectionViewDelegate, UICollec
   }
 
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-    self.navigationItem.searchController?.isActive = false
-    
     let monster = self.monsters[indexPath.row]
     self.presenter.select(monster: monster)
   }
