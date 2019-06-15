@@ -249,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A6A1C8622120E5C00A58EAD /* Build configuration list for PBXNativeTarget "gloomhaven" */;
 			buildPhases = (
+				5A741AE922B4F1E8000E18BB /* Swiftlint */,
 				5A6A1C6522120E5B00A58EAD /* Sources */,
 				5A6A1C6622120E5B00A58EAD /* Frameworks */,
 				5A6A1C6722120E5B00A58EAD /* Resources */,
@@ -342,6 +343,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A741AE922B4F1E8000E18BB /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint \nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A6A1C6522120E5B00A58EAD /* Sources */ = {

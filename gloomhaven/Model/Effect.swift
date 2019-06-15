@@ -1,6 +1,5 @@
 import Foundation
 
-
 enum Effect: String {
   case bless
   case curse

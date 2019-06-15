@@ -8,7 +8,7 @@ struct Trait {
 
 struct MonsterLevel {
   let level: Int
-  
+
   let normal: MonsterLevelStats
   let elite: MonsterLevelStats
 }
