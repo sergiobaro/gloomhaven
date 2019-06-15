@@ -10,6 +10,12 @@
 		5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */; };
 		5A34CECB22121DD3002F2980 /* MonstersGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34CEC922121DD3002F2980 /* MonstersGalleryViewController.swift */; };
 		5A34CECE22121F7C002F2980 /* MonstersGallery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A34CECD22121F7C002F2980 /* MonstersGallery.storyboard */; };
+		5A417BBB22B519D900CE332A /* StartSceneFormModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BBA22B519D900CE332A /* StartSceneFormModule.swift */; };
+		5A417BBD22B51A0E00CE332A /* StartSceneForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A417BBC22B51A0E00CE332A /* StartSceneForm.storyboard */; };
+		5A417BBF22B51B4C00CE332A /* StartSceneFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BBE22B51B4C00CE332A /* StartSceneFormViewController.swift */; };
+		5A417BC122B51DE800CE332A /* MainModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BC022B51DE800CE332A /* MainModule.swift */; };
+		5A417BC322B520FD00CE332A /* SelectLevelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BC222B520FD00CE332A /* SelectLevelButton.swift */; };
+		5A417BC522B5268900CE332A /* UIImage+color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BC422B5268900CE332A /* UIImage+color.swift */; };
 		5A45685422B4FDD8007BD436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A45685322B4FDD8007BD436 /* Main.storyboard */; };
 		5A45685622B4FEF2007BD436 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45685522B4FEF2007BD436 /* MainViewController.swift */; };
 		5A45685822B4FF69007BD436 /* MonstersGalleryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45685722B4FF69007BD436 /* MonstersGalleryModule.swift */; };
@@ -27,7 +33,6 @@
 		5A97A2802219DF77004B75D1 /* MonstersParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97A27F2219DF77004B75D1 /* MonstersParser.swift */; };
 		5A97A2822219DFC7004B75D1 /* MonsterTraitsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97A2812219DFC7004B75D1 /* MonsterTraitsParser.swift */; };
 		5A97A2842219E081004B75D1 /* MonsterParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97A2832219E081004B75D1 /* MonsterParserTests.swift */; };
-		5A97A2882219EA51004B75D1 /* MonsterDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97A2872219EA51004B75D1 /* MonsterDetailPresenterTests.swift */; };
 		5A97A28D2219EEC5004B75D1 /* HighTower.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A97A28A2219EEC5004B75D1 /* HighTower.ttf */; };
 		5A97A28E2219EEC5004B75D1 /* PirataOne.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A97A28B2219EEC5004B75D1 /* PirataOne.ttf */; };
 		5A97A28F2219EEC5004B75D1 /* Nyala.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A97A28C2219EEC5004B75D1 /* Nyala.ttf */; };
@@ -52,6 +57,12 @@
 		5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A34CEC922121DD3002F2980 /* MonstersGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersGalleryViewController.swift; sourceTree = "<group>"; };
 		5A34CECD22121F7C002F2980 /* MonstersGallery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MonstersGallery.storyboard; sourceTree = "<group>"; };
+		5A417BBA22B519D900CE332A /* StartSceneFormModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSceneFormModule.swift; sourceTree = "<group>"; };
+		5A417BBC22B51A0E00CE332A /* StartSceneForm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartSceneForm.storyboard; sourceTree = "<group>"; };
+		5A417BBE22B51B4C00CE332A /* StartSceneFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSceneFormViewController.swift; sourceTree = "<group>"; };
+		5A417BC022B51DE800CE332A /* MainModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModule.swift; sourceTree = "<group>"; };
+		5A417BC222B520FD00CE332A /* SelectLevelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelButton.swift; sourceTree = "<group>"; };
+		5A417BC422B5268900CE332A /* UIImage+color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+color.swift"; sourceTree = "<group>"; };
 		5A45685322B4FDD8007BD436 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5A45685522B4FEF2007BD436 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5A45685722B4FF69007BD436 /* MonstersGalleryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersGalleryModule.swift; sourceTree = "<group>"; };
@@ -73,7 +84,6 @@
 		5A97A27F2219DF77004B75D1 /* MonstersParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersParser.swift; sourceTree = "<group>"; };
 		5A97A2812219DFC7004B75D1 /* MonsterTraitsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterTraitsParser.swift; sourceTree = "<group>"; };
 		5A97A2832219E081004B75D1 /* MonsterParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterParserTests.swift; sourceTree = "<group>"; };
-		5A97A2872219EA51004B75D1 /* MonsterDetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailPresenterTests.swift; sourceTree = "<group>"; };
 		5A97A28A2219EEC5004B75D1 /* HighTower.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HighTower.ttf; sourceTree = "<group>"; };
 		5A97A28B2219EEC5004B75D1 /* PirataOne.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PirataOne.ttf; sourceTree = "<group>"; };
 		5A97A28C2219EEC5004B75D1 /* Nyala.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nyala.ttf; sourceTree = "<group>"; };
@@ -106,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				5A45685222B4FDCE007BD436 /* Main */,
+				5A417BB922B519CC00CE332A /* StartSceneForm */,
 				5ADCAD952219BD430036171B /* MonstersGallery */,
 			);
 			path = Modules;
@@ -122,6 +133,17 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		5A417BB922B519CC00CE332A /* StartSceneForm */ = {
+			isa = PBXGroup;
+			children = (
+				5A417BBA22B519D900CE332A /* StartSceneFormModule.swift */,
+				5A417BBC22B51A0E00CE332A /* StartSceneForm.storyboard */,
+				5A417BBE22B51B4C00CE332A /* StartSceneFormViewController.swift */,
+				5A417BC222B520FD00CE332A /* SelectLevelButton.swift */,
+			);
+			path = StartSceneForm;
+			sourceTree = "<group>";
+		};
 		5A45685122B4FD3F007BD436 /* Monsters */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +157,7 @@
 		5A45685222B4FDCE007BD436 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				5A417BC022B51DE800CE332A /* MainModule.swift */,
 				5A45685322B4FDD8007BD436 /* Main.storyboard */,
 				5A45685522B4FEF2007BD436 /* MainViewController.swift */,
 			);
@@ -182,13 +205,13 @@
 			isa = PBXGroup;
 			children = (
 				5A6A1C6C22120E5B00A58EAD /* AppDelegate.swift */,
+				5A6A1C7822120E5C00A58EAD /* Info.plist */,
 				5A45685922B50047007BD436 /* Base */,
 				5A34CEC522121CB3002F2980 /* Modules */,
 				5A97A27E2219DF44004B75D1 /* Repository */,
 				5A6A1C8C2212145600A58EAD /* Model */,
 				5A97A2972219FD79004B75D1 /* Utils */,
 				5A34CEC622121CE8002F2980 /* Resources */,
-				5A6A1C7822120E5C00A58EAD /* Info.plist */,
 			);
 			path = gloomhaven;
 			sourceTree = "<group>";
@@ -198,7 +221,6 @@
 			children = (
 				5A97A2832219E081004B75D1 /* MonsterParserTests.swift */,
 				5A6A1C8122120E5C00A58EAD /* MonsterTraitsParseTests.swift */,
-				5A97A2872219EA51004B75D1 /* MonsterDetailPresenterTests.swift */,
 				5A62B647221A087D00B98CCD /* EffectIconsTests.swift */,
 				5A547FCB221A17A7006760EE /* FontsTests.swift */,
 				5A6A1C8322120E5C00A58EAD /* Info.plist */,
@@ -245,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				5A97A2982219FDC1004B75D1 /* UIImage+tinted.swift */,
+				5A417BC422B5268900CE332A /* UIImage+color.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -343,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A417BBD22B51A0E00CE332A /* StartSceneForm.storyboard in Resources */,
 				5A97A2922219EED6004B75D1 /* monsters.json in Resources */,
 				5A97A28E2219EEC5004B75D1 /* PirataOne.ttf in Resources */,
 				5A34CECE22121F7C002F2980 /* MonstersGallery.storyboard in Resources */,
@@ -389,20 +413,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A417BBF22B51B4C00CE332A /* StartSceneFormViewController.swift in Sources */,
 				5AAAD4F6221802B400ECC54C /* MonstersRepository.swift in Sources */,
 				5AAAD4F42218028D00ECC54C /* MonstersGalleryPresenter.swift in Sources */,
 				5AAF81012213675C007301E8 /* MonsterCell.swift in Sources */,
 				5A45685622B4FEF2007BD436 /* MainViewController.swift in Sources */,
 				5A62B64A221A0AF300B98CCD /* Effect.swift in Sources */,
+				5A417BC322B520FD00CE332A /* SelectLevelButton.swift in Sources */,
 				5A6A1C8E2212145D00A58EAD /* Monster.swift in Sources */,
 				5A45686322B50621007BD436 /* Label.swift in Sources */,
 				5A62B64C221A144900B98CCD /* Fonts.swift in Sources */,
 				5A34CECB22121DD3002F2980 /* MonstersGalleryViewController.swift in Sources */,
+				5A417BC122B51DE800CE332A /* MainModule.swift in Sources */,
 				5A97A2802219DF77004B75D1 /* MonstersParser.swift in Sources */,
 				5A6A1C6D22120E5B00A58EAD /* AppDelegate.swift in Sources */,
 				5A45685E22B50085007BD436 /* Button.swift in Sources */,
+				5A417BBB22B519D900CE332A /* StartSceneFormModule.swift in Sources */,
 				5A97A2992219FDC1004B75D1 /* UIImage+tinted.swift in Sources */,
 				5A45685B22B50053007BD436 /* Appearance.swift in Sources */,
+				5A417BC522B5268900CE332A /* UIImage+color.swift in Sources */,
 				5A97A2822219DFC7004B75D1 /* MonsterTraitsParser.swift in Sources */,
 				5A45685822B4FF69007BD436 /* MonstersGalleryModule.swift in Sources */,
 			);
@@ -415,7 +444,6 @@
 				5A6A1C8222120E5C00A58EAD /* MonsterTraitsParseTests.swift in Sources */,
 				5A62B648221A087D00B98CCD /* EffectIconsTests.swift in Sources */,
 				5A97A2842219E081004B75D1 /* MonsterParserTests.swift in Sources */,
-				5A97A2882219EA51004B75D1 /* MonsterDetailPresenterTests.swift in Sources */,
 				5A547FCC221A17A7006760EE /* FontsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,6 +619,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U45ZNT55FZ;
 				INFOPLIST_FILE = gloomhavenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -611,6 +640,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U45ZNT55FZ;
 				INFOPLIST_FILE = gloomhavenTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

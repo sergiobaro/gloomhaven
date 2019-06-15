@@ -7,7 +7,7 @@ protocol MonstersGalleryDelegate: class {
 
 class MonstersGalleryModule {
 
-  static func make() -> UIViewController {
+  static func make() -> UINavigationController {
     let viewController = UIStoryboard(name: "MonstersGallery", bundle: nil)
       .instantiateInitialViewController() as! MonstersGalleryViewController
 

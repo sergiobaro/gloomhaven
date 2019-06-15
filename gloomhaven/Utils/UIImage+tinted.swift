@@ -4,7 +4,6 @@ extension UIImage {
 
   func tinted(color: UIColor) -> UIImage? {
     let rect = CGRect(origin: CGPoint(x: 0, y: 0), size: self.size)
-
     UIGraphicsBeginImageContextWithOptions(rect.size, false, self.scale)
 
     let context = UIGraphicsGetCurrentContext()!
@@ -13,12 +12,9 @@ extension UIImage {
     context.setBlendMode(.sourceAtop)
     context.fill(rect)
 
-    guard let result = UIGraphicsGetImageFromCurrentImageContext() else {
-      return nil
-    }
-
+    let image = UIGraphicsGetImageFromCurrentImageContext()
     UIGraphicsEndImageContext()
-    return result
+    
+    return image
   }
-
 }

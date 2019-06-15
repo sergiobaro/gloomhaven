@@ -12,7 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     Appearance.apply()
 
     self.window = UIWindow(frame: UIScreen.main.bounds)
-    self.window?.rootViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+    self.window?.rootViewController = MainModule.make()
     self.window?.makeKeyAndVisible()
 
     return true

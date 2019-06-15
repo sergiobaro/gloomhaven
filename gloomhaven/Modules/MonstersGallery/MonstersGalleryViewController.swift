@@ -9,9 +9,18 @@ class MonstersGalleryViewController: UICollectionViewController {
     super.viewDidLoad()
 
     self.title = "Monsters"
-    self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
+    self.navigationItem.backBarButtonItem = UIBarButtonItem(
+      title: "",
+      style: .plain,
+      target: nil,
+      action: nil
+    )
 
-    self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(tapCancel))
+    self.navigationItem.leftBarButtonItem = UIBarButtonItem(
+      barButtonSystemItem: .cancel,
+      target: self,
+      action: #selector(tapCancel)
+    )
 
     let search = UISearchController(searchResultsController: nil)
     search.obscuresBackgroundDuringPresentation = false
