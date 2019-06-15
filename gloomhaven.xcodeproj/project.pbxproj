@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A09888F22B57301000A1F90 /* MonsterFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09888E22B57301000A1F90 /* MonsterFormCell.swift */; };
+		5A09889122B578DF000A1F90 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09889022B578DF000A1F90 /* UIColor+hex.swift */; };
+		5A09889322B57941000A1F90 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09889222B57941000A1F90 /* Colors.swift */; };
 		5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */; };
 		5A34CECB22121DD3002F2980 /* MonstersGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34CEC922121DD3002F2980 /* MonstersGalleryViewController.swift */; };
 		5A34CECE22121F7C002F2980 /* MonstersGallery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A34CECD22121F7C002F2980 /* MonstersGallery.storyboard */; };
@@ -19,6 +22,9 @@
 		5A417BC822B52C4800CE332A /* SceneModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BC722B52C4800CE332A /* SceneModule.swift */; };
 		5A417BCA22B52C6900CE332A /* Scene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A417BC922B52C6900CE332A /* Scene.storyboard */; };
 		5A417BCC22B52DB400CE332A /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BCB22B52DB400CE332A /* SceneViewController.swift */; };
+		5A417BCF22B53FDF00CE332A /* AddMonsterFormModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BCE22B53FDF00CE332A /* AddMonsterFormModule.swift */; };
+		5A417BD122B5401C00CE332A /* AddMonsterForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A417BD022B5401C00CE332A /* AddMonsterForm.storyboard */; };
+		5A417BD322B5404100CE332A /* AddMonsterFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A417BD222B5404100CE332A /* AddMonsterFormViewController.swift */; };
 		5A45685422B4FDD8007BD436 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A45685322B4FDD8007BD436 /* Main.storyboard */; };
 		5A45685622B4FEF2007BD436 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45685522B4FEF2007BD436 /* MainViewController.swift */; };
 		5A45685822B4FF69007BD436 /* MonstersGalleryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45685722B4FF69007BD436 /* MonstersGalleryModule.swift */; };
@@ -57,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A09888E22B57301000A1F90 /* MonsterFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterFormCell.swift; sourceTree = "<group>"; };
+		5A09889022B578DF000A1F90 /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
+		5A09889222B57941000A1F90 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A34CEC922121DD3002F2980 /* MonstersGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersGalleryViewController.swift; sourceTree = "<group>"; };
 		5A34CECD22121F7C002F2980 /* MonstersGallery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MonstersGallery.storyboard; sourceTree = "<group>"; };
@@ -69,6 +78,9 @@
 		5A417BC722B52C4800CE332A /* SceneModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneModule.swift; sourceTree = "<group>"; };
 		5A417BC922B52C6900CE332A /* Scene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Scene.storyboard; sourceTree = "<group>"; };
 		5A417BCB22B52DB400CE332A /* SceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
+		5A417BCE22B53FDF00CE332A /* AddMonsterFormModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormModule.swift; sourceTree = "<group>"; };
+		5A417BD022B5401C00CE332A /* AddMonsterForm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddMonsterForm.storyboard; sourceTree = "<group>"; };
+		5A417BD222B5404100CE332A /* AddMonsterFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormViewController.swift; sourceTree = "<group>"; };
 		5A45685322B4FDD8007BD436 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5A45685522B4FEF2007BD436 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5A45685722B4FF69007BD436 /* MonstersGalleryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersGalleryModule.swift; sourceTree = "<group>"; };
@@ -124,6 +136,7 @@
 				5A45685222B4FDCE007BD436 /* Main */,
 				5A417BB922B519CC00CE332A /* StartSceneForm */,
 				5A417BC622B52C3F00CE332A /* Scene */,
+				5A417BCD22B53FD200CE332A /* AddMonsterForm */,
 				5ADCAD952219BD430036171B /* MonstersGallery */,
 			);
 			path = Modules;
@@ -161,6 +174,17 @@
 			path = Scene;
 			sourceTree = "<group>";
 		};
+		5A417BCD22B53FD200CE332A /* AddMonsterForm */ = {
+			isa = PBXGroup;
+			children = (
+				5A417BCE22B53FDF00CE332A /* AddMonsterFormModule.swift */,
+				5A417BD022B5401C00CE332A /* AddMonsterForm.storyboard */,
+				5A417BD222B5404100CE332A /* AddMonsterFormViewController.swift */,
+				5A09888E22B57301000A1F90 /* MonsterFormCell.swift */,
+			);
+			path = AddMonsterForm;
+			sourceTree = "<group>";
+		};
 		5A45685122B4FD3F007BD436 /* Monsters */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +210,7 @@
 			children = (
 				5A45685A22B50053007BD436 /* Appearance.swift */,
 				5A62B64B221A144900B98CCD /* Fonts.swift */,
+				5A09889222B57941000A1F90 /* Colors.swift */,
 				5A45685C22B5007E007BD436 /* Views */,
 			);
 			path = Base;
@@ -285,6 +310,7 @@
 			children = (
 				5A97A2982219FDC1004B75D1 /* UIImage+tinted.swift */,
 				5A417BC422B5268900CE332A /* UIImage+color.swift */,
+				5A09889022B578DF000A1F90 /* UIColor+hex.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -392,6 +418,7 @@
 				5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */,
 				5A417BCA22B52C6900CE332A /* Scene.storyboard in Resources */,
 				5A97A28F2219EEC5004B75D1 /* Nyala.ttf in Resources */,
+				5A417BD122B5401C00CE332A /* AddMonsterForm.storyboard in Resources */,
 				5A97A28D2219EEC5004B75D1 /* HighTower.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,11 +458,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A417BCF22B53FDF00CE332A /* AddMonsterFormModule.swift in Sources */,
 				5A417BBF22B51B4C00CE332A /* StartSceneFormViewController.swift in Sources */,
 				5AAAD4F6221802B400ECC54C /* MonstersRepository.swift in Sources */,
 				5AAAD4F42218028D00ECC54C /* MonstersGalleryPresenter.swift in Sources */,
 				5AAF81012213675C007301E8 /* MonsterCell.swift in Sources */,
 				5A45685622B4FEF2007BD436 /* MainViewController.swift in Sources */,
+				5A417BD322B5404100CE332A /* AddMonsterFormViewController.swift in Sources */,
 				5A62B64A221A0AF300B98CCD /* Effect.swift in Sources */,
 				5A417BC322B520FD00CE332A /* SelectLevelButton.swift in Sources */,
 				5A6A1C8E2212145D00A58EAD /* Monster.swift in Sources */,
@@ -443,8 +472,10 @@
 				5A62B64C221A144900B98CCD /* Fonts.swift in Sources */,
 				5A34CECB22121DD3002F2980 /* MonstersGalleryViewController.swift in Sources */,
 				5A417BC122B51DE800CE332A /* MainModule.swift in Sources */,
+				5A09888F22B57301000A1F90 /* MonsterFormCell.swift in Sources */,
 				5A97A2802219DF77004B75D1 /* MonstersParser.swift in Sources */,
 				5A6A1C6D22120E5B00A58EAD /* AppDelegate.swift in Sources */,
+				5A09889322B57941000A1F90 /* Colors.swift in Sources */,
 				5A45685E22B50085007BD436 /* Button.swift in Sources */,
 				5A417BBB22B519D900CE332A /* StartSceneFormModule.swift in Sources */,
 				5A417BC822B52C4800CE332A /* SceneModule.swift in Sources */,
@@ -452,6 +483,7 @@
 				5A417BCC22B52DB400CE332A /* SceneViewController.swift in Sources */,
 				5A45685B22B50053007BD436 /* Appearance.swift in Sources */,
 				5A417BC522B5268900CE332A /* UIImage+color.swift in Sources */,
+				5A09889122B578DF000A1F90 /* UIColor+hex.swift in Sources */,
 				5A97A2822219DFC7004B75D1 /* MonsterTraitsParser.swift in Sources */,
 				5A45685822B4FF69007BD436 /* MonstersGalleryModule.swift in Sources */,
 			);

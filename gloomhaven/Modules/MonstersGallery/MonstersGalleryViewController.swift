@@ -72,7 +72,11 @@ extension MonstersGalleryViewController { //  UICollectionViewDelegate, UICollec
 
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     let monster = self.monsters[indexPath.row]
-    self.presenter.select(monster: monster)
+
+    self.navigationItem.searchController?.isActive = false
+
+    let addMonster = AddMonsterFormModule.make(monster: monster, delegate: self)
+    self.present(addMonster, animated: true)
   }
 }
 
@@ -86,5 +90,12 @@ extension MonstersGalleryViewController: UISearchResultsUpdating {
 
     self.monsters = self.presenter.monsters(search: text)
     self.collectionView.reloadData()
+  }
+}
+
+extension MonstersGalleryViewController: AddMonsterFormDelegate {
+
+  func addMonsterFormDidAddMonsters(_ monsters: [AddMonsterModel]) {
+    
   }
 }

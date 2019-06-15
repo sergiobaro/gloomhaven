@@ -1,7 +1,7 @@
 import UIKit
 
 protocol MonstersGalleryDelegate: class {
-  func monstersGalleryDidSelect(monsters: [Monster])
+  
 }
 
 class MonstersGalleryModule {

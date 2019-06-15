@@ -18,8 +18,4 @@ class MonstersGalleryPresenter {
     return self.monsters()
       .filter({ $0.name.lowercased().contains(search.lowercased()) })
   }
-
-  func select(monster: Monster) {
-    // todo
-  }
 }
