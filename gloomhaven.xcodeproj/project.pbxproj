@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A09888F22B57301000A1F90 /* MonsterFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09888E22B57301000A1F90 /* MonsterFormCell.swift */; };
+		5A09888F22B57301000A1F90 /* AddMonsterFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09888E22B57301000A1F90 /* AddMonsterFormCell.swift */; };
 		5A09889122B578DF000A1F90 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09889022B578DF000A1F90 /* UIColor+hex.swift */; };
 		5A09889322B57941000A1F90 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09889222B57941000A1F90 /* Colors.swift */; };
 		5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */; };
@@ -50,6 +50,7 @@
 		5AAAD4F42218028D00ECC54C /* MonstersGalleryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAAD4F32218028D00ECC54C /* MonstersGalleryPresenter.swift */; };
 		5AAAD4F6221802B400ECC54C /* MonstersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAAD4F5221802B400ECC54C /* MonstersRepository.swift */; };
 		5AAF81012213675C007301E8 /* MonsterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF81002213675C007301E8 /* MonsterCell.swift */; };
+		5AEE56BC22B835D900A9232F /* AddMonsterFormPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE56BB22B835D900A9232F /* AddMonsterFormPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5A09888E22B57301000A1F90 /* MonsterFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterFormCell.swift; sourceTree = "<group>"; };
+		5A09888E22B57301000A1F90 /* AddMonsterFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormCell.swift; sourceTree = "<group>"; };
 		5A09889022B578DF000A1F90 /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
 		5A09889222B57941000A1F90 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 		5AAAD4F32218028D00ECC54C /* MonstersGalleryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersGalleryPresenter.swift; sourceTree = "<group>"; };
 		5AAAD4F5221802B400ECC54C /* MonstersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersRepository.swift; sourceTree = "<group>"; };
 		5AAF81002213675C007301E8 /* MonsterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCell.swift; sourceTree = "<group>"; };
+		5AEE56BB22B835D900A9232F /* AddMonsterFormPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,7 +182,8 @@
 				5A417BCE22B53FDF00CE332A /* AddMonsterFormModule.swift */,
 				5A417BD022B5401C00CE332A /* AddMonsterForm.storyboard */,
 				5A417BD222B5404100CE332A /* AddMonsterFormViewController.swift */,
-				5A09888E22B57301000A1F90 /* MonsterFormCell.swift */,
+				5A09888E22B57301000A1F90 /* AddMonsterFormCell.swift */,
+				5AEE56BB22B835D900A9232F /* AddMonsterFormPresenter.swift */,
 			);
 			path = AddMonsterForm;
 			sourceTree = "<group>";
@@ -472,9 +475,10 @@
 				5A62B64C221A144900B98CCD /* Fonts.swift in Sources */,
 				5A34CECB22121DD3002F2980 /* MonstersGalleryViewController.swift in Sources */,
 				5A417BC122B51DE800CE332A /* MainModule.swift in Sources */,
-				5A09888F22B57301000A1F90 /* MonsterFormCell.swift in Sources */,
+				5A09888F22B57301000A1F90 /* AddMonsterFormCell.swift in Sources */,
 				5A97A2802219DF77004B75D1 /* MonstersParser.swift in Sources */,
 				5A6A1C6D22120E5B00A58EAD /* AppDelegate.swift in Sources */,
+				5AEE56BC22B835D900A9232F /* AddMonsterFormPresenter.swift in Sources */,
 				5A09889322B57941000A1F90 /* Colors.swift in Sources */,
 				5A45685E22B50085007BD436 /* Button.swift in Sources */,
 				5A417BBB22B519D900CE332A /* StartSceneFormModule.swift in Sources */,

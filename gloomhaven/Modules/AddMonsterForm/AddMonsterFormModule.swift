@@ -20,8 +20,11 @@ class AddMonsterFormModule {
     let viewController = UIStoryboard(name: "AddMonsterForm", bundle: nil)
       .instantiateInitialViewController() as! AddMonsterFormViewController
 
-    viewController.monster = monster
-    viewController.delegate = delegate
+    viewController.presenter = AddMonsterFormPresenter(
+      monster: monster,
+      view: viewController,
+      delegate: delegate
+    )
 
     let navController = UINavigationController(rootViewController: viewController)
     navController.modalPresentationStyle = .formSheet

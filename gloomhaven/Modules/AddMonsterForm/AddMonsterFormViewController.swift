@@ -4,15 +4,12 @@ class AddMonsterFormViewController: UIViewController {
 
   @IBOutlet weak var tableView: UITableView!
 
-  var monster: Monster!
-  weak var delegate: AddMonsterFormDelegate?
+  var presenter: AddMonsterFormPresenter!
 
-  private var addMonsterModels = [AddMonsterModel]()
+  private var viewModel: AddMonsterFormViewModel?
 
   override func viewDidLoad() {
     super.viewDidLoad()
-
-    self.title = self.monster.name
 
     self.navigationItem.leftBarButtonItem = UIBarButtonItem(
       barButtonSystemItem: .cancel,
@@ -30,9 +27,7 @@ class AddMonsterFormViewController: UIViewController {
     self.tableView.dataSource = self
     self.tableView.delegate = self
 
-    self.addMonsterModels.append(.init(isElite: false, tokenNumber: 1))
-
-    self.tableView.reloadData()
+    self.presenter.viewIsReady()
   }
 
   // MARK: - Actions
@@ -42,7 +37,6 @@ class AddMonsterFormViewController: UIViewController {
   }
 
   @objc func tapDone() {
-    self.delegate?.addMonsterFormDidAddMonsters(self.addMonsterModels)
     self.dismiss(animated: true)
   }
 }
@@ -50,12 +44,12 @@ class AddMonsterFormViewController: UIViewController {
 extension AddMonsterFormViewController: UITableViewDataSource {
 
   func numberOfSections(in tableView: UITableView) -> Int {
-    return 2
+    return (self.viewModel?.addMore ?? false) ? 2 : 1
   }
 
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     if section == 0 {
-      return self.addMonsterModels.count
+      return self.viewModel?.models.count ?? 0
     }
 
     return 1
@@ -67,9 +61,9 @@ extension AddMonsterFormViewController: UITableViewDataSource {
       return cell
     }
 
-    let cell = tableView.dequeueReusableCell(withIdentifier: "MonsterFormCell", for: indexPath) as! MonsterFormCell
-    cell.numberOfTokens = self.monster.tokenCount
-    cell.addMonsterModel = self.addMonsterModels[indexPath.row]
+    let cell = tableView.dequeueReusableCell(withIdentifier: "MonsterFormCell", for: indexPath) as! AddMonsterFormCell
+    cell.numberOfTokens = self.viewModel?.numberOfTokens ?? 0
+    cell.addMonsterModel = self.viewModel?.models[indexPath.row]
 
     return cell
   }
@@ -79,8 +73,19 @@ extension AddMonsterFormViewController: UITableViewDelegate {
 
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     if indexPath.section == 1 {
-      self.addMonsterModels.append(.init(isElite: false, tokenNumber: 1))
-      self.tableView.reloadData()
+      self.presenter.addMonster()
     }
+  }
+}
+
+extension AddMonsterFormViewController: AddMonsterFormViewProtocol {
+
+  func display(title: String) {
+    self.title = title
+  }
+
+  func display(viewModel: AddMonsterFormViewModel) {
+    self.viewModel = viewModel
+    self.tableView.reloadData()
   }
 }

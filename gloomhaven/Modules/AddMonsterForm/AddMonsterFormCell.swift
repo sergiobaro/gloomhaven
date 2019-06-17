@@ -1,6 +1,6 @@
 import UIKit
 
-class MonsterFormCell: UITableViewCell {
+class AddMonsterFormCell: UITableViewCell {
 
   @IBOutlet private weak var normalButton: UIButton!
   @IBOutlet private weak var eliteButton: UIButton!
