@@ -29,7 +29,7 @@ class SceneViewController: UIViewController {
   }
 }
 
-extension SceneViewController: MonstersGalleryDelegate {
+extension SceneViewController: MonstersGallerySelectionDelegate {
   func monstersGalleryDidSelect(monsters: [Monster]) {
     monsters.forEach({ print($0.name) })
   }

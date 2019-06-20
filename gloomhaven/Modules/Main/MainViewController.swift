@@ -6,6 +6,11 @@ class MainViewController: UIViewController {
     let startScene = StartSceneFormModule.make(delegate: self)
     self.present(startScene, animated: true)
   }
+
+  @IBAction func tapMonsters() {
+    let monstersGallery = MonstersGalleryModule.make()
+    self.present(monstersGallery, animated: true)
+  }
 }
 
 extension MainViewController: StartSceneFormDelegate {

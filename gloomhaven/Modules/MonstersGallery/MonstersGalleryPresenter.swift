@@ -2,11 +2,21 @@ import Foundation
 
 class MonstersGalleryPresenter {
 
-  private weak var delegate: MonstersGalleryDelegate?
-  private let repository = MonstersRepository()
+  private let router: MonsterGalleryRouter
+  private let repository: MonstersRepository
+  private let galleryMode: Bool
+  private weak var selectionDelegate: MonstersGallerySelectionDelegate?
 
-  init(delegate: MonstersGalleryDelegate?) {
-    self.delegate = delegate
+  init(
+    router: MonsterGalleryRouter,
+    repository: MonstersRepository,
+    selectionDelegate: MonstersGallerySelectionDelegate?
+  ) {
+    self.router = router
+    self.repository = repository
+    self.selectionDelegate = selectionDelegate
+
+    self.galleryMode = (selectionDelegate == nil)
   }
 
   func monsters() -> [Monster] {
@@ -17,5 +27,20 @@ class MonstersGalleryPresenter {
   func monsters(search: String) -> [Monster] {
     return self.monsters()
       .filter({ $0.name.lowercased().contains(search.lowercased()) })
+  }
+
+  func select(monster: Monster) {
+    if self.galleryMode {
+      self.router.navigateToMonsterDetail(monster)
+    } else {
+      self.router.navigateToAddMonster(monster, delegate: self)
+    }
+  }
+}
+
+extension MonstersGalleryPresenter: AddMonsterFormDelegate {
+
+  func addMonsterFormDidAddMonsters(_ monsters: [AddMonsterModel]) {
+
   }
 }

@@ -37,6 +37,7 @@ class AddMonsterFormViewController: UIViewController {
   }
 
   @objc func tapDone() {
+    self.presenter.done()
     self.dismiss(animated: true)
   }
 }

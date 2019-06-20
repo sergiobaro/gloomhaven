@@ -19,10 +19,16 @@ class MonstersGalleryViewController: UICollectionViewController {
   // MARK: - Setup
 
   private func setupNavigationBar() {
-    self.navigationItem.leftBarButtonItem = UIBarButtonItem(
-      barButtonSystemItem: .cancel,
+    self.navigationItem.backBarButtonItem = UIBarButtonItem(
+      title: "",
+      style: .plain,
+      target: nil,
+      action: nil
+    )
+    self.navigationItem.rightBarButtonItem = UIBarButtonItem(
+      barButtonSystemItem: .done,
       target: self,
-      action: #selector(tapCancel)
+      action: #selector(tapDone)
     )
   }
 
@@ -35,7 +41,7 @@ class MonstersGalleryViewController: UICollectionViewController {
 
   // MARK: - Actions
 
-  @objc func tapCancel() {
+  @objc func tapDone() {
     self.dismiss(animated: true)
   }
 
@@ -44,6 +50,10 @@ class MonstersGalleryViewController: UICollectionViewController {
   private func showAllMonsters() {
     self.monsters = self.presenter.monsters()
     self.collectionView.reloadData()
+  }
+
+  private func cancelSearch() {
+    self.navigationItem.searchController?.isActive = false
   }
 }
 
@@ -56,12 +66,12 @@ extension MonstersGalleryViewController { //  UICollectionViewDelegate, UICollec
   override func collectionView(
     _ collectionView: UICollectionView,
     cellForItemAt indexPath: IndexPath
-  ) -> UICollectionViewCell {
+    ) -> UICollectionViewCell {
 
     let cell = collectionView.dequeueReusableCell(
       withReuseIdentifier: "MonsterCell",
       for: indexPath
-    ) as! MonsterCell
+      ) as! MonsterCell
 
     let monster = monsters[indexPath.row]
     cell.nameLabel.text = monster.name
@@ -73,10 +83,9 @@ extension MonstersGalleryViewController { //  UICollectionViewDelegate, UICollec
   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     let monster = self.monsters[indexPath.row]
 
-    self.navigationItem.searchController?.isActive = false
+    self.cancelSearch()
 
-    let addMonster = AddMonsterFormModule.make(monster: monster, delegate: self)
-    self.present(addMonster, animated: true)
+    self.presenter.select(monster: monster)
   }
 }
 
@@ -90,12 +99,5 @@ extension MonstersGalleryViewController: UISearchResultsUpdating {
 
     self.monsters = self.presenter.monsters(search: text)
     self.collectionView.reloadData()
-  }
-}
-
-extension MonstersGalleryViewController: AddMonsterFormDelegate {
-
-  func addMonsterFormDidAddMonsters(_ monsters: [AddMonsterModel]) {
-    
   }
 }
