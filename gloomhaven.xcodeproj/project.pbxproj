@@ -381,9 +381,11 @@
 				TargetAttributes = {
 					5A6A1C6822120E5B00A58EAD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					5A6A1C7C22120E5C00A58EAD = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = 5A6A1C6822120E5B00A58EAD;
 					};
 				};
@@ -645,7 +647,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sbs.gloomhaven;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -664,7 +666,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sbs.gloomhaven;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
@@ -684,7 +686,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sbs.gloomhavenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gloomhaven.app/gloomhaven";
 			};
@@ -705,7 +707,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.sbs.gloomhavenTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gloomhaven.app/gloomhaven";
 			};
