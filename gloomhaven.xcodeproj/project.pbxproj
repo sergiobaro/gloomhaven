@@ -55,6 +55,7 @@
 		5AF1062522BC0FD9003B5A2F /* MonsterDetailModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1062422BC0FD9003B5A2F /* MonsterDetailModule.swift */; };
 		5AF1062722BC0FFC003B5A2F /* MonsterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1062622BC0FFC003B5A2F /* MonsterDetailViewController.swift */; };
 		5AF1062922BC10DD003B5A2F /* MonsterDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1062822BC10DD003B5A2F /* MonsterDetail.storyboard */; };
+		5AF1062D22BC2437003B5A2F /* MonsterDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1062C22BC2437003B5A2F /* MonsterDetailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		5AF1062422BC0FD9003B5A2F /* MonsterDetailModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailModule.swift; sourceTree = "<group>"; };
 		5AF1062622BC0FFC003B5A2F /* MonsterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailViewController.swift; sourceTree = "<group>"; };
 		5AF1062822BC10DD003B5A2F /* MonsterDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MonsterDetail.storyboard; sourceTree = "<group>"; };
+		5AF1062C22BC2437003B5A2F /* MonsterDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,6 +348,7 @@
 				5AF1062422BC0FD9003B5A2F /* MonsterDetailModule.swift */,
 				5AF1062822BC10DD003B5A2F /* MonsterDetail.storyboard */,
 				5AF1062622BC0FFC003B5A2F /* MonsterDetailViewController.swift */,
+				5AF1062C22BC2437003B5A2F /* MonsterDetailCell.swift */,
 			);
 			path = MonsterDetail;
 			sourceTree = "<group>";
@@ -489,6 +492,7 @@
 				5AF1062722BC0FFC003B5A2F /* MonsterDetailViewController.swift in Sources */,
 				5AAAD4F6221802B400ECC54C /* MonstersRepository.swift in Sources */,
 				5AAAD4F42218028D00ECC54C /* MonstersGalleryPresenter.swift in Sources */,
+				5AF1062D22BC2437003B5A2F /* MonsterDetailCell.swift in Sources */,
 				5AAF81012213675C007301E8 /* MonsterCell.swift in Sources */,
 				5A45685622B4FEF2007BD436 /* MainViewController.swift in Sources */,
 				5A417BD322B5404100CE332A /* AddMonsterFormViewController.swift in Sources */,

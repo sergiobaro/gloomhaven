@@ -6,7 +6,7 @@ class MonsterDetailModule {
     let viewController = UIStoryboard(name: "MonsterDetail", bundle: nil)
       .instantiateInitialViewController() as! MonsterDetailViewController
 
-    viewController.title = monster.name
+    viewController.monster = monster
 
     return viewController
   }

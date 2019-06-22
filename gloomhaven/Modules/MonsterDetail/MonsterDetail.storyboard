@@ -14,15 +14,134 @@
             <objects>
                 <viewController id="wmZ-EU-FQW" customClass="MonsterDetailViewController" customModule="gloomhaven" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dlF-Gd-S7R">
-                        <rect key="frame" x="0.0" y="0.0" width="1194" height="834"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="764"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jJE-K1-jIz">
+                                <rect key="frame" x="0.0" y="0.0" width="834" height="764"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MonsterDetailCell" rowHeight="110" id="oWd-1E-pgB" customClass="MonsterDetailCell" customModule="gloomhaven" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="834" height="110"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oWd-1E-pgB" id="zu2-dc-W4s">
+                                            <rect key="frame" x="0.0" y="0.0" width="834" height="109.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="Ancient-Artillery" translatesAutoresizingMaskIntoConstraints="NO" id="CcO-gB-ML0">
+                                                    <rect key="frame" x="10" y="5" width="74.5" height="99.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="74.5" id="8Qw-EB-PaP"/>
+                                                        <constraint firstAttribute="height" constant="99.5" id="Gwq-MR-Mfp"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Level" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyG-4I-fNh" customClass="Label" customModule="gloomhaven" customModuleProvider="target">
+                                                    <rect key="frame" x="39.5" y="7" width="40" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5I6-OX-V7H">
+                                                    <rect key="frame" x="89.5" y="5" width="30" height="99.5"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life" translatesAutoresizingMaskIntoConstraints="NO" id="cot-P8-uUS">
+                                                            <rect key="frame" x="0.0" y="0.0" width="30" height="25"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="move" translatesAutoresizingMaskIntoConstraints="NO" id="KXL-Fe-ksb">
+                                                            <rect key="frame" x="0.0" y="25" width="30" height="25"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="attack" translatesAutoresizingMaskIntoConstraints="NO" id="uc4-UR-j9K">
+                                                            <rect key="frame" x="0.0" y="50" width="30" height="24.5"/>
+                                                        </imageView>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="range" translatesAutoresizingMaskIntoConstraints="NO" id="FNk-tj-6PF">
+                                                            <rect key="frame" x="0.0" y="74.5" width="30" height="25"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="30" id="7BC-hf-qq5"/>
+                                                    </constraints>
+                                                </stackView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="oC1-zX-L41">
+                                                    <rect key="frame" x="119.5" y="5" width="49.5" height="99.5"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6je-IK-dIv" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="0.0" width="49.5" height="25"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Move" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcR-QC-fbM" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="25" width="49.5" height="25"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3B-Ha-QxH" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="50" width="49.5" height="24.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Range" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Id2-61-ry7" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="74.5" width="49.5" height="25"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="oC1-zX-L41" secondAttribute="bottom" constant="5" id="5SV-j4-acU"/>
+                                                <constraint firstItem="5I6-OX-V7H" firstAttribute="leading" secondItem="CcO-gB-ML0" secondAttribute="trailing" constant="5" id="6gK-ug-0c5"/>
+                                                <constraint firstItem="oC1-zX-L41" firstAttribute="top" secondItem="zu2-dc-W4s" secondAttribute="top" constant="5" id="N5d-Fl-oZA"/>
+                                                <constraint firstItem="5I6-OX-V7H" firstAttribute="top" secondItem="zu2-dc-W4s" secondAttribute="top" constant="5" id="SF1-tr-JPI"/>
+                                                <constraint firstAttribute="bottom" secondItem="5I6-OX-V7H" secondAttribute="bottom" constant="5" id="UCW-TW-u9L"/>
+                                                <constraint firstItem="DyG-4I-fNh" firstAttribute="trailing" secondItem="CcO-gB-ML0" secondAttribute="trailing" constant="-5" id="Y1T-Gm-ZRX"/>
+                                                <constraint firstAttribute="bottom" secondItem="CcO-gB-ML0" secondAttribute="bottom" constant="5" id="fMl-eH-6Gm"/>
+                                                <constraint firstItem="DyG-4I-fNh" firstAttribute="top" secondItem="CcO-gB-ML0" secondAttribute="top" constant="2" id="hd9-HV-Dmn"/>
+                                                <constraint firstItem="oC1-zX-L41" firstAttribute="leading" secondItem="5I6-OX-V7H" secondAttribute="trailing" id="hfh-v4-E4x"/>
+                                                <constraint firstItem="CcO-gB-ML0" firstAttribute="leading" secondItem="zu2-dc-W4s" secondAttribute="leading" constant="10" id="nyw-l7-r6w"/>
+                                                <constraint firstItem="CcO-gB-ML0" firstAttribute="top" secondItem="zu2-dc-W4s" secondAttribute="top" constant="5" id="w8d-ey-CE2"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="attackLabel" destination="H3B-Ha-QxH" id="Ebq-O5-yT4"/>
+                                            <outlet property="levelLabel" destination="DyG-4I-fNh" id="Wr8-Jv-EnG"/>
+                                            <outlet property="lifeLabel" destination="6je-IK-dIv" id="FkS-Se-Oqd"/>
+                                            <outlet property="monsterImageView" destination="CcO-gB-ML0" id="20Y-Dd-b9Q"/>
+                                            <outlet property="moveLabel" destination="QcR-QC-fbM" id="g6r-51-0Kr"/>
+                                            <outlet property="rangeLabel" destination="Id2-61-ry7" id="1e4-Gr-wBy"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="jJE-K1-jIz" firstAttribute="top" secondItem="odR-ww-hxt" secondAttribute="top" id="0b9-8w-3xR"/>
+                            <constraint firstItem="odR-ww-hxt" firstAttribute="bottom" secondItem="jJE-K1-jIz" secondAttribute="bottom" id="1dM-5U-dHB"/>
+                            <constraint firstItem="odR-ww-hxt" firstAttribute="trailing" secondItem="jJE-K1-jIz" secondAttribute="trailing" id="LH8-UT-hNW"/>
+                            <constraint firstItem="jJE-K1-jIz" firstAttribute="leading" secondItem="odR-ww-hxt" secondAttribute="leading" id="opl-X8-pnG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="odR-ww-hxt"/>
                     </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <modalPageSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="jJE-K1-jIz" id="rR2-qz-6hJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n9u-QU-hMm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53.129999999999995" y="158.29333333333335"/>
+            <point key="canvasLocation" x="52.763819095477388" y="158.27338129496405"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Ancient-Artillery" width="643" height="900"/>
+        <image name="attack" width="300" height="300"/>
+        <image name="life" width="300" height="300"/>
+        <image name="move" width="300" height="300"/>
+        <image name="range" width="300" height="300"/>
+    </resources>
 </document>
