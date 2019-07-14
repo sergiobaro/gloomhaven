@@ -71,6 +71,29 @@ extension AddMonsterFormViewController: UITableViewDataSource {
 
     return cell
   }
+
+  func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+    if indexPath.section == 0 {
+      return .delete
+    }
+    return .none
+  }
+
+  func tableView(
+    _ tableView: UITableView,
+    commit editingStyle: UITableViewCell.EditingStyle,
+    forRowAt indexPath: IndexPath
+  ) {
+    if editingStyle == .delete {
+      var monsters = self.viewModel.monsters
+      monsters.remove(at: indexPath.row)
+      self.viewModel.monsters = monsters
+
+      tableView.deleteRows(at: [indexPath], with: .none)
+
+      self.presenter.userChangedMonsters(self.viewModel.monsters)
+    }
+  }
 }
 
 extension AddMonsterFormViewController: UITableViewDelegate {

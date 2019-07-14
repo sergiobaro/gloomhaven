@@ -93,4 +93,21 @@ class AddMonsterFormMapperTests: XCTestCase {
     XCTAssertEqual(second.selectedToken, 1)
     XCTAssertEqual(second.disabledTokens, [2])
   }
+
+  func test_updateMonsters_lastMonsterDeleted() {
+    var result = self.mapper.viewModel(monster: self.monster)
+
+    for _ in 1 ..< self.monster.tokenCount {
+      result = self.mapper.addMonster(to: result)
+    }
+    XCTAssertFalse(result.addMore)
+
+    var monsters = result.monsters
+    monsters.remove(at: monsters.count - 1)
+    result.monsters = monsters
+
+    result = self.mapper.updateMonsters(on: result)
+
+    XCTAssertTrue(result.addMore)
+  }
 }

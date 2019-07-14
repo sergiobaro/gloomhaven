@@ -40,6 +40,7 @@ class AddMonsterFormMapper {
 
     var result = viewModel
     result.monsters = newMonsters
+    result.addMore = newMonsters.count < viewModel.tokenCount
 
     return result
   }
