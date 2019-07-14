@@ -17,6 +17,7 @@ extension MainViewController: StartSceneFormDelegate {
 
   func startSceneFormDidSelectLevel(_ level: Int) {
     let scene = SceneModule.make(level: level)
+    
     self.present(scene, animated: true)
   }
 }

@@ -102,9 +102,7 @@ class AddMonsterFormMapperTests: XCTestCase {
     }
     XCTAssertFalse(result.addMore)
 
-    var monsters = result.monsters
-    monsters.remove(at: monsters.count - 1)
-    result.monsters = monsters
+    result.monsters.removeLast()
 
     result = self.mapper.updateMonsters(on: result)
 

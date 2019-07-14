@@ -58,6 +58,7 @@
 		5AAF81012213675C007301E8 /* MonsterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF81002213675C007301E8 /* MonsterCell.swift */; };
 		5AB6A8AD22D26E200057B49E /* AddMonsterFormPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6A8AC22D26E200057B49E /* AddMonsterFormPresenterTests.swift */; };
 		5AEE56BC22B835D900A9232F /* AddMonsterFormPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE56BB22B835D900A9232F /* AddMonsterFormPresenter.swift */; };
+		5AEE7F1F22DB897300A5A6D2 /* Bundle+json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE7F1E22DB897300A5A6D2 /* Bundle+json.swift */; };
 		5AF1062222BC0E2B003B5A2F /* MonsterGalleryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1062122BC0E2B003B5A2F /* MonsterGalleryRouter.swift */; };
 		5AF1062522BC0FD9003B5A2F /* MonsterDetailModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1062422BC0FD9003B5A2F /* MonsterDetailModule.swift */; };
 		5AF1062722BC0FFC003B5A2F /* MonsterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1062622BC0FFC003B5A2F /* MonsterDetailViewController.swift */; };
@@ -132,6 +133,7 @@
 		5AAF81002213675C007301E8 /* MonsterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCell.swift; sourceTree = "<group>"; };
 		5AB6A8AC22D26E200057B49E /* AddMonsterFormPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormPresenterTests.swift; sourceTree = "<group>"; };
 		5AEE56BB22B835D900A9232F /* AddMonsterFormPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormPresenter.swift; sourceTree = "<group>"; };
+		5AEE7F1E22DB897300A5A6D2 /* Bundle+json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+json.swift"; sourceTree = "<group>"; };
 		5AF1062122BC0E2B003B5A2F /* MonsterGalleryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterGalleryRouter.swift; sourceTree = "<group>"; };
 		5AF1062422BC0FD9003B5A2F /* MonsterDetailModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailModule.swift; sourceTree = "<group>"; };
 		5AF1062622BC0FFC003B5A2F /* MonsterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailViewController.swift; sourceTree = "<group>"; };
@@ -278,6 +280,7 @@
 		5A45685122B4FD3F007BD436 /* Monsters */ = {
 			isa = PBXGroup;
 			children = (
+				5A6A1C8C2212145600A58EAD /* Model */,
 				5AAAD4F5221802B400ECC54C /* MonstersRepository.swift */,
 				5A97A27F2219DF77004B75D1 /* MonstersParser.swift */,
 				5A97A2812219DFC7004B75D1 /* MonsterTraitsParser.swift */,
@@ -344,7 +347,6 @@
 				5A45685922B50047007BD436 /* Base */,
 				5A34CEC522121CB3002F2980 /* Modules */,
 				5A97A27E2219DF44004B75D1 /* Repository */,
-				5A6A1C8C2212145600A58EAD /* Model */,
 				5A97A2972219FD79004B75D1 /* Utils */,
 				5A34CEC622121CE8002F2980 /* Resources */,
 			);
@@ -405,6 +407,7 @@
 				5A417BC422B5268900CE332A /* UIImage+color.swift */,
 				5A09889022B578DF000A1F90 /* UIColor+hex.swift */,
 				5A9F4A7F22DB54FF00B9AAED /* Array+appending.swift */,
+				5AEE7F1E22DB897300A5A6D2 /* Bundle+json.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -715,6 +718,7 @@
 				5A45685B22B50053007BD436 /* Appearance.swift in Sources */,
 				5A417BC522B5268900CE332A /* UIImage+color.swift in Sources */,
 				5A09889122B578DF000A1F90 /* UIColor+hex.swift in Sources */,
+				5AEE7F1F22DB897300A5A6D2 /* Bundle+json.swift in Sources */,
 				5A97A2822219DFC7004B75D1 /* MonsterTraitsParser.swift in Sources */,
 				5A45685822B4FF69007BD436 /* MonstersGalleryModule.swift in Sources */,
 			);

@@ -6,6 +6,9 @@ class SceneModule {
     let viewController = UIStoryboard(name: "Scene", bundle: nil)
       .instantiateInitialViewController() as! SceneViewController
 
-    return UINavigationController(rootViewController: viewController)
+    let navController = UINavigationController(rootViewController: viewController)
+    navController.modalPresentationStyle = .fullScreen
+    
+    return navController
   }
 }

@@ -8,7 +8,7 @@ class Appearance {
     UIBarButtonItem.appearance().setTitleTextAttributes([
       .font: UIFont.nyala(size: 22.0),
       .foregroundColor: UIColor.lightGray
-      ], for: .disabled)
+    ], for: .disabled)
 
     UINavigationBar.appearance().titleTextAttributes = [.font: UIFont.nyala(size: 30.0)]
     UITabBar.appearance().tintColor = .black

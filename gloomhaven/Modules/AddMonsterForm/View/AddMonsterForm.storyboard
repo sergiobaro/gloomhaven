@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iUT-JV-C84">
-    <device id="ipad11_0rounded" orientation="landscape">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14835.7" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iUT-JV-C84">
+    <device id="ipad11_0rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14790.5"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,14 +25,14 @@
                                         <rect key="frame" x="0.0" y="28" width="540" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lXn-Cl-VS5" id="5ZF-IR-Z2F">
-                                            <rect key="frame" x="0.0" y="0.0" width="540" height="109.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="540" height="110"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="euC-Me-EUf">
-                                                    <rect key="frame" x="50" y="10" width="440" height="89.5"/>
+                                                    <rect key="frame" x="50" y="10" width="440" height="90"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd8-lM-xAC" customClass="Button" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="215" height="44"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="215" height="44.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="44" id="eOU-Xu-bFw"/>
                                                             </constraints>
@@ -46,7 +45,7 @@
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVa-7V-ru3" customClass="Button" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="225" y="0.0" width="215" height="44"/>
+                                                            <rect key="frame" x="225" y="0.0" width="215" height="44.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                             <state key="normal" title="Elite">
                                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -56,7 +55,7 @@
                                                             </connections>
                                                         </button>
                                                         <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="mQa-rt-Ulv" customClass="SegmentedControl" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="159.5" y="54" width="121" height="36.5"/>
+                                                            <rect key="frame" x="155.5" y="54.5" width="129" height="36.5"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="35.5" id="yvf-wE-LHI"/>
                                                             </constraints>
@@ -75,7 +74,7 @@
                                                             </connections>
                                                         </segmentedControl>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Token: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obU-zl-DMR" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="88.5" y="60" width="61" height="24"/>
+                                                            <rect key="frame" x="84.5" y="60.5" width="61" height="24"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -111,26 +110,6 @@
                                             <outlet property="normalButton" destination="zd8-lM-xAC" id="JPJ-nP-kE4"/>
                                             <outlet property="tokenSegmentedControl" destination="mQa-rt-Ulv" id="5JY-wU-qOY"/>
                                         </connections>
-                                    </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddMonster" rowHeight="59" id="k0p-AB-7pz">
-                                        <rect key="frame" x="0.0" y="138" width="540" height="59"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="k0p-AB-7pz" id="CNP-gd-OY3">
-                                            <rect key="frame" x="0.0" y="0.0" width="540" height="58.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5N-nE-aOF" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                    <rect key="frame" x="247" y="13.5" width="46.5" height="31.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="e5N-nE-aOF" firstAttribute="centerY" secondItem="CNP-gd-OY3" secondAttribute="centerY" id="g6c-Uk-DRN"/>
-                                                <constraint firstItem="e5N-nE-aOF" firstAttribute="centerX" secondItem="CNP-gd-OY3" secondAttribute="centerX" id="pf6-IF-TlN"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

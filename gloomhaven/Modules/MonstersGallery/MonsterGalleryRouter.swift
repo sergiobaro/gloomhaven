@@ -12,7 +12,7 @@ class MonsterGalleryRouter {
 
   func navigateToMonsterDetail(_ monster: Monster) {
     let monsterDetail = MonsterDetailModule.make(monster: monster)
-    self.viewController?.navigationController?.pushViewController(monsterDetail, animated: true)
+    self.viewController?.present(monsterDetail, animated: true)
   }
 
   func navigateToAddMonster(_ monster: Monster, delegate: AddMonsterFormDelegate) {

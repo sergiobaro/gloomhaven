@@ -24,7 +24,7 @@ class AddMonsterFormModule {
     )
 
     let navController = UINavigationController(rootViewController: viewController)
-    navController.modalPresentationStyle = .formSheet
+    navController.modalPresentationStyle = .pageSheet
 
     return navController
   }
