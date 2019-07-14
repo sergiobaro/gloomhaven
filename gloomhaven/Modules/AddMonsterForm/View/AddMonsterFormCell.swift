@@ -8,7 +8,7 @@ protocol AddMonsterFormCellDelegate: class {
 
 class AddMonsterFormCell: UITableViewCell {
   private struct Style {
-    static let segmentWidth: CGFloat = 30.0
+    static let segmentWidth: CGFloat = 40.0
   }
 
   @IBOutlet private weak var normalButton: UIButton!
