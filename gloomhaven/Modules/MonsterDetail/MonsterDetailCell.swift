@@ -10,6 +10,8 @@ class MonsterDetailCell: UITableViewCell {
   @IBOutlet weak var attackLabel: UILabel!
   @IBOutlet weak var rangeLabel: UILabel!
 
+  @IBOutlet weak var traitsLabel: UILabel!
+
   override func awakeFromNib() {
     super.awakeFromNib()
 

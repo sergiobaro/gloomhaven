@@ -7,7 +7,7 @@ class MonsterTraitsParser {
       return []
     }
 
-    return traits.compactMap(self.map(trait:))
+    return traits.map(self.map(trait:))
   }
 
   private func map(trait: String) -> Trait {

@@ -11,6 +11,14 @@ class MonsterTraitsParseTests: XCTestCase {
     XCTAssertEqual(result.count, 0)
   }
 
+  func test_flying() {
+    let result = self.parser.parse(traits: ["FLYING"])
+
+    XCTAssertEqual(result.count, 1)
+    XCTAssertEqual(result.first?.effect, Effect.flying)
+    XCTAssertEqual(result.first?.range, nil)
+  }
+
   func test_advantage() {
     let result = self.parser.parse(traits: ["ADVANTAGE"])
 

@@ -42,6 +42,7 @@
 		5A6A1C7422120E5C00A58EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6A1C7322120E5C00A58EAD /* Assets.xcassets */; };
 		5A6A1C8222120E5C00A58EAD /* MonsterTraitsParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A1C8122120E5C00A58EAD /* MonsterTraitsParseTests.swift */; };
 		5A6A1C8E2212145D00A58EAD /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A1C8D2212145D00A58EAD /* Monster.swift */; };
+		5A85921422DBB6990064E5D1 /* MonsterDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A85921322DBB6990064E5D1 /* MonsterDetailPresenter.swift */; };
 		5A97A2802219DF77004B75D1 /* MonstersParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97A27F2219DF77004B75D1 /* MonstersParser.swift */; };
 		5A97A2822219DFC7004B75D1 /* MonsterTraitsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97A2812219DFC7004B75D1 /* MonsterTraitsParser.swift */; };
 		5A97A2842219E081004B75D1 /* MonsterParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97A2832219E081004B75D1 /* MonsterParserTests.swift */; };
@@ -117,6 +118,7 @@
 		5A6A1C8122120E5C00A58EAD /* MonsterTraitsParseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterTraitsParseTests.swift; sourceTree = "<group>"; };
 		5A6A1C8322120E5C00A58EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A6A1C8D2212145D00A58EAD /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		5A85921322DBB6990064E5D1 /* MonsterDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailPresenter.swift; sourceTree = "<group>"; };
 		5A97A27F2219DF77004B75D1 /* MonstersParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersParser.swift; sourceTree = "<group>"; };
 		5A97A2812219DFC7004B75D1 /* MonsterTraitsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterTraitsParser.swift; sourceTree = "<group>"; };
 		5A97A2832219E081004B75D1 /* MonsterParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterParserTests.swift; sourceTree = "<group>"; };
@@ -449,6 +451,7 @@
 				5AF1062822BC10DD003B5A2F /* MonsterDetail.storyboard */,
 				5AF1062622BC0FFC003B5A2F /* MonsterDetailViewController.swift */,
 				5AF1062C22BC2437003B5A2F /* MonsterDetailCell.swift */,
+				5A85921322DBB6990064E5D1 /* MonsterDetailPresenter.swift */,
 			);
 			path = MonsterDetail;
 			sourceTree = "<group>";
@@ -714,6 +717,7 @@
 				5A417BC822B52C4800CE332A /* SceneModule.swift in Sources */,
 				5AF1062222BC0E2B003B5A2F /* MonsterGalleryRouter.swift in Sources */,
 				5A97A2992219FDC1004B75D1 /* UIImage+tinted.swift in Sources */,
+				5A85921422DBB6990064E5D1 /* MonsterDetailPresenter.swift in Sources */,
 				5A417BCC22B52DB400CE332A /* SceneViewController.swift in Sources */,
 				5A45685B22B50053007BD436 /* Appearance.swift in Sources */,
 				5A417BC522B5268900CE332A /* UIImage+color.swift in Sources */,

@@ -1,6 +1,5 @@
 excluded:
  - Pods
- - gloomhavenTests/Mock.generated.swift
 
 disabled_rules:
 - trailing_whitespace

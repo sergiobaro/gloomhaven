@@ -4,6 +4,8 @@ class MonsterDetailViewController: UIViewController {
 
   @IBOutlet weak var tableView: UITableView!
 
+  private let presenter = MonsterDetailPresenter()
+
   var monster: Monster!
 
   override func viewDidLoad() {
@@ -49,6 +51,8 @@ extension MonsterDetailViewController: UITableViewDataSource {
     cell.moveLabel.text = String(stats.move)
     cell.attackLabel.text = String(stats.attack)
     cell.rangeLabel.text = String(stats.range)
+
+    cell.traitsLabel.attributedText = self.presenter.traitsString(stats: stats, isElite: false, icons: true)
 
     return cell
   }

@@ -40,7 +40,7 @@ class MonstersParser {
       move: jsonLevel["move"] as! Int,
       attack: jsonLevel["attack"] as! Int,
       range: jsonLevel["range"] as! Int,
-      traits: traitsParser.parse(traits: jsonLevel["traits"] as! [String])
+      traits: self.traitsParser.parse(traits: jsonLevel["traits"] as! [String])
     )
   }
 
