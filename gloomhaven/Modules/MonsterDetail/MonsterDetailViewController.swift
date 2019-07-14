@@ -52,7 +52,7 @@ extension MonsterDetailViewController: UITableViewDataSource {
     cell.attackLabel.text = String(stats.attack)
     cell.rangeLabel.text = String(stats.range)
 
-    cell.traitsLabel.attributedText = self.presenter.traitsString(stats: stats, isElite: false, icons: true)
+    cell.traitsLabel.attributedText = self.presenter.traitsString(stats: stats, isElite: false, includeIcons: true)
 
     return cell
   }

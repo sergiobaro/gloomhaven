@@ -61,37 +61,37 @@
                                                     </constraints>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="oC1-zX-L41">
-                                                    <rect key="frame" x="119.5" y="5" width="49.5" height="100"/>
+                                                    <rect key="frame" x="119.5" y="5" width="56" height="100"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6je-IK-dIv" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="49.5" height="25"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="56" height="25"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Move" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcR-QC-fbM" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="25" width="49.5" height="25"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <rect key="frame" x="0.0" y="25" width="56" height="25"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3B-Ha-QxH" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="50" width="49.5" height="25"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <rect key="frame" x="0.0" y="50" width="56" height="25"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Range" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Id2-61-ry7" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="75" width="49.5" height="25"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <rect key="frame" x="0.0" y="75" width="56" height="25"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
                                                 </stackView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traits" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKn-hh-beg" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                    <rect key="frame" x="179" y="10" width="523" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="185.5" y="5" width="47" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -99,8 +99,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="bottom" secondItem="oC1-zX-L41" secondAttribute="bottom" constant="5" id="5SV-j4-acU"/>
                                                 <constraint firstItem="5I6-OX-V7H" firstAttribute="leading" secondItem="CcO-gB-ML0" secondAttribute="trailing" constant="5" id="6gK-ug-0c5"/>
-                                                <constraint firstItem="aKn-hh-beg" firstAttribute="top" secondItem="zu2-dc-W4s" secondAttribute="top" constant="10" id="FAV-Y8-Ta5"/>
-                                                <constraint firstAttribute="trailing" secondItem="aKn-hh-beg" secondAttribute="trailing" constant="10" id="GY2-HE-r4b"/>
+                                                <constraint firstItem="aKn-hh-beg" firstAttribute="top" secondItem="zu2-dc-W4s" secondAttribute="top" constant="5" id="FAV-Y8-Ta5"/>
                                                 <constraint firstItem="oC1-zX-L41" firstAttribute="top" secondItem="zu2-dc-W4s" secondAttribute="top" constant="5" id="N5d-Fl-oZA"/>
                                                 <constraint firstItem="5I6-OX-V7H" firstAttribute="top" secondItem="zu2-dc-W4s" secondAttribute="top" constant="5" id="SF1-tr-JPI"/>
                                                 <constraint firstAttribute="bottom" secondItem="5I6-OX-V7H" secondAttribute="bottom" constant="5" id="UCW-TW-u9L"/>

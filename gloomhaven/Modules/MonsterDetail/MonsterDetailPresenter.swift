@@ -7,10 +7,10 @@ class MonsterDetailPresenter {
   private let iconBounds = CGRect(x: -1, y: -3, width: 18, height: 18)
   private let smallIconBounds = CGRect(x: -1, y: -3, width: 14, height: 14)
 
-  private let attributes: [NSAttributedString.Key: Any] = [.font: UIFont.nyala(size: 18.0)]
-  private let smallAttributes: [NSAttributedString.Key: Any] = [.font: UIFont.nyala(size: 14.0)]
+  private let attributes: [NSAttributedString.Key: Any] = [.font: UIFont.nyala(size: 20.0)]
+  private let smallAttributes: [NSAttributedString.Key: Any] = [.font: UIFont.nyala(size: 16.0)]
 
-  func traitsString(stats: MonsterLevelStats, isElite: Bool, icons: Bool) -> NSAttributedString {
+  func traitsString(stats: MonsterLevelStats, isElite: Bool, includeIcons: Bool) -> NSAttributedString {
     let color = !isElite ? UIColor.black : UIColor.white
 
     return stats.traits
@@ -18,15 +18,16 @@ class MonsterDetailPresenter {
         let effectName = trait.effect.rawValue
         let result = NSMutableAttributedString(string: effectName.capitalized, attributes: self.attributes)
 
-        if icons, let attachmentString = self.makeAttachmentString(effect: trait.effect, tintColor: color) {
+        if includeIcons,
+          let attachmentString = self.makeIconString(effect: trait.effect, tintColor: color) {
           result.append(attachmentString)
         }
 
-        if let amountString = self.makeAmountString(amount: trait.amount, icon: icons) {
+        if let amountString = self.makeAmountString(amount: trait.amount, icon: includeIcons) {
           result.append(amountString)
         }
 
-        if let rangeString = self.makeRangeString(range: trait.range, icon: icons, color: color) {
+        if let rangeString = self.makeRangeString(range: trait.range, icon: includeIcons, color: color) {
           result.append(rangeString)
         }
 
@@ -70,7 +71,7 @@ class MonsterDetailPresenter {
     result.append(NSAttributedString(string: "\nRange", attributes: self.smallAttributes))
     if !icon {
       result.append(NSAttributedString(string: " ", attributes: self.smallAttributes))
-    } else if let attachmentString = self.makeAttachmentString(
+    } else if let attachmentString = self.makeIconString(
       imageName: "range",
       tintColor: color,
       bounds: self.smallIconBounds
@@ -82,13 +83,13 @@ class MonsterDetailPresenter {
     return result
   }
 
-  private func makeAttachmentString(effect: Effect, tintColor: UIColor) -> NSAttributedString? {
+  private func makeIconString(effect: Effect, tintColor: UIColor) -> NSAttributedString? {
     let color: UIColor? = self.tintableEffects.contains(effect) ? tintColor : nil
 
-    return self.makeAttachmentString(imageName: effect.rawValue, tintColor: color, bounds: self.iconBounds)
+    return self.makeIconString(imageName: effect.rawValue, tintColor: color, bounds: self.iconBounds)
   }
 
-  private func makeAttachmentString(imageName: String, tintColor: UIColor?, bounds: CGRect) -> NSAttributedString? {
+  private func makeIconString(imageName: String, tintColor: UIColor?, bounds: CGRect) -> NSAttributedString? {
     guard let icon = UIImage(named: imageName) else {
       return nil
     }
