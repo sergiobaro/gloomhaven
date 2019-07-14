@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1886C90D55F85211E6C0922E /* Pods_gloomhaven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4B6FE6DC0D11B6C6F54C8A /* Pods_gloomhaven.framework */; };
 		5A09888F22B57301000A1F90 /* AddMonsterFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09888E22B57301000A1F90 /* AddMonsterFormCell.swift */; };
 		5A09889122B578DF000A1F90 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09889022B578DF000A1F90 /* UIColor+hex.swift */; };
 		5A09889322B57941000A1F90 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09889222B57941000A1F90 /* Colors.swift */; };
+		5A214CC522D27126005041D7 /* Mock.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A214CC422D27126005041D7 /* Mock.generated.swift */; };
 		5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */; };
 		5A34CECB22121DD3002F2980 /* MonstersGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34CEC922121DD3002F2980 /* MonstersGalleryViewController.swift */; };
 		5A34CECE22121F7C002F2980 /* MonstersGallery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A34CECD22121F7C002F2980 /* MonstersGallery.storyboard */; };
@@ -29,12 +31,13 @@
 		5A45685622B4FEF2007BD436 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45685522B4FEF2007BD436 /* MainViewController.swift */; };
 		5A45685822B4FF69007BD436 /* MonstersGalleryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45685722B4FF69007BD436 /* MonstersGalleryModule.swift */; };
 		5A45685B22B50053007BD436 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45685A22B50053007BD436 /* Appearance.swift */; };
-		5A45685E22B50085007BD436 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45685D22B50085007BD436 /* Button.swift */; };
-		5A45686322B50621007BD436 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45686222B50621007BD436 /* Label.swift */; };
+		5A45685E22B50085007BD436 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45685D22B50085007BD436 /* Buttons.swift */; };
+		5A45686322B50621007BD436 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A45686222B50621007BD436 /* Labels.swift */; };
 		5A547FCC221A17A7006760EE /* FontsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A547FCB221A17A7006760EE /* FontsTests.swift */; };
 		5A62B648221A087D00B98CCD /* EffectIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62B647221A087D00B98CCD /* EffectIconsTests.swift */; };
 		5A62B64A221A0AF300B98CCD /* Effect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62B649221A0AF200B98CCD /* Effect.swift */; };
 		5A62B64C221A144900B98CCD /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A62B64B221A144900B98CCD /* Fonts.swift */; };
+		5A67408E22C6B32D007C88B7 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A67408D22C6B32D007C88B7 /* SegmentedControl.swift */; };
 		5A6A1C6D22120E5B00A58EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A1C6C22120E5B00A58EAD /* AppDelegate.swift */; };
 		5A6A1C7422120E5C00A58EAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6A1C7322120E5C00A58EAD /* Assets.xcassets */; };
 		5A6A1C8222120E5C00A58EAD /* MonsterTraitsParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6A1C8122120E5C00A58EAD /* MonsterTraitsParseTests.swift */; };
@@ -47,15 +50,20 @@
 		5A97A28F2219EEC5004B75D1 /* Nyala.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5A97A28C2219EEC5004B75D1 /* Nyala.ttf */; };
 		5A97A2922219EED6004B75D1 /* monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A97A2912219EED6004B75D1 /* monsters.json */; };
 		5A97A2992219FDC1004B75D1 /* UIImage+tinted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A97A2982219FDC1004B75D1 /* UIImage+tinted.swift */; };
+		5A9F4A7E22DB526C00B9AAED /* AddMonsterFormMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F4A7D22DB526C00B9AAED /* AddMonsterFormMapper.swift */; };
+		5A9F4A8022DB54FF00B9AAED /* Array+appending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F4A7F22DB54FF00B9AAED /* Array+appending.swift */; };
+		5A9F4A8222DB55FB00B9AAED /* AddMonsterFormMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F4A8122DB55FB00B9AAED /* AddMonsterFormMapperTests.swift */; };
 		5AAAD4F42218028D00ECC54C /* MonstersGalleryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAAD4F32218028D00ECC54C /* MonstersGalleryPresenter.swift */; };
 		5AAAD4F6221802B400ECC54C /* MonstersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAAD4F5221802B400ECC54C /* MonstersRepository.swift */; };
 		5AAF81012213675C007301E8 /* MonsterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF81002213675C007301E8 /* MonsterCell.swift */; };
+		5AB6A8AD22D26E200057B49E /* AddMonsterFormPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6A8AC22D26E200057B49E /* AddMonsterFormPresenterTests.swift */; };
 		5AEE56BC22B835D900A9232F /* AddMonsterFormPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE56BB22B835D900A9232F /* AddMonsterFormPresenter.swift */; };
 		5AF1062222BC0E2B003B5A2F /* MonsterGalleryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1062122BC0E2B003B5A2F /* MonsterGalleryRouter.swift */; };
 		5AF1062522BC0FD9003B5A2F /* MonsterDetailModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1062422BC0FD9003B5A2F /* MonsterDetailModule.swift */; };
 		5AF1062722BC0FFC003B5A2F /* MonsterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1062622BC0FFC003B5A2F /* MonsterDetailViewController.swift */; };
 		5AF1062922BC10DD003B5A2F /* MonsterDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF1062822BC10DD003B5A2F /* MonsterDetail.storyboard */; };
 		5AF1062D22BC2437003B5A2F /* MonsterDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1062C22BC2437003B5A2F /* MonsterDetailCell.swift */; };
+		80F721C8D78745F90A7E2AA1 /* Pods_gloomhavenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755EE8F4B819A2577CD43F8F /* Pods_gloomhavenTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +77,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10ADB3B20B2A52964276B874 /* Pods-gloomhaven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gloomhaven.debug.xcconfig"; path = "Target Support Files/Pods-gloomhaven/Pods-gloomhaven.debug.xcconfig"; sourceTree = "<group>"; };
 		5A09888E22B57301000A1F90 /* AddMonsterFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormCell.swift; sourceTree = "<group>"; };
 		5A09889022B578DF000A1F90 /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
 		5A09889222B57941000A1F90 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		5A214CC422D27126005041D7 /* Mock.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mock.generated.swift; sourceTree = "<group>"; };
 		5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A34CEC922121DD3002F2980 /* MonstersGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersGalleryViewController.swift; sourceTree = "<group>"; };
 		5A34CECD22121F7C002F2980 /* MonstersGallery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MonstersGallery.storyboard; sourceTree = "<group>"; };
@@ -91,12 +101,13 @@
 		5A45685522B4FEF2007BD436 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5A45685722B4FF69007BD436 /* MonstersGalleryModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersGalleryModule.swift; sourceTree = "<group>"; };
 		5A45685A22B50053007BD436 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
-		5A45685D22B50085007BD436 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		5A45686222B50621007BD436 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		5A45685D22B50085007BD436 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		5A45686222B50621007BD436 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
 		5A547FCB221A17A7006760EE /* FontsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsTests.swift; sourceTree = "<group>"; };
 		5A62B647221A087D00B98CCD /* EffectIconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectIconsTests.swift; sourceTree = "<group>"; };
 		5A62B649221A0AF200B98CCD /* Effect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Effect.swift; sourceTree = "<group>"; };
 		5A62B64B221A144900B98CCD /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		5A67408D22C6B32D007C88B7 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		5A6A1C6922120E5B00A58EAD /* gloomhaven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gloomhaven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6A1C6C22120E5B00A58EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A6A1C7322120E5C00A58EAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,15 +124,24 @@
 		5A97A28C2219EEC5004B75D1 /* Nyala.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nyala.ttf; sourceTree = "<group>"; };
 		5A97A2912219EED6004B75D1 /* monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsters.json; sourceTree = "<group>"; };
 		5A97A2982219FDC1004B75D1 /* UIImage+tinted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+tinted.swift"; sourceTree = "<group>"; };
+		5A9F4A7D22DB526C00B9AAED /* AddMonsterFormMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormMapper.swift; sourceTree = "<group>"; };
+		5A9F4A7F22DB54FF00B9AAED /* Array+appending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+appending.swift"; sourceTree = "<group>"; };
+		5A9F4A8122DB55FB00B9AAED /* AddMonsterFormMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormMapperTests.swift; sourceTree = "<group>"; };
 		5AAAD4F32218028D00ECC54C /* MonstersGalleryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersGalleryPresenter.swift; sourceTree = "<group>"; };
 		5AAAD4F5221802B400ECC54C /* MonstersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersRepository.swift; sourceTree = "<group>"; };
 		5AAF81002213675C007301E8 /* MonsterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCell.swift; sourceTree = "<group>"; };
+		5AB6A8AC22D26E200057B49E /* AddMonsterFormPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormPresenterTests.swift; sourceTree = "<group>"; };
 		5AEE56BB22B835D900A9232F /* AddMonsterFormPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormPresenter.swift; sourceTree = "<group>"; };
 		5AF1062122BC0E2B003B5A2F /* MonsterGalleryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterGalleryRouter.swift; sourceTree = "<group>"; };
 		5AF1062422BC0FD9003B5A2F /* MonsterDetailModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailModule.swift; sourceTree = "<group>"; };
 		5AF1062622BC0FFC003B5A2F /* MonsterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailViewController.swift; sourceTree = "<group>"; };
 		5AF1062822BC10DD003B5A2F /* MonsterDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MonsterDetail.storyboard; sourceTree = "<group>"; };
 		5AF1062C22BC2437003B5A2F /* MonsterDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailCell.swift; sourceTree = "<group>"; };
+		755EE8F4B819A2577CD43F8F /* Pods_gloomhavenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gloomhavenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4B6FE6DC0D11B6C6F54C8A /* Pods_gloomhaven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gloomhaven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20F73FEF3AB4EDF8B80DBA2 /* Pods-gloomhaven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gloomhaven.release.xcconfig"; path = "Target Support Files/Pods-gloomhaven/Pods-gloomhaven.release.xcconfig"; sourceTree = "<group>"; };
+		D2B9EF58504AB2788585897D /* Pods-gloomhavenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gloomhavenTests.debug.xcconfig"; path = "Target Support Files/Pods-gloomhavenTests/Pods-gloomhavenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E128FE28AD20228399687364 /* Pods-gloomhavenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gloomhavenTests.release.xcconfig"; path = "Target Support Files/Pods-gloomhavenTests/Pods-gloomhavenTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1886C90D55F85211E6C0922E /* Pods_gloomhaven.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,12 +157,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80F721C8D78745F90A7E2AA1 /* Pods_gloomhavenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D7C346B6E54785AA7C981EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10ADB3B20B2A52964276B874 /* Pods-gloomhaven.debug.xcconfig */,
+				B20F73FEF3AB4EDF8B80DBA2 /* Pods-gloomhaven.release.xcconfig */,
+				D2B9EF58504AB2788585897D /* Pods-gloomhavenTests.debug.xcconfig */,
+				E128FE28AD20228399687364 /* Pods-gloomhavenTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A214CC122D27103005041D7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5A62B647221A087D00B98CCD /* EffectIconsTests.swift */,
+				5A547FCB221A17A7006760EE /* FontsTests.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5A214CC222D2710A005041D7 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				5A214CC322D27114005041D7 /* Monters */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		5A214CC322D27114005041D7 /* Monters */ = {
+			isa = PBXGroup;
+			children = (
+				5A97A2832219E081004B75D1 /* MonsterParserTests.swift */,
+				5A6A1C8122120E5C00A58EAD /* MonsterTraitsParseTests.swift */,
+			);
+			path = Monters;
+			sourceTree = "<group>";
+		};
+		5A214CC622D27787005041D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A417BD022B5401C00CE332A /* AddMonsterForm.storyboard */,
+				5A417BD222B5404100CE332A /* AddMonsterFormViewController.swift */,
+				5A09888E22B57301000A1F90 /* AddMonsterFormCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5A214CC722D27792005041D7 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5AEE56BB22B835D900A9232F /* AddMonsterFormPresenter.swift */,
+				5A9F4A7D22DB526C00B9AAED /* AddMonsterFormMapper.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		5A34CEC522121CB3002F2980 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,10 +269,8 @@
 			isa = PBXGroup;
 			children = (
 				5A417BCE22B53FDF00CE332A /* AddMonsterFormModule.swift */,
-				5A417BD022B5401C00CE332A /* AddMonsterForm.storyboard */,
-				5A417BD222B5404100CE332A /* AddMonsterFormViewController.swift */,
-				5A09888E22B57301000A1F90 /* AddMonsterFormCell.swift */,
-				5AEE56BB22B835D900A9232F /* AddMonsterFormPresenter.swift */,
+				5A214CC622D27787005041D7 /* View */,
+				5A214CC722D27792005041D7 /* Presenter */,
 			);
 			path = AddMonsterForm;
 			sourceTree = "<group>";
@@ -233,8 +309,9 @@
 		5A45685C22B5007E007BD436 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5A45685D22B50085007BD436 /* Button.swift */,
-				5A45686222B50621007BD436 /* Label.swift */,
+				5A67408D22C6B32D007C88B7 /* SegmentedControl.swift */,
+				5A45685D22B50085007BD436 /* Buttons.swift */,
+				5A45686222B50621007BD436 /* Labels.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -245,6 +322,8 @@
 				5A6A1C6B22120E5B00A58EAD /* gloomhaven */,
 				5A6A1C8022120E5C00A58EAD /* gloomhavenTests */,
 				5A6A1C6A22120E5B00A58EAD /* Products */,
+				4D7C346B6E54785AA7C981EE /* Pods */,
+				81CF37E3E251F1FA94B89554 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -275,10 +354,10 @@
 		5A6A1C8022120E5C00A58EAD /* gloomhavenTests */ = {
 			isa = PBXGroup;
 			children = (
-				5A97A2832219E081004B75D1 /* MonsterParserTests.swift */,
-				5A6A1C8122120E5C00A58EAD /* MonsterTraitsParseTests.swift */,
-				5A62B647221A087D00B98CCD /* EffectIconsTests.swift */,
-				5A547FCB221A17A7006760EE /* FontsTests.swift */,
+				5A214CC422D27126005041D7 /* Mock.generated.swift */,
+				5AB6A8AA22D26E090057B49E /* Modules */,
+				5A214CC222D2710A005041D7 /* Repository */,
+				5A214CC122D27103005041D7 /* Base */,
 				5A6A1C8322120E5C00A58EAD /* Info.plist */,
 			);
 			path = gloomhavenTests;
@@ -325,8 +404,26 @@
 				5A97A2982219FDC1004B75D1 /* UIImage+tinted.swift */,
 				5A417BC422B5268900CE332A /* UIImage+color.swift */,
 				5A09889022B578DF000A1F90 /* UIColor+hex.swift */,
+				5A9F4A7F22DB54FF00B9AAED /* Array+appending.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		5AB6A8AA22D26E090057B49E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5AB6A8AB22D26E0C0057B49E /* AddMonsterForm */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5AB6A8AB22D26E0C0057B49E /* AddMonsterForm */ = {
+			isa = PBXGroup;
+			children = (
+				5AB6A8AC22D26E200057B49E /* AddMonsterFormPresenterTests.swift */,
+				5A9F4A8122DB55FB00B9AAED /* AddMonsterFormMapperTests.swift */,
+			);
+			path = AddMonsterForm;
 			sourceTree = "<group>";
 		};
 		5ADCAD952219BD430036171B /* MonstersGallery */ = {
@@ -353,6 +450,15 @@
 			path = MonsterDetail;
 			sourceTree = "<group>";
 		};
+		81CF37E3E251F1FA94B89554 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF4B6FE6DC0D11B6C6F54C8A /* Pods_gloomhaven.framework */,
+				755EE8F4B819A2577CD43F8F /* Pods_gloomhavenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -360,6 +466,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A6A1C8622120E5C00A58EAD /* Build configuration list for PBXNativeTarget "gloomhaven" */;
 			buildPhases = (
+				28B4D9E7BB4581D8497E55DD /* [CP] Check Pods Manifest.lock */,
 				5A741AE922B4F1E8000E18BB /* Swiftlint */,
 				5A6A1C6522120E5B00A58EAD /* Sources */,
 				5A6A1C6622120E5B00A58EAD /* Frameworks */,
@@ -378,9 +485,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A6A1C8922120E5C00A58EAD /* Build configuration list for PBXNativeTarget "gloomhavenTests" */;
 			buildPhases = (
+				9A71CB77F9B791C4EE420349 /* [CP] Check Pods Manifest.lock */,
+				5A53114B22D26FE400A1EC0A /* Mocks */,
 				5A6A1C7922120E5C00A58EAD /* Sources */,
 				5A6A1C7A22120E5C00A58EAD /* Frameworks */,
 				5A6A1C7B22120E5C00A58EAD /* Resources */,
+				260596990C0E5ADADD66A6DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -462,6 +572,68 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		260596990C0E5ADADD66A6DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gloomhavenTests/Pods-gloomhavenTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyMocky/SwiftyMocky.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyMocky.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gloomhavenTests/Pods-gloomhavenTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28B4D9E7BB4581D8497E55DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gloomhaven-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A53114B22D26FE400A1EC0A /* Mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Mocks;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "Pods/Sourcery/bin/sourcery --config mocky.yml\n";
+		};
 		5A741AE922B4F1E8000E18BB /* Swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -480,6 +652,28 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint \nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
+		9A71CB77F9B791C4EE420349 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gloomhavenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -491,6 +685,7 @@
 				5A417BBF22B51B4C00CE332A /* StartSceneFormViewController.swift in Sources */,
 				5AF1062722BC0FFC003B5A2F /* MonsterDetailViewController.swift in Sources */,
 				5AAAD4F6221802B400ECC54C /* MonstersRepository.swift in Sources */,
+				5A9F4A8022DB54FF00B9AAED /* Array+appending.swift in Sources */,
 				5AAAD4F42218028D00ECC54C /* MonstersGalleryPresenter.swift in Sources */,
 				5AF1062D22BC2437003B5A2F /* MonsterDetailCell.swift in Sources */,
 				5AAF81012213675C007301E8 /* MonsterCell.swift in Sources */,
@@ -499,8 +694,9 @@
 				5A62B64A221A0AF300B98CCD /* Effect.swift in Sources */,
 				5A417BC322B520FD00CE332A /* SelectLevelButton.swift in Sources */,
 				5AF1062522BC0FD9003B5A2F /* MonsterDetailModule.swift in Sources */,
+				5A67408E22C6B32D007C88B7 /* SegmentedControl.swift in Sources */,
 				5A6A1C8E2212145D00A58EAD /* Monster.swift in Sources */,
-				5A45686322B50621007BD436 /* Label.swift in Sources */,
+				5A45686322B50621007BD436 /* Labels.swift in Sources */,
 				5A62B64C221A144900B98CCD /* Fonts.swift in Sources */,
 				5A34CECB22121DD3002F2980 /* MonstersGalleryViewController.swift in Sources */,
 				5A417BC122B51DE800CE332A /* MainModule.swift in Sources */,
@@ -508,8 +704,9 @@
 				5A97A2802219DF77004B75D1 /* MonstersParser.swift in Sources */,
 				5A6A1C6D22120E5B00A58EAD /* AppDelegate.swift in Sources */,
 				5AEE56BC22B835D900A9232F /* AddMonsterFormPresenter.swift in Sources */,
+				5A9F4A7E22DB526C00B9AAED /* AddMonsterFormMapper.swift in Sources */,
 				5A09889322B57941000A1F90 /* Colors.swift in Sources */,
-				5A45685E22B50085007BD436 /* Button.swift in Sources */,
+				5A45685E22B50085007BD436 /* Buttons.swift in Sources */,
 				5A417BBB22B519D900CE332A /* StartSceneFormModule.swift in Sources */,
 				5A417BC822B52C4800CE332A /* SceneModule.swift in Sources */,
 				5AF1062222BC0E2B003B5A2F /* MonsterGalleryRouter.swift in Sources */,
@@ -527,7 +724,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A214CC522D27126005041D7 /* Mock.generated.swift in Sources */,
 				5A6A1C8222120E5C00A58EAD /* MonsterTraitsParseTests.swift in Sources */,
+				5A9F4A8222DB55FB00B9AAED /* AddMonsterFormMapperTests.swift in Sources */,
+				5AB6A8AD22D26E200057B49E /* AddMonsterFormPresenterTests.swift in Sources */,
 				5A62B648221A087D00B98CCD /* EffectIconsTests.swift in Sources */,
 				5A97A2842219E081004B75D1 /* MonsterParserTests.swift in Sources */,
 				5A547FCC221A17A7006760EE /* FontsTests.swift in Sources */,
@@ -663,6 +863,7 @@
 		};
 		5A6A1C8722120E5C00A58EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10ADB3B20B2A52964276B874 /* Pods-gloomhaven.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -682,6 +883,7 @@
 		};
 		5A6A1C8822120E5C00A58EAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B20F73FEF3AB4EDF8B80DBA2 /* Pods-gloomhaven.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -701,8 +903,8 @@
 		};
 		5A6A1C8A22120E5C00A58EAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B9EF58504AB2788585897D /* Pods-gloomhavenTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U45ZNT55FZ;
@@ -722,8 +924,8 @@
 		};
 		5A6A1C8B22120E5C00A58EAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E128FE28AD20228399687364 /* Pods-gloomhavenTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U45ZNT55FZ;

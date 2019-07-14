@@ -6,7 +6,7 @@ class AddMonsterFormViewController: UIViewController {
 
   var presenter: AddMonsterFormPresenter!
 
-  private var viewModel: AddMonsterFormViewModel?
+  private var viewModel: AddMonsterFormViewModel!
 
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -45,14 +45,16 @@ class AddMonsterFormViewController: UIViewController {
 extension AddMonsterFormViewController: UITableViewDataSource {
 
   func numberOfSections(in tableView: UITableView) -> Int {
-    return (self.viewModel?.addMore ?? false) ? 2 : 1
+    if self.viewModel.addMore {
+      return 2
+    }
+    return 1
   }
 
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     if section == 0 {
-      return self.viewModel?.models.count ?? 0
+      return self.viewModel.monsters.count
     }
-
     return 1
   }
 
@@ -63,8 +65,9 @@ extension AddMonsterFormViewController: UITableViewDataSource {
     }
 
     let cell = tableView.dequeueReusableCell(withIdentifier: "MonsterFormCell", for: indexPath) as! AddMonsterFormCell
-    cell.numberOfTokens = self.viewModel?.numberOfTokens ?? 0
-    cell.addMonsterModel = self.viewModel?.models[indexPath.row]
+    cell.delegate = self
+    cell.numberOfTokens = viewModel.tokenCount
+    cell.addMonsterModel = viewModel.monsters[indexPath.row]
 
     return cell
   }
@@ -76,6 +79,19 @@ extension AddMonsterFormViewController: UITableViewDelegate {
     if indexPath.section == 1 {
       self.presenter.addMonster()
     }
+  }
+}
+
+extension AddMonsterFormViewController: AddMonsterFormCellDelegate {
+
+  func addMonsterFormCell(_ cell: AddMonsterFormCell, didChangeModel model: AddMonsterModel) {
+    guard let indexPath = self.tableView.indexPath(for: cell) else {
+      return
+    }
+
+    self.viewModel.monsters[indexPath.row] = model
+
+    self.presenter.userChangedMonsters(self.viewModel.monsters)
   }
 }
 

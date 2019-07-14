@@ -1,0 +1,10 @@
+sources:
+  include:
+    - gloomhaven
+templates:
+  - Pods/SwiftyMocky/Sources/Templates
+output:
+  gloomhavenTests
+args:
+  testable:
+    - gloomhaven

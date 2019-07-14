@@ -1,17 +1,14 @@
 import UIKit
 
+// sourcery: AutoMockable
 protocol AddMonsterFormDelegate: class {
   func addMonsterFormDidAddMonsters(_ monsters: [AddMonsterModel])
 }
 
-class AddMonsterModel {
+struct AddMonsterModel: Equatable {
   var isElite: Bool
-  var tokenNumber: Int
-
-  init(isElite: Bool, tokenNumber: Int) {
-    self.isElite = isElite
-    self.tokenNumber = tokenNumber
-  }
+  var selectedToken: Int
+  var disabledTokens: [Int]
 }
 
 class AddMonsterFormModule {

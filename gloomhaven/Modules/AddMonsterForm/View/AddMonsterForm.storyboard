@@ -22,15 +22,15 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MonsterFormCell" rowHeight="120" id="lXn-Cl-VS5" customClass="AddMonsterFormCell" customModule="gloomhaven" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="540" height="120"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MonsterFormCell" rowHeight="110" id="lXn-Cl-VS5" customClass="AddMonsterFormCell" customModule="gloomhaven" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="540" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lXn-Cl-VS5" id="5ZF-IR-Z2F">
-                                            <rect key="frame" x="0.0" y="0.0" width="540" height="119.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="540" height="109.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="euC-Me-EUf">
-                                                    <rect key="frame" x="50" y="10" width="440" height="99.5"/>
+                                                    <rect key="frame" x="50" y="10" width="440" height="89.5"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd8-lM-xAC" customClass="Button" customModule="gloomhaven" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="215" height="44"/>
@@ -55,19 +55,27 @@
                                                                 <action selector="tapElite" destination="lXn-Cl-VS5" eventType="touchUpInside" id="3yl-k9-1Kb"/>
                                                             </connections>
                                                         </button>
-                                                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="mQa-rt-Ulv">
-                                                            <rect key="frame" x="159.5" y="54" width="121" height="46.5"/>
+                                                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="mQa-rt-Ulv" customClass="SegmentedControl" customModule="gloomhaven" customModuleProvider="target">
+                                                            <rect key="frame" x="159.5" y="54" width="121" height="36.5"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="35.5" id="yvf-wE-LHI"/>
+                                                            </constraints>
                                                             <segments>
                                                                 <segment title="First"/>
                                                                 <segment title="Second"/>
                                                             </segments>
                                                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                                                    <real key="value" value="25"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                             <connections>
                                                                 <action selector="tokenChangedValue" destination="lXn-Cl-VS5" eventType="valueChanged" id="dGb-8D-JUO"/>
                                                             </connections>
                                                         </segmentedControl>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Token: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obU-zl-DMR" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="88.5" y="65" width="61" height="24"/>
+                                                            <rect key="frame" x="88.5" y="60" width="61" height="24"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -105,7 +113,7 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddMonster" rowHeight="59" id="k0p-AB-7pz">
-                                        <rect key="frame" x="0.0" y="148" width="540" height="59"/>
+                                        <rect key="frame" x="0.0" y="138" width="540" height="59"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="k0p-AB-7pz" id="CNP-gd-OY3">
                                             <rect key="frame" x="0.0" y="0.0" width="540" height="58.5"/>

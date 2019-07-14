@@ -1,10 +1,21 @@
 import UIKit
 
+protocol AddMonsterFormCellDelegate: class {
+
+  func addMonsterFormCell(_ cell: AddMonsterFormCell, didChangeModel model: AddMonsterModel)
+
+}
+
 class AddMonsterFormCell: UITableViewCell {
+  private struct Style {
+    static let segmentWidth: CGFloat = 30.0
+  }
 
   @IBOutlet private weak var normalButton: UIButton!
   @IBOutlet private weak var eliteButton: UIButton!
   @IBOutlet private weak var tokenSegmentedControl: UISegmentedControl!
+
+  weak var delegate: AddMonsterFormCellDelegate?
 
   var numberOfTokens: Int {
     get {
@@ -12,8 +23,9 @@ class AddMonsterFormCell: UITableViewCell {
     }
     set {
       self.tokenSegmentedControl.removeAllSegments()
-      for index in 1...newValue {
-        self.tokenSegmentedControl.insertSegment(withTitle: "\(index)", at: index, animated: false)
+      for index in 0..<newValue {
+        self.tokenSegmentedControl.insertSegment(withTitle: "\(index + 1)", at: index, animated: false)
+        self.tokenSegmentedControl.setWidth(Style.segmentWidth, forSegmentAt: index)
       }
     }
   }
@@ -21,7 +33,12 @@ class AddMonsterFormCell: UITableViewCell {
   var addMonsterModel: AddMonsterModel! {
     didSet {
       self.isElite = self.addMonsterModel.isElite
-      self.selectedTokenNumber = self.addMonsterModel.tokenNumber
+      self.selectedToken = self.addMonsterModel.selectedToken
+
+      for index in 0..<self.numberOfTokens {
+        let enabled = !self.addMonsterModel.disabledTokens.contains(index + 1)
+        self.tokenSegmentedControl.setEnabled(enabled, forSegmentAt: index)
+      }
     }
   }
 
@@ -32,7 +49,7 @@ class AddMonsterFormCell: UITableViewCell {
     }
   }
 
-  private var selectedTokenNumber: Int {
+  private var selectedToken: Int {
     get {
       return self.tokenSegmentedControl.selectedSegmentIndex + 1
     }
@@ -63,16 +80,22 @@ class AddMonsterFormCell: UITableViewCell {
   // MARK: - Actions
 
   @IBAction func tapNormal() {
-    self.addMonsterModel.isElite = false
     self.isElite = false
+    self.addMonsterModel.isElite = false
+
+    self.delegate?.addMonsterFormCell(self, didChangeModel: self.addMonsterModel)
   }
 
   @IBAction func tapElite() {
-    self.addMonsterModel.isElite = true
     self.isElite = true
+    self.addMonsterModel.isElite = true
+
+    self.delegate?.addMonsterFormCell(self, didChangeModel: self.addMonsterModel)
   }
 
   @IBAction func tokenChangedValue() {
-    self.addMonsterModel.tokenNumber = self.selectedTokenNumber
+    self.addMonsterModel.selectedToken = self.selectedToken
+    
+    self.delegate?.addMonsterFormCell(self, didChangeModel: self.addMonsterModel)
   }
 }
