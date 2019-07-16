@@ -7,33 +7,31 @@ class MonsterDetailPresenter {
   private let iconBounds = CGRect(x: -1, y: -3, width: 18, height: 18)
   private let smallIconBounds = CGRect(x: -1, y: -3, width: 14, height: 14)
 
-  private let attributes: [NSAttributedString.Key: Any] = [.font: UIFont.nyala(size: 20.0)]
-  private let smallAttributes: [NSAttributedString.Key: Any] = [.font: UIFont.nyala(size: 16.0)]
+  private let attributes: [NSAttributedString.Key: Any]
+  private let smallAttributes: [NSAttributedString.Key: Any]
 
+  init() {
+    let paragraph = NSMutableParagraphStyle()
+    paragraph.lineSpacing = 5
+
+    self.attributes = [
+      .font: UIFont.nyala(size: 20.0),
+      .paragraphStyle: paragraph
+    ]
+    self.smallAttributes = [
+      .font: UIFont.nyala(size: 16.0),
+      .paragraphStyle: paragraph
+    ]
+  }
+
+  // MARK: - Public
+  
   func traitsString(stats: MonsterLevelStats, isElite: Bool, includeIcons: Bool) -> NSAttributedString {
     let color = !isElite ? UIColor.black : UIColor.white
 
     return stats.traits
-      .map({ trait -> NSAttributedString in
-        let effectName = trait.effect.rawValue
-        let result = NSMutableAttributedString(string: effectName.capitalized, attributes: self.attributes)
-
-        if includeIcons,
-          let attachmentString = self.makeIconString(effect: trait.effect, tintColor: color) {
-          result.append(attachmentString)
-        }
-
-        if let amountString = self.makeAmountString(amount: trait.amount, icon: includeIcons) {
-          result.append(amountString)
-        }
-
-        if let rangeString = self.makeRangeString(range: trait.range, icon: includeIcons, color: color) {
-          result.append(rangeString)
-        }
-
-        result.addAttributes([.foregroundColor: color], range: NSRange(location: 0, length: result.string.count))
-
-        return result
+      .map({ trait in
+        return self.map(trait: trait, color: color, includeIcons: includeIcons)
       })
       .reduce(into: NSMutableAttributedString(), { result, string in
         if !result.string.isEmpty {
@@ -45,14 +43,35 @@ class MonsterDetailPresenter {
 
   // MARK: - Private
 
-  private func makeAmountString(amount: Int, icon: Bool) -> NSAttributedString? {
-    guard amount > 0 else {
+  private func map(trait: MonsterTrait, color: UIColor, includeIcons: Bool) -> NSAttributedString {
+    let result = NSMutableAttributedString(string: trait.effect.text, attributes: self.attributes)
+
+    if includeIcons,
+      let attachmentString = self.makeIconString(effect: trait.effect, tintColor: color) {
+      result.append(attachmentString)
+    }
+
+    if let amountString = self.makeAmountString(amount: trait.amount, includeIcon: includeIcons) {
+      result.append(amountString)
+    }
+
+    if let rangeString = self.makeRangeString(range: trait.range, includeIcon: includeIcons, color: color) {
+      result.append(rangeString)
+    }
+
+    result.addAttributes([.foregroundColor: color], range: NSRange(location: 0, length: result.string.count))
+
+    return result
+  }
+
+  private func makeAmountString(amount: Int?, includeIcon: Bool) -> NSAttributedString? {
+    guard let amount = amount else {
       return nil
     }
 
     let result = NSMutableAttributedString()
 
-    if !icon {
+    if !includeIcon {
       result.append(NSAttributedString(string: " ", attributes: self.attributes))
     }
 
@@ -61,15 +80,15 @@ class MonsterDetailPresenter {
     return result
   }
 
-  private func makeRangeString(range: Int?, icon: Bool, color: UIColor) -> NSAttributedString? {
+  private func makeRangeString(range: Int?, includeIcon: Bool, color: UIColor) -> NSAttributedString? {
     guard let range = range else {
       return nil
     }
 
     let result = NSMutableAttributedString()
 
-    result.append(NSAttributedString(string: "\nRange", attributes: self.smallAttributes))
-    if !icon {
+    result.append(NSAttributedString(string: " Range", attributes: self.smallAttributes))
+    if !includeIcon {
       result.append(NSAttributedString(string: " ", attributes: self.smallAttributes))
     } else if let attachmentString = self.makeIconString(
       imageName: "range",

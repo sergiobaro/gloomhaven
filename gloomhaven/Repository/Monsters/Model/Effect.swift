@@ -21,4 +21,14 @@ enum Effect: String {
   case shield
   case flying
   case target
+
+  var text: String {
+    switch self {
+    case .disadvantage:
+      return "Attackers gain Disadvantage"
+    default:
+      return self.rawValue.capitalized
+    }
+  }
+
 }

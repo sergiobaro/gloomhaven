@@ -2,7 +2,7 @@ import Foundation
 
 class MonsterTraitsParser {
 
-  func parse(traits: [String]) -> [Trait] {
+  func parse(traits: [String]) -> [MonsterTrait] {
     guard !traits.isEmpty else {
       return []
     }
@@ -10,11 +10,11 @@ class MonsterTraitsParser {
     return traits.map(self.map(trait:))
   }
 
-  private func map(trait: String) -> Trait {
+  private func map(trait: String) -> MonsterTrait {
     let components = trait.split(separator: ",").map({ $0.trimmingCharacters(in: .whitespaces) })
 
     let effect = Effect(rawValue: components[0].lowercased())!
-    var amount = 0
+    var amount: Int?
     var range: Int?
 
     if components.count >= 2 {
@@ -24,7 +24,7 @@ class MonsterTraitsParser {
       range = Int(components[2])!
     }
 
-    return Trait(effect: effect, amount: amount, range: range)
+    return MonsterTrait(effect: effect, amount: amount, range: range)
   }
 
 }

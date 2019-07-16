@@ -1,9 +1,10 @@
 import Foundation
 
-struct Trait {
-  let effect: Effect
-  let amount: Int
-  let range: Int?
+struct Monster {
+  let name: String
+  let imageName: String
+  let tokenCount: Int
+  let levels: [MonsterLevel]
 }
 
 struct MonsterLevel {
@@ -18,14 +19,13 @@ struct MonsterLevelStats {
   let move: Int
   let attack: Int
   let range: Int
-  let traits: [Trait]
+  let traits: [MonsterTrait]
 }
 
-struct Monster {
-  let name: String
-  let imageName: String
-  let tokenCount: Int
-  let levels: [MonsterLevel]
+struct MonsterTrait {
+  let effect: Effect
+  let amount: Int?
+  let range: Int?
 }
 
 // https://github.com/j13huang/gloomhaven/blob/master/src/lib/monsters/index.js
