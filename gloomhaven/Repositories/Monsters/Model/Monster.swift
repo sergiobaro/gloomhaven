@@ -9,9 +9,9 @@ struct Monster {
 
 struct MonsterLevel {
   let level: Int
-
   let normal: MonsterLevelStats
   let elite: MonsterLevelStats
+  let inmmunities: [Effect]
 }
 
 struct MonsterLevelStats {
@@ -27,6 +27,3 @@ struct MonsterTrait {
   let amount: Int?
   let range: Int?
 }
-
-// https://github.com/j13huang/gloomhaven/blob/master/src/lib/monsters/index.js
-// https://github.com/any2cards/gloomhaven

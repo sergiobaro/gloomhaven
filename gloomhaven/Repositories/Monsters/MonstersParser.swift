@@ -29,7 +29,7 @@ class MonstersParser {
     let normal = self.mapStats(type: "normal", json: json)
     let elite = self.mapStats(type: "elite", json: json)
 
-    return MonsterLevel(level: level, normal: normal, elite: elite)
+    return MonsterLevel(level: level, normal: normal, elite: elite, inmmunities: [])
   }
 
   private func mapStats(type: String, json: [String: Any]) -> MonsterLevelStats {

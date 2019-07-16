@@ -12,6 +12,9 @@
 		5A09889122B578DF000A1F90 /* UIColor+hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09889022B578DF000A1F90 /* UIColor+hex.swift */; };
 		5A09889322B57941000A1F90 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A09889222B57941000A1F90 /* Colors.swift */; };
 		5A1A04C122DE51F800E23EEE /* MonsterDetailPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A04C022DE51F800E23EEE /* MonsterDetailPresenterTests.swift */; };
+		5A1A04C322DE659300E23EEE /* bosses.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A1A04C222DE659300E23EEE /* bosses.json */; };
+		5A1A04C722DE6A7A00E23EEE /* BossesParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A04C622DE6A7A00E23EEE /* BossesParser.swift */; };
+		5A1A04C922DE6B2700E23EEE /* BossesParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A04C822DE6B2700E23EEE /* BossesParserTests.swift */; };
 		5A214CC522D27126005041D7 /* Mock.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A214CC422D27126005041D7 /* Mock.generated.swift */; };
 		5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */; };
 		5A34CECB22121DD3002F2980 /* MonstersGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34CEC922121DD3002F2980 /* MonstersGalleryViewController.swift */; };
@@ -85,6 +88,9 @@
 		5A09889022B578DF000A1F90 /* UIColor+hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+hex.swift"; sourceTree = "<group>"; };
 		5A09889222B57941000A1F90 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		5A1A04C022DE51F800E23EEE /* MonsterDetailPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailPresenterTests.swift; sourceTree = "<group>"; };
+		5A1A04C222DE659300E23EEE /* bosses.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bosses.json; sourceTree = "<group>"; };
+		5A1A04C622DE6A7A00E23EEE /* BossesParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossesParser.swift; sourceTree = "<group>"; };
+		5A1A04C822DE6B2700E23EEE /* BossesParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossesParserTests.swift; sourceTree = "<group>"; };
 		5A214CC422D27126005041D7 /* Mock.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mock.generated.swift; sourceTree = "<group>"; };
 		5A34CEC722121D45002F2980 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A34CEC922121DD3002F2980 /* MonstersGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersGalleryViewController.swift; sourceTree = "<group>"; };
@@ -198,12 +204,12 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		5A214CC222D2710A005041D7 /* Repository */ = {
+		5A214CC222D2710A005041D7 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
 				5A214CC322D27114005041D7 /* Monters */,
 			);
-			path = Repository;
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		5A214CC322D27114005041D7 /* Monters */ = {
@@ -211,6 +217,7 @@
 			children = (
 				5A97A2832219E081004B75D1 /* MonsterParserTests.swift */,
 				5A6A1C8122120E5C00A58EAD /* MonsterTraitsParseTests.swift */,
+				5A1A04C822DE6B2700E23EEE /* BossesParserTests.swift */,
 			);
 			path = Monters;
 			sourceTree = "<group>";
@@ -295,6 +302,7 @@
 				5A6A1C8C2212145600A58EAD /* Model */,
 				5AAAD4F5221802B400ECC54C /* MonstersRepository.swift */,
 				5A97A27F2219DF77004B75D1 /* MonstersParser.swift */,
+				5A1A04C622DE6A7A00E23EEE /* BossesParser.swift */,
 				5A97A2812219DFC7004B75D1 /* MonsterTraitsParser.swift */,
 			);
 			path = Monsters;
@@ -358,7 +366,7 @@
 				5A6A1C7822120E5C00A58EAD /* Info.plist */,
 				5A45685922B50047007BD436 /* Base */,
 				5A34CEC522121CB3002F2980 /* Modules */,
-				5A97A27E2219DF44004B75D1 /* Repository */,
+				5A97A27E2219DF44004B75D1 /* Repositories */,
 				5A97A2972219FD79004B75D1 /* Utils */,
 				5A34CEC622121CE8002F2980 /* Resources */,
 			);
@@ -370,7 +378,7 @@
 			children = (
 				5A214CC422D27126005041D7 /* Mock.generated.swift */,
 				5AB6A8AA22D26E090057B49E /* Modules */,
-				5A214CC222D2710A005041D7 /* Repository */,
+				5A214CC222D2710A005041D7 /* Repositories */,
 				5A214CC122D27103005041D7 /* Base */,
 				5A6A1C8322120E5C00A58EAD /* Info.plist */,
 			);
@@ -386,12 +394,12 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		5A97A27E2219DF44004B75D1 /* Repository */ = {
+		5A97A27E2219DF44004B75D1 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
 				5A45685122B4FD3F007BD436 /* Monsters */,
 			);
-			path = Repository;
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		5A97A2892219EEC5004B75D1 /* Fonts */ = {
@@ -407,6 +415,7 @@
 		5A97A2902219EED6004B75D1 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				5A1A04C222DE659300E23EEE /* bosses.json */,
 				5A97A2912219EED6004B75D1 /* monsters.json */,
 			);
 			path = Data;
@@ -575,6 +584,7 @@
 				5A417BCA22B52C6900CE332A /* Scene.storyboard in Resources */,
 				5A97A28F2219EEC5004B75D1 /* Nyala.ttf in Resources */,
 				5A417BD122B5401C00CE332A /* AddMonsterForm.storyboard in Resources */,
+				5A1A04C322DE659300E23EEE /* bosses.json in Resources */,
 				5A97A28D2219EEC5004B75D1 /* HighTower.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -700,6 +710,7 @@
 			files = (
 				5A417BCF22B53FDF00CE332A /* AddMonsterFormModule.swift in Sources */,
 				5A417BBF22B51B4C00CE332A /* StartSceneFormViewController.swift in Sources */,
+				5A1A04C722DE6A7A00E23EEE /* BossesParser.swift in Sources */,
 				5AF1062722BC0FFC003B5A2F /* MonsterDetailViewController.swift in Sources */,
 				5AAAD4F6221802B400ECC54C /* MonstersRepository.swift in Sources */,
 				5A9F4A8022DB54FF00B9AAED /* Array+appending.swift in Sources */,
@@ -743,6 +754,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1A04C922DE6B2700E23EEE /* BossesParserTests.swift in Sources */,
 				5A214CC522D27126005041D7 /* Mock.generated.swift in Sources */,
 				5A6A1C8222120E5C00A58EAD /* MonsterTraitsParseTests.swift in Sources */,
 				5A9F4A8222DB55FB00B9AAED /* AddMonsterFormMapperTests.swift in Sources */,

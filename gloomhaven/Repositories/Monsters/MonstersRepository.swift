@@ -14,4 +14,17 @@ class MonstersRepository {
       return []
     }
   }
+
+  func loadBosses() -> [Monster] {
+    do {
+      guard let json = try Bundle.main.loadJson(named: "bosses") else {
+        return []
+      }
+
+      return BossesParser().parse(json: json)
+    } catch {
+      print(error)
+      return []
+    }
+  }
 }

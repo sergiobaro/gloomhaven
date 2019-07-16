@@ -1,0 +1,972 @@
+{
+    "Bandit Commander": [
+        {
+            "life": "8xC",
+            "move": 3,
+            "attack": 3,
+            "range": 0,
+            "specialOne": ["Move to next door and reveal room"],
+            "specialTwo": ["Summon Living Bones"],
+            "immunities": ["IMMOBILIZE, STUN, CURSE"]
+        },
+        {
+            "life": "10xC",
+            "move": 3,
+            "attack": 3,
+            "range": 0,
+            "specialOne": ["Move to next door and reveal room"],
+            "specialTwo": ["Summon Living Bones"],
+            "immunities": ["IMMOBILIZE, STUN, CURSE"]
+        },
+        {
+            "life": "12xC",
+            "move": 4,
+            "attack": 3,
+            "range": 0,
+            "specialOne": ["Move to next door and reveal room"],
+            "specialTwo": ["Summon Living Bones"],
+            "immunities": ["IMMOBILIZE, STUN, CURSE"]
+        },
+        {
+            "life": "13xC",
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+            "specialOne": ["Move to next door and reveal room"],
+            "specialTwo": ["Summon Living Bones"],
+            "immunities": ["IMMOBILIZE, STUN, CURSE"]
+        },
+        {
+            "life": "15xC",
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+            "specialOne": ["Move to next door and reveal room"],
+            "specialTwo": ["Summon Living Bones"],
+            "immunities": ["IMMOBILIZE, STUN, CURSE"]
+        },
+        {
+            "life": "16xC",
+            "move": 5,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["Move to next door and reveal room"],
+            "specialTwo": ["Summon Living Bones"],
+            "immunities": ["IMMOBILIZE, STUN, CURSE"]
+        },
+        {
+            "life": "19xC",
+            "move": 5,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["Move to next door and reveal room"],
+            "specialTwo": ["Summon Living Bones"],
+            "immunities": ["IMMOBILIZE, STUN, CURSE"]
+        },
+        {
+            "life": "23xC",
+            "move": 5,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["Move to next door and reveal room"],
+            "specialTwo": ["Summon Living Bones"],
+            "immunities": ["IMMOBILIZE, STUN, CURSE"]
+        }
+    ],
+    "The Betrayer": [
+        {
+            "life": "10xC",
+            "move": 3,
+            "attack": 4,
+            "range": 3,
+            "specialOne": ["Summon Giant Viper and Fear"],
+            "specialTwo": ["Mind Control"],
+            "immunities": ["POISON, WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "12xC",
+            "move": 3,
+            "attack": 5,
+            "range": 3,
+            "specialOne": ["Summon Giant Viper and Fear"],
+            "specialTwo": ["Mind Control"],
+            "immunities": ["POISON, WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "14xC",
+            "move": 3,
+            "attack": 6,
+            "range": 4,
+            "specialOne": ["Summon Giant Viper and Fear"],
+            "specialTwo": ["Mind Control"],
+            "immunities": ["POISON, WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "16xC",
+            "move": 4,
+            "attack": 7,
+            "range": 4,
+            "specialOne": ["Summon Giant Viper and Fear"],
+            "specialTwo": ["Mind Control"],
+            "immunities": ["POISON, WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "18xC",
+            "move": 4,
+            "attack": 8,
+            "range": 4,
+            "specialOne": ["Summon Giant Viper and Fear"],
+            "specialTwo": ["Mind Control"],
+            "immunities": ["POISON, WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "20xC",
+            "move": 5,
+            "attack": 8,
+            "range": 5,
+            "specialOne": ["Summon Giant Viper and Fear"],
+            "specialTwo": ["Mind Control"],
+            "immunities": ["POISON, WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "23xC",
+            "move": 5,
+            "attack": 9,
+            "range": 5,
+            "specialOne": ["Summon Giant Viper and Fear"],
+            "specialTwo": ["Mind Control"],
+            "immunities": ["POISON, WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "27xC",
+            "move": 5,
+            "attack": 9,
+            "range": 5,
+            "specialOne": ["Summon Giant Viper and Fear"],
+            "specialTwo": ["Mind Control"],
+            "immunities": ["POISON, WOUND, DISARM, STUN, CURSE"]
+        }
+    ],
+    "Captain of the Guard": [
+        {
+            "life": "7xC",
+            "move": 2,
+            "attack": 3,
+            "range": 0,
+            "specialOne": ["HEAL, 2, Affect Self and all allies"],
+            "specialTwo": ["All allies add +1 ATTACK to all attacks this round"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "9xC",
+            "move": 2,
+            "attack": 3,
+            "range": 0,
+            "specialOne": ["HEAL, 2, Affect Self and all allies"],
+            "specialTwo": ["All allies add +1 ATTACK to all attacks this round"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "11xC",
+            "move": 2,
+            "attack": 4,
+            "range": 0,
+            "specialOne": ["HEAL, 2, Affect Self and all allies"],
+            "specialTwo": ["All allies add +1 ATTACK to all attacks this round"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "14xC",
+            "move": 3,
+            "attack": 4,
+            "range": 0,
+            "specialOne": ["HEAL, 2, Affect Self and all allies"],
+            "specialTwo": ["All allies add +1 ATTACK to all attacks this round"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "16xC",
+            "move": 3,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["HEAL, 2, Affect Self and all allies"],
+            "specialTwo": ["All allies add +1 ATTACK to all attacks this round"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "20xC",
+            "move": 3,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["HEAL, 2, Affect Self and all allies"],
+            "specialTwo": ["All allies add +1 ATTACK to all attacks this round"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "21xC",
+            "move": 4,
+            "attack": 6,
+            "range": 0,
+            "specialOne": ["HEAL, 2, Affect Self and all allies"],
+            "specialTwo": ["All allies add +1 ATTACK to all attacks this round"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "25xC",
+            "move": 4,
+            "attack": 6,
+            "range": 0,
+            "specialOne": ["HEAL, 2, Affect Self and all allies"],
+            "specialTwo": ["All allies add +1 ATTACK to all attacks this round"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE"]
+        }
+    ],
+    "The Colorless": [
+        {
+            "life": "9xC",
+            "move": 3,
+            "attack": 2,
+            "range": 0,
+            "specialOne": [{ "type": "element", "use": "elements.DARK", "action": "Summon Night Demon" }, "INVISIBLE"],
+            "specialTwo": [{ "type": "element", "use": "elements.LIGHT", "action": "Summon Sun Demon" }, "HEAL, 4, Self", "sheld 1"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "10xC",
+            "move": 3,
+            "attack": 3,
+            "range": 0,
+            "specialOne": [{ "type": "element", "use": "elements.DARK", "action": "Summon Night Demon" }, "INVISIBLE"],
+            "specialTwo": [{ "type": "element", "use": "elements.LIGHT", "action": "Summon Sun Demon" }, "HEAL, 4, Self", "SHIELD, 1"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "11xC",
+            "move": 4,
+            "attack": 3,
+            "range": 0,
+            "specialOne": [{ "type": "element", "use": "elements.DARK", "action": "Summon Night Demon" }, "INVISIBLE"],
+            "specialTwo": [{ "type": "element", "use": "elements.LIGHT", "action": "Summon Sun Demon" }, "HEAL, 5, Self", "SHIELD, 1"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "12xC",
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+            "specialOne": [{ "type": "element", "use": "elements.DARK", "action": "Summon Night Demon" }, "INVISIBLE"],
+            "specialTwo": [{ "type": "element", "use": "elements.LIGHT", "action": "Summon Sun Demon" }, "HEAL, 5, Self", "SHIELD, 1"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "14xC",
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+            "specialOne": [{ "type": "element", "use": "elements.DARK", "action": "Summon Night Demon" }, "INVISIBLE"],
+            "specialTwo": [{ "type": "element", "use": "elements.LIGHT", "action": "Summon Sun Demon" }, "HEAL, 6, Self", "SHIELD, 1"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "15xC",
+            "move": 4,
+            "attack": 5,
+            "range": 0,
+            "specialOne": [{ "type": "element", "use": "elements.DARK", "action": "Summon Night Demon" }, "INVISIBLE"],
+            "specialTwo": [{ "type": "element", "use": "elements.LIGHT", "action": "Summon Sun Demon" }, "HEAL, 6, Self", "SHIELD, 1"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "17xC",
+            "move": 4,
+            "attack": 6,
+            "range": 0,
+            "specialOne": [{ "type": "element", "use": "elements.DARK", "action": "Summon Night Demon" }, "INVISIBLE"],
+            "specialTwo": [{ "type": "element", "use": "elements.LIGHT", "action": "Summon Sun Demon" }, "HEAL, 7, Self", "SHIELD, 1"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "19xC",
+            "move": 5,
+            "attack": 7,
+            "range": 0,
+            "specialOne": [{ "type": "element", "use": "elements.DARK", "action": "Summon Night Demon" }, "INVISIBLE"],
+            "specialTwo": [{ "type": "element", "use": "elements.LIGHT", "action": "Summon Sun Demon" }, "HEAL, 7, Self", "SHIELD, 1"],
+            "immunities": ["WOUND, DISARM, STUN, MUDDLE, CURSE"]
+        }
+    ],
+    "Dark Rider": [
+        {
+            "life": "9xC",
+            "move": 2,
+            "attack": "3+X",
+            "range": 0,
+            "specialOne": ["MOVE, +2", "ATTACK, +0"],
+            "specialTwo": ["MOVE, +0", "Summon Imp", "ATTACK, -1"],
+            "extra": ["X = Hexes moved"],
+            "immunities": ["POISON, IMMOBILIZE, DISARM, STUN"]
+        },
+        {
+            "life": "10xC",
+            "move": 3,
+            "attack": "3+X",
+            "range": 0,
+            "specialOne": ["MOVE, +2", "ATTACK, +0"],
+            "specialTwo": ["MOVE, +0", "Summon Imp", "ATTACK, -1"],
+            "extra": ["X = Hexes moved"],
+            "immunities": ["POISON, IMMOBILIZE, DISARM, STUN"]
+        },
+        {
+            "life": "12xC",
+            "move": 3,
+            "attack": "3+X",
+            "range": 0,
+            "specialOne": ["MOVE, +2", "ATTACK, +0"],
+            "specialTwo": ["MOVE, +0", "Summon Imp", "ATTACK, -1"],
+            "extra": ["X = Hexes moved"],
+            "immunities": ["POISON, IMMOBILIZE, DISARM, STUN"]
+        },
+        {
+            "life": "13xC",
+            "move": 3,
+            "attack": "4+X",
+            "range": 0,
+            "specialOne": ["MOVE, +2", "ATTACK, +0"],
+            "specialTwo": ["MOVE, +0", "Summon Imp", "ATTACK, -1"],
+            "extra": ["X = Hexes moved"],
+            "immunities": ["POISON, IMMOBILIZE, DISARM, STUN"]
+        },
+        {
+            "life": "15xC",
+            "move": 3,
+            "attack": "4+X",
+            "range": 0,
+            "specialOne": ["MOVE, +2", "ATTACK, +0"],
+            "specialTwo": ["MOVE, +0", "Summon Imp", "ATTACK, -1"],
+            "extra": ["X = Hexes moved"],
+            "immunities": ["POISON, IMMOBILIZE, DISARM, STUN"]
+        },
+        {
+            "life": "16xC",
+            "move": 3,
+            "attack": "5+X",
+            "range": 0,
+            "specialOne": ["MOVE, +2", "ATTACK, +0"],
+            "specialTwo": ["MOVE, +0", "Summon Imp", "ATTACK, -1"],
+            "extra": ["X = Hexes moved"],
+            "immunities": ["POISON, IMMOBILIZE, DISARM, STUN"]
+        },
+        {
+            "life": "16xC",
+            "move": 4,
+            "attack": "5+X",
+            "range": 0,
+            "specialOne": ["MOVE, +2", "ATTACK, +0"],
+            "specialTwo": ["MOVE, +0", "Summon Imp", "ATTACK, -1"],
+            "extra": ["X = Hexes moved"],
+            "immunities": ["POISON, IMMOBILIZE, DISARM, STUN"]
+        },
+        {
+            "life": "18xC",
+            "move": 4,
+            "attack": "6+X",
+            "range": 0,
+            "specialOne": ["MOVE, +2", "ATTACK, +0"],
+            "specialTwo": ["MOVE, +0", "Summon Imp", "ATTACK, -1"],
+            "extra": ["X = Hexes moved"],
+            "immunities": ["POISON, IMMOBILIZE, DISARM, STUN"]
+        }
+    ],
+    "Elder Drake": [
+        {
+            "life": "11xC",
+            "move": 0,
+            "attack": 3,
+            "range": 0,
+            "specialOne": ["ATTACK, 0, elderDrakeSpecial1Area"],
+            "specialTwo": ["Move and summon 2 Zephyrs"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, PUSH, PULL"]
+        },
+        {
+            "life": "12xC",
+            "move": 0,
+            "attack": 4,
+            "range": 0,
+            "specialOne": ["ATTACK, 0, elderDrakeSpecial1Area"],
+            "specialTwo": ["Move and summon 2 Zephyrs"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, PUSH, PULL"]
+        },
+        {
+            "life": "15xC",
+            "move": 0,
+            "attack": 4,
+            "range": 0,
+            "specialOne": ["ATTACK, 0, elderDrakeSpecial1Area"],
+            "specialTwo": ["Move and summon 2 Zephyrs"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, PUSH, PULL"]
+        },
+        {
+            "life": "16xC",
+            "move": 0,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["ATTACK, 0, elderDrakeSpecial1Area"],
+            "specialTwo": ["Move and summon 2 Zephyrs"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, PUSH, PULL"]
+        },
+        {
+            "life": "20xC",
+            "move": 0,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["ATTACK, 0, elderDrakeSpecial1Area"],
+            "specialTwo": ["Move and summon 2 Zephyrs"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, PUSH, PULL"]
+        },
+        {
+            "life": "22xC",
+            "move": 0,
+            "attack": 6,
+            "range": 0,
+            "specialOne": ["ATTACK, 0, elderDrakeSpecial1Area"],
+            "specialTwo": ["Move and summon 2 Zephyrs"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, PUSH, PULL"]
+        },
+        {
+            "life": "27xC",
+            "move": 0,
+            "attack": 6,
+            "range": 0,
+            "specialOne": ["ATTACK, 0, elderDrakeSpecial1Area"],
+            "specialTwo": ["Move and summon 2 Zephyrs"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, PUSH, PULL"]
+        },
+        {
+            "life": "29xC",
+            "move": 0,
+            "attack": 7,
+            "range": 0,
+            "specialOne": ["ATTACK, 0, elderDrakeSpecial1Area"],
+            "specialTwo": ["Move and summon 2 Zephyrs"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, PULL, PUSH"]
+        }
+    ],
+    "The Gloom": [
+        {
+            "life": "20xC",
+            "move": 2,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["MOVE, +9", "ATTACK, +9"],
+            "specialTwo": ["Teleport", "ATTACK, +1", "RANGE, 5", "POISON", "WOUND", "STUN"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "25xC",
+            "move": 2,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["MOVE, +9", "ATTACK, +9"],
+            "specialTwo": ["Teleport", "ATTACK, +1", "RANGE, 5", "POISON", "WOUND", "STUN"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "29xC",
+            "move": 2,
+            "attack": 6,
+            "range": 0,
+            "specialOne": ["MOVE, +9", "ATTACK, +9"],
+            "specialTwo": ["Teleport", "ATTACK, +1", "RANGE, 5", "POISON", "WOUND", "STUN"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "35xC",
+            "move": 2,
+            "attack": 6,
+            "range": 0,
+            "specialOne": ["MOVE, +9", "ATTACK, +9"],
+            "specialTwo": ["Teleport", "ATTACK, +1", "RANGE, 5", "POISON", "WOUND", "STUN"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "39xC",
+            "move": 3,
+            "attack": 7,
+            "range": 0,
+            "specialOne": ["MOVE, +9", "ATTACK, +9"],
+            "specialTwo": ["Teleport", "ATTACK, +1", "RANGE, 5", "POISON", "WOUND", "STUN"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "46xC",
+            "move": 3,
+            "attack": 7,
+            "range": 0,
+            "specialOne": ["MOVE, +9", "ATTACK, +9"],
+            "specialTwo": ["Teleport", "ATTACK, +1", "RANGE, 5", "POISON", "WOUND", "STUN"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "50xC",
+            "move": 3,
+            "attack": 8,
+            "range": 0,
+            "specialOne": ["MOVE, +9", "ATTACK, +9"],
+            "specialTwo": ["Teleport", "ATTACK, +1", "RANGE, 5", "POISON", "WOUND", "STUN"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "56xC",
+            "move": 3,
+            "attack": 9,
+            "range": 0,
+            "specialOne": ["MOVE, +9", "ATTACK, +9"],
+            "specialTwo": ["Teleport", "ATTACK, +1", "RANGE, 5", "POISON", "WOUND", "STUN"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE, CURSE"]
+        }
+    ],
+    "Inox Bodyguard": [
+        {
+            "life": "6xC",
+            "move": 2,
+            "attack": "C",
+            "range": 0,
+            "specialOne": ["MOVE, -1", "ATTACK, 1, inoxBodyguardSpecial1Area"],
+            "specialTwo": ["MOVE, +0", "ATTACK, +0", "RETALIATE, 3"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "7xC",
+            "move": 2,
+            "attack": "1+C",
+            "range": 0,
+            "specialOne": ["MOVE, -1", "ATTACK, 1, inoxBodyguardSpecial1Area"],
+            "specialTwo": ["MOVE, +0", "ATTACK, +0", "RETALIATE, 3"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "9xC",
+            "move": 2,
+            "attack": "1+C",
+            "range": 0,
+            "specialOne": ["MOVE, -1", "ATTACK, 1, inoxBodyguardSpecial1Area"],
+            "specialTwo": ["MOVE, +0", "ATTACK, +0", "RETALIATE, 3"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "10xC",
+            "move": 3,
+            "attack": "1+C",
+            "range": 0,
+            "specialOne": ["MOVE, -1", "ATTACK, 1, inoxBodyguardSpecial1Area"],
+            "specialTwo": ["MOVE, +0", "ATTACK, +0", "RETALIATE, 4"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "11xC",
+            "move": 3,
+            "attack": "1+C",
+            "range": 0,
+            "specialOne": ["MOVE, -1", "ATTACK, 1, inoxBodyguardSpecial1Area"],
+            "specialTwo": ["MOVE, +0", "ATTACK, +0", "RETALIATE, 4"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "13xC",
+            "move": 3,
+            "attack": "1+C",
+            "range": 0,
+            "specialOne": ["MOVE, -1", "ATTACK, 1, inoxBodyguardSpecial1Area"],
+            "specialTwo": ["MOVE, +0", "ATTACK, +0", "RETALIATE, 5"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "15xC",
+            "move": 4,
+            "attack": "1+C",
+            "range": 0,
+            "specialOne": ["MOVE, -1", "ATTACK, 1, inoxBodyguardSpecial1Area"],
+            "specialTwo": ["MOVE, +0", "ATTACK, +0", "RETALIATE, 5"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "17xC",
+            "move": 4,
+            "attack": "1+C",
+            "range": 0,
+            "specialOne": ["MOVE, -1", "ATTACK, 1, inoxBodyguardSpecial1Area"],
+            "specialTwo": ["MOVE, +0", "ATTACK, +0", "RETALIATE, 5"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE"]
+        }
+    ],
+    "Jekserah": [
+        {
+            "life": "6xC",
+            "move": 2,
+            "attack": 2,
+            "range": 0,
+            "specialOne": ["Summon Living Bones", "ATTACK, -1, Target all adjacent enemies"],
+            "specialTwo": ["Summon Living Corpse", "MOVE, -1", "ATTACK, +2"],
+            "immunities": ["WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "7xC",
+            "move": 2,
+            "attack": 3,
+            "range": 0,
+            "specialOne": ["Summon Living Bones", "ATTACK, -1, Target all adjacent enemies"],
+            "specialTwo": ["Summon Living Corpse", "MOVE, -1", "ATTACK, +2"],
+            "immunities": ["WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "9xC",
+            "move": 3,
+            "attack": 3,
+            "range": 0,
+            "specialOne": ["Summon Living Bones", "ATTACK, -1, Target all adjacent enemies"],
+            "specialTwo": ["Summon Living Corpse", "MOVE, -1", "ATTACK, +2"],
+            "immunities": ["WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "12xC",
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+            "specialOne": ["Summon Living Bones", "ATTACK, -1, Target all adjacent enemies"],
+            "specialTwo": ["Summon Living Corpse", "MOVE, -1", "ATTACK, +2"],
+            "immunities": ["WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "13xC",
+            "move": 4,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["Summon Living Bones", "ATTACK, -1, Target all adjacent enemies"],
+            "specialTwo": ["Summon Living Corpse", "MOVE, -1", "ATTACK, +2"],
+            "immunities": ["WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "15xC",
+            "move": 5,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["Summon Living Bones", "ATTACK, -1, Target all adjacent enemies"],
+            "specialTwo": ["Summon Living Corpse", "MOVE, -1", "ATTACK, +2"],
+            "immunities": ["WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "18xC",
+            "move": 5,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["Summon Living Bones", "ATTACK, -1, Target all adjacent enemies"],
+            "specialTwo": ["Summon Living Corpse", "MOVE, -1", "ATTACK, +2"],
+            "immunities": ["WOUND, DISARM, STUN, CURSE"]
+        },
+        {
+            "life": "22xC",
+            "move": 5,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["Summon Living Bones", "ATTACK, -1, Target all adjacent enemies"],
+            "specialTwo": ["Summon Living Corpse", "MOVE, -1", "ATTACK, +2"],
+            "immunities": ["WOUND, DISARM, STUN, CURSE"]
+        }
+    ],
+    "Merciless Overseer": [
+        {
+            "life": "6xC",
+            "move": 2,
+            "attack": "V",
+            "range": 0,
+            "specialOne": ["All Scouts act again"],
+            "specialTwo": ["Summon Vermling Scout"],
+            "immunities": ["WOUND, STUN, CURSE"],
+            "extra": ["V = Number of Scouts present"]
+        },
+        {
+            "life": "8xC",
+            "move": 2,
+            "attack": "V",
+            "range": 0,
+            "specialOne": ["All Scouts act again"],
+            "specialTwo": ["Summon Vermling Scout"],
+            "immunities": ["WOUND, STUN, CURSE"],
+            "extra": ["V = Number of Scouts present"]
+        },
+        {
+            "life": "9xC",
+            "move": 3,
+            "attack": "V",
+            "range": 0,
+            "specialOne": ["All Scouts act again"],
+            "specialTwo": ["Summon Vermling Scout"],
+            "immunities": ["WOUND, STUN, CURSE"],
+            "extra": ["V = Number of Scouts present"]
+        },
+        {
+            "life": "11xC",
+            "move": 3,
+            "attack": "V",
+            "range": 0,
+            "specialOne": ["All Scouts act again"],
+            "specialTwo": ["Summon Vermling Scout"],
+            "immunities": ["WOUND, STUN, CURSE"],
+            "extra": ["V = Number of Scouts present"]
+        },
+        {
+            "life": "12xC",
+            "move": 4,
+            "attack": "V",
+            "range": 0,
+            "specialOne": ["All Scouts act again"],
+            "specialTwo": ["Summon Vermling Scout"],
+            "immunities": ["WOUND, STUN, CURSE"],
+            "extra": ["V = Number of Scouts present"]
+        },
+        {
+            "life": "14xC",
+            "move": 4,
+            "attack": "V",
+            "range": 0,
+            "specialOne": ["All Scouts act again"],
+            "specialTwo": ["Summon Vermling Scout"],
+            "immunities": ["WOUND, STUN, CURSE"],
+            "extra": ["V = Number of Scouts present"]
+        },
+        {
+            "life": "16xC",
+            "move": 4,
+            "attack": "V",
+            "range": 0,
+            "specialOne": ["All Scouts act again"],
+            "specialTwo": ["Summon Vermling Scout"],
+            "immunities": ["WOUND, STUN, CURSE"],
+            "extra": ["V = Number of Scouts present"]
+        },
+        {
+            "life": "19xC",
+            "move": 4,
+            "attack": "V",
+            "range": 0,
+            "specialOne": ["All Scouts act again"],
+            "specialTwo": ["Summon Vermling Scout"],
+            "immunities": ["WOUND, STUN, CURSE"],
+            "extra": ["V = Number of Scouts present"]
+        }
+    ],
+    "Prime Demon": [
+        {
+            "life": "8xC",
+            "move": 3,
+            "attack": 4,
+            "range": 0,
+            "specialOne": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "specialTwo": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "9xC",
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+            "specialOne": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "specialTwo": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "10xC",
+            "move": 4,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "specialTwo": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "12xC",
+            "move": 4,
+            "attack": 6,
+            "range": 0,
+            "specialOne": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "specialTwo": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "14xC",
+            "move": 5,
+            "attack": 6,
+            "range": 0,
+            "specialOne": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "specialTwo": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "16xC",
+            "move": 5,
+            "attack": 7,
+            "range": 0,
+            "specialOne": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "specialTwo": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "20xC",
+            "move": 5,
+            "attack": 7,
+            "range": 0,
+            "specialOne": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "specialTwo": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE"]
+        },
+        {
+            "life": "22xC",
+            "move": 5,
+            "attack": 8,
+            "range": 0,
+            "specialOne": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "specialTwo": ["Throne moves", "Summon Demon", "MOVE, +2", "ATTACK, -1"],
+            "immunities": ["POISON, WOUND, IMMOBILIZE, DISARM, STUN, MUDDLE"]
+        }
+    ],
+    "The Sightless Eye": [
+        {
+            "life": "7xC",
+            "attack": 5,
+            "range": 3,
+            "specialOne": ["Summon Deep Terror", "ATTACK, 3, sightlessEyeSpecial1Area"],
+            "specialTwo": ["Summon Deep Terror", "ATTACK, 2, sightlessEyeSpecial2Area"],
+            "immunities": ["DISARM, STUN, MUDDLE, CURSE, PUSH, PULL"]
+        },
+        {
+            "life": "8xC",
+            "attack": 6,
+            "range": 3,
+            "specialOne": ["Summon Deep Terror", "ATTACK, 3, sightlessEyeSpecial1Area"],
+            "specialTwo": ["Summon Deep Terror", "ATTACK, 2, sightlessEyeSpecial2Area"],
+            "immunities": ["DISARM, STUN, MUDDLE, CURSE, PUSH, PULL"]
+        },
+        {
+            "life": "10xC",
+            "attack": 6,
+            "range": 3,
+            "specialOne": ["Summon Deep Terror", "ATTACK, 3, sightlessEyeSpecial1Area"],
+            "specialTwo": ["Summon Deep Terror", "ATTACK, 2, sightlessEyeSpecial2Area"],
+            "immunities": ["DISARM, STUN, MUDDLE, CURSE, PUSH, PULL"]
+        },
+        {
+            "life": "11xC",
+            "attack": 7,
+            "range": 3,
+            "specialOne": ["Summon Deep Terror", "ATTACK, 3, sightlessEyeSpecial1Area"],
+            "specialTwo": ["Summon Deep Terror", "ATTACK, 2, sightlessEyeSpecial2Area"],
+            "immunities": ["DISARM, STUN, MUDDLE, CURSE, PUSH, PULL"]
+        },
+        {
+            "life": "14xC",
+            "attack": 7,
+            "range": 3,
+            "specialOne": ["Summon Deep Terror", "ATTACK, 3, sightlessEyeSpecial1Area"],
+            "specialTwo": ["Summon Deep Terror", "ATTACK, 2, sightlessEyeSpecial2Area"],
+            "immunities": ["DISARM, STUN, MUDDLE, CURSE, PUSH, PULL"]
+        },
+        {
+            "life": "15xC",
+            "attack": 8,
+            "range": 3,
+            "specialOne": ["Summon Deep Terror", "ATTACK, 3, sightlessEyeSpecial1Area"],
+            "specialTwo": ["Summon Deep Terror", "ATTACK, 2, sightlessEyeSpecial2Area"],
+            "immunities": ["DISARM, STUN, MUDDLE, CURSE, PUSH, PULL"]
+        },
+        {
+            "life": "18xC",
+            "attack": 8,
+            "range": 3,
+            "specialOne": ["Summon Deep Terror", "ATTACK, 3, sightlessEyeSpecial1Area"],
+            "specialTwo": ["Summon Deep Terror", "ATTACK, 2, sightlessEyeSpecial2Area"],
+            "immunities": ["DISARM, STUN, MUDDLE, CURSE, PUSH, PULL"]
+        },
+        {
+            "life": "20xC",
+            "attack": 9,
+            "range": 3,
+            "specialOne": ["Summon Deep Terror", "ATTACK, 3, sightlessEyeSpecial1Area"],
+            "specialTwo": ["Summon Deep Terror", "ATTACK, 2, sightlessEyeSpecial2Area"],
+            "immunities": ["DISARM, STUN, MUDDLE, CURSE, PUSH, PULL"]
+        }
+    ],
+    "Winged Horror": [
+        {
+            "life": "6xC",
+            "move": 3,
+            "attack": 3,
+            "range": 0,
+            "specialOne": ["ATTACK, -1, Target all adjacent enemies", "ATTACK, +0, range 3", "Hatch eggs"],
+            "specialTwo": ["Summon ${numPlayers} eggs", "MOVE, -1", "ATTACK, +0"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "7xC",
+            "move": 4,
+            "attack": 3,
+            "range": 0,
+            "specialOne": ["ATTACK, -1, Target all adjacent enemies", "ATTACK, +0, range 3", "Hatch eggs"],
+            "specialTwo": ["Summon ${numPlayers} eggs", "MOVE, -1", "ATTACK, +0"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "8xC",
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+            "specialOne": ["ATTACK, -1, Target all adjacent enemies", "ATTACK, +0, range 3", "Hatch eggs"],
+            "specialTwo": ["Summon ${numPlayers} eggs", "MOVE, -1", "ATTACK, +0"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "10xC",
+            "move": 4,
+            "attack": 4,
+            "range": 0,
+            "specialOne": ["ATTACK, -1, Target all adjacent enemies", "ATTACK, +0, range 3", "Hatch eggs"],
+            "specialTwo": ["Summon ${numPlayers} eggs", "MOVE, -1", "ATTACK, +0"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "12xC",
+            "move": 5,
+            "attack": 4,
+            "range": 0,
+            "specialOne": ["ATTACK, -1, Target all adjacent enemies", "ATTACK, +0, range 3", "Hatch eggs"],
+            "specialTwo": ["Summon ${numPlayers} eggs", "MOVE, -1", "ATTACK, +0"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "14xC",
+            "move": 5,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["ATTACK, -1, Target all adjacent enemies", "ATTACK, +0, range 3", "Hatch eggs"],
+            "specialTwo": ["Summon ${numPlayers} eggs", "MOVE, -1", "ATTACK, +0"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "17xC",
+            "move": 5,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["ATTACK, -1, Target all adjacent enemies", "ATTACK, +0, range 3", "Hatch eggs"],
+            "specialTwo": ["Summon ${numPlayers} eggs", "MOVE, -1", "ATTACK, +0"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE, CURSE"]
+        },
+        {
+            "life": "20xC",
+            "move": 5,
+            "attack": 5,
+            "range": 0,
+            "specialOne": ["ATTACK, -1, Target all adjacent enemies", "ATTACK, +0, range 3", "Hatch eggs"],
+            "specialTwo": ["Summon ${numPlayers} eggs", "MOVE, -1", "ATTACK, +0"],
+            "immunities": ["POISON, DISARM, STUN, MUDDLE, CURSE"]
+        }
+    ]
+}

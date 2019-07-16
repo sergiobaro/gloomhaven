@@ -26,7 +26,7 @@ class MonsterDetailPresenterTests: XCTestCase {
 
     let result = self.presenter.traitsString(stats: level.normal, isElite: false, includeIcons: false)
 
-    XCTAssertEqual(result.string, "Retaliate 2\nRange 2")
+    XCTAssertEqual(result.string, "Retaliate 2 Range 2")
   }
 
   func test_multi() {
@@ -38,7 +38,7 @@ class MonsterDetailPresenterTests: XCTestCase {
 
     let result = self.presenter.traitsString(stats: level.normal, isElite: false, includeIcons: false)
 
-    let expected = ["Flying", "Retaliate 2", "Range 2", "Shield 2"].joined(separator: "\n")
+    let expected = ["Flying", "Retaliate 2 Range 2", "Shield 2"].joined(separator: "\n")
     XCTAssertEqual(result.string, expected)
   }
 
@@ -48,7 +48,8 @@ class MonsterDetailPresenterTests: XCTestCase {
     return MonsterLevel(
       level: 0,
       normal: MonsterLevelStats(life: 0, move: 0, attack: 0, range: 0, traits: traits),
-      elite: MonsterLevelStats(life: 0, move: 0, attack: 0, range: 0, traits: traits)
+      elite: MonsterLevelStats(life: 0, move: 0, attack: 0, range: 0, traits: traits),
+      inmmunities: []
     )
   }
 

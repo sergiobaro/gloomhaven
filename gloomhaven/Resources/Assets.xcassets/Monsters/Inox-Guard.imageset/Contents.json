@@ -2,16 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Inox-Guard.jpg",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "2x"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "3x"
+      "filename" : "Inox-Guard.jpg"
     }
   ],
   "info" : {
