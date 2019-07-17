@@ -34,17 +34,17 @@
                                                         <constraint firstAttribute="height" constant="100" id="Gwq-MR-Mfp"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Level" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyG-4I-fNh" customClass="Label" customModule="gloomhaven" customModuleProvider="target">
-                                                    <rect key="frame" x="40" y="7" width="40" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="9" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyG-4I-fNh" customClass="Label" customModule="gloomhaven" customModuleProvider="target">
+                                                    <rect key="frame" x="35.5" y="31" width="24" height="48"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="DyG-4I-fNh" firstAttribute="trailing" secondItem="CcO-gB-ML0" secondAttribute="trailing" constant="-5" id="Y1T-Gm-ZRX"/>
+                                                <constraint firstItem="DyG-4I-fNh" firstAttribute="centerY" secondItem="CcO-gB-ML0" secondAttribute="centerY" id="F3b-k7-jNj"/>
                                                 <constraint firstAttribute="bottom" secondItem="CcO-gB-ML0" secondAttribute="bottom" constant="5" id="fMl-eH-6Gm"/>
-                                                <constraint firstItem="DyG-4I-fNh" firstAttribute="top" secondItem="CcO-gB-ML0" secondAttribute="top" constant="2" id="hd9-HV-Dmn"/>
+                                                <constraint firstItem="DyG-4I-fNh" firstAttribute="centerX" secondItem="CcO-gB-ML0" secondAttribute="centerX" id="gTi-gj-CDM"/>
                                                 <constraint firstItem="CcO-gB-ML0" firstAttribute="leading" secondItem="zu2-dc-W4s" secondAttribute="leading" constant="10" id="nyw-l7-r6w"/>
                                                 <constraint firstItem="CcO-gB-ML0" firstAttribute="top" secondItem="zu2-dc-W4s" secondAttribute="top" constant="5" id="w8d-ey-CE2"/>
                                             </constraints>
