@@ -1,9 +1,9 @@
 import XCTest
 @testable import gloomhaven
 
-class MonsterDetailPresenterTests: XCTestCase {
+class MonsterStatsViewPresenterTests: XCTestCase {
 
-  let presenter = MonsterDetailPresenter()
+  let presenter = MonsterStatsViewPresenter()
 
   func test_wound() {
     let level = self.level(with: [MonsterTrait(effect: .wound, amount: nil, range: nil)])

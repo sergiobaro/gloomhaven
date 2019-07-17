@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-class MonsterDetailPresenter {
+class MonsterStatsViewPresenter {
 
   private let tintableEffects: [Effect] = [.flying, .target, .shield, .retaliate]
   private let iconBounds = CGRect(x: -1, y: -3, width: 18, height: 18)
@@ -12,7 +12,8 @@ class MonsterDetailPresenter {
 
   init() {
     let paragraph = NSMutableParagraphStyle()
-    paragraph.lineSpacing = 5
+    paragraph.paragraphSpacing = 5
+    paragraph.headIndent = 5
 
     self.attributes = [
       .font: UIFont.nyala(size: 20.0),
@@ -26,12 +27,10 @@ class MonsterDetailPresenter {
 
   // MARK: - Public
   
-  func traitsString(stats: MonsterLevelStats, isElite: Bool, includeIcons: Bool) -> NSAttributedString {
-    let color = !isElite ? UIColor.black : UIColor.white
-
-    return stats.traits
+  func traitsString(traits: [MonsterTrait], includeIcons: Bool) -> NSAttributedString {
+    return traits
       .map({ trait in
-        return self.map(trait: trait, color: color, includeIcons: includeIcons)
+        return self.map(trait: trait, color: .black, includeIcons: includeIcons)
       })
       .reduce(into: NSMutableAttributedString(), { result, string in
         if !result.string.isEmpty {

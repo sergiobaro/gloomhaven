@@ -8,7 +8,7 @@ class MonsterStatsView: UIView {
   @IBOutlet private weak var rangeLabel: UILabel!
   @IBOutlet private weak var traitsLabel: UILabel!
 
-  private let presenter = MonsterDetailPresenter()
+  private let presenter = MonsterStatsViewPresenter()
 
   // MARK: - Public
 
@@ -18,11 +18,7 @@ class MonsterStatsView: UIView {
     self.attackLabel.text = String(stats.attack)
     self.rangeLabel.text = String(stats.range)
 
-    self.traitsLabel.attributedText = self.presenter.traitsString(
-      stats: stats,
-      isElite: false,
-      includeIcons: true
-    )
+    self.traitsLabel.attributedText = self.presenter.traitsString(traits: stats.traits, includeIcons: true)
   }
 
 }

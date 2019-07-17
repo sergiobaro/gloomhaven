@@ -14,19 +14,19 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LQz-8N-vCx">
-                    <rect key="frame" x="0.0" y="0.0" width="30" height="136"/>
+                    <rect key="frame" x="0.0" y="5" width="30" height="126"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life" translatesAutoresizingMaskIntoConstraints="NO" id="2IE-Rn-F8h">
-                            <rect key="frame" x="0.0" y="0.0" width="30" height="34"/>
+                            <rect key="frame" x="0.0" y="0.0" width="30" height="31.5"/>
                         </imageView>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="move" translatesAutoresizingMaskIntoConstraints="NO" id="F4z-KT-lmY">
-                            <rect key="frame" x="0.0" y="34" width="30" height="34"/>
+                            <rect key="frame" x="0.0" y="31.5" width="30" height="31.5"/>
                         </imageView>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="attack" translatesAutoresizingMaskIntoConstraints="NO" id="W9S-jJ-2BG">
-                            <rect key="frame" x="0.0" y="68" width="30" height="34"/>
+                            <rect key="frame" x="0.0" y="63" width="30" height="31.5"/>
                         </imageView>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="range" translatesAutoresizingMaskIntoConstraints="NO" id="5Dz-us-seD">
-                            <rect key="frame" x="0.0" y="102" width="30" height="34"/>
+                            <rect key="frame" x="0.0" y="94.5" width="30" height="31.5"/>
                         </imageView>
                     </subviews>
                     <constraints>
@@ -34,36 +34,39 @@
                     </constraints>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hNj-IN-fWv">
-                    <rect key="frame" x="30" y="0.0" width="56" height="136"/>
+                    <rect key="frame" x="30" y="5" width="20" height="126"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1F-P8-Nay" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="0.0" width="56" height="34"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1F-P8-Nay" customClass="Label" customModule="gloomhaven" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="20" height="31.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Move" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVv-BU-f3i" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="34" width="56" height="34"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVv-BU-f3i" customClass="Label" customModule="gloomhaven" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="31.5" width="20" height="31.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LgE-6t-3Xk" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="68" width="56" height="34"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LgE-6t-3Xk" customClass="Label" customModule="gloomhaven" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="63" width="20" height="31.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Range" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRA-6X-Xpy" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                            <rect key="frame" x="0.0" y="102" width="56" height="34"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRA-6X-Xpy" customClass="Label" customModule="gloomhaven" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="94.5" width="20" height="31.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="mXm-hk-Slt"/>
+                    </constraints>
                 </stackView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yud-Z7-TOW" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                    <rect key="frame" x="91" y="5" width="323" height="24"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traits" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yud-Z7-TOW" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
+                    <rect key="frame" x="60" y="5" width="354" height="24"/>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -75,11 +78,11 @@
                 <constraint firstItem="hNj-IN-fWv" firstAttribute="leading" secondItem="LQz-8N-vCx" secondAttribute="trailing" id="AUW-uJ-J4S"/>
                 <constraint firstAttribute="trailing" secondItem="Yud-Z7-TOW" secondAttribute="trailing" id="OYx-Nh-n26"/>
                 <constraint firstItem="Yud-Z7-TOW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="W8w-qi-UVv"/>
-                <constraint firstItem="LQz-8N-vCx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Xud-hV-vvi"/>
-                <constraint firstItem="hNj-IN-fWv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="c5M-uQ-1f6"/>
-                <constraint firstAttribute="bottom" secondItem="hNj-IN-fWv" secondAttribute="bottom" id="oec-Sy-tWz"/>
-                <constraint firstAttribute="bottom" secondItem="LQz-8N-vCx" secondAttribute="bottom" id="u4P-k2-9ka"/>
-                <constraint firstItem="Yud-Z7-TOW" firstAttribute="leading" secondItem="hNj-IN-fWv" secondAttribute="trailing" constant="5" id="xTk-NE-dwn"/>
+                <constraint firstItem="LQz-8N-vCx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="Xud-hV-vvi"/>
+                <constraint firstItem="hNj-IN-fWv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="c5M-uQ-1f6"/>
+                <constraint firstAttribute="bottom" secondItem="hNj-IN-fWv" secondAttribute="bottom" constant="5" id="oec-Sy-tWz"/>
+                <constraint firstAttribute="bottom" secondItem="LQz-8N-vCx" secondAttribute="bottom" constant="5" id="u4P-k2-9ka"/>
+                <constraint firstItem="Yud-Z7-TOW" firstAttribute="leading" secondItem="hNj-IN-fWv" secondAttribute="trailing" constant="10" id="xTk-NE-dwn"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
