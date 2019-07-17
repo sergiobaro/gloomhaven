@@ -45,6 +45,7 @@ class AddMonsterFormViewController: UIViewController {
   }
 
   private func setupTableView() {
+    self.tableView.rowHeight = AddMonsterFormCell.height
     self.tableView.tableFooterView = UIView()
     self.tableView.dataSource = self
   }
@@ -72,7 +73,7 @@ extension AddMonsterFormViewController: UITableViewDataSource {
   }
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "MonsterFormCell", for: indexPath) as! AddMonsterFormCell
+    let cell = tableView.dequeue(AddMonsterFormCell.self, for: indexPath)!
     cell.delegate = self
     cell.numberOfTokens = viewModel.tokenCount
     cell.addMonsterModel = viewModel.monsters[indexPath.row]

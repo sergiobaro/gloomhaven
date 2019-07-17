@@ -9,7 +9,7 @@ class MonsterDetailModule {
     viewController.monster = monster
 
     let navController = UINavigationController(rootViewController: viewController)
-    navController.modalPresentationStyle = .pageSheet
+    navController.modalPresentationStyle = .formSheet
     
     return navController
   }

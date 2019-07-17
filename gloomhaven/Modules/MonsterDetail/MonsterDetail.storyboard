@@ -28,98 +28,30 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" image="Ancient-Artillery" translatesAutoresizingMaskIntoConstraints="NO" id="CcO-gB-ML0">
-                                                    <rect key="frame" x="10" y="5" width="74.5" height="100"/>
+                                                    <rect key="frame" x="10" y="5" width="75" height="100"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="74.5" id="8Qw-EB-PaP"/>
-                                                        <constraint firstAttribute="height" constant="99.5" id="Gwq-MR-Mfp"/>
+                                                        <constraint firstAttribute="width" constant="75" id="8Qw-EB-PaP"/>
+                                                        <constraint firstAttribute="height" constant="100" id="Gwq-MR-Mfp"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Level" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DyG-4I-fNh" customClass="Label" customModule="gloomhaven" customModuleProvider="target">
-                                                    <rect key="frame" x="39.5" y="7" width="40" height="20.5"/>
+                                                    <rect key="frame" x="40" y="7" width="40" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="5I6-OX-V7H">
-                                                    <rect key="frame" x="89.5" y="5" width="30" height="100"/>
-                                                    <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life" translatesAutoresizingMaskIntoConstraints="NO" id="cot-P8-uUS">
-                                                            <rect key="frame" x="0.0" y="0.0" width="30" height="25"/>
-                                                        </imageView>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="move" translatesAutoresizingMaskIntoConstraints="NO" id="KXL-Fe-ksb">
-                                                            <rect key="frame" x="0.0" y="25" width="30" height="25"/>
-                                                        </imageView>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="attack" translatesAutoresizingMaskIntoConstraints="NO" id="uc4-UR-j9K">
-                                                            <rect key="frame" x="0.0" y="50" width="30" height="25"/>
-                                                        </imageView>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="range" translatesAutoresizingMaskIntoConstraints="NO" id="FNk-tj-6PF">
-                                                            <rect key="frame" x="0.0" y="75" width="30" height="25"/>
-                                                        </imageView>
-                                                    </subviews>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="30" id="7BC-hf-qq5"/>
-                                                    </constraints>
-                                                </stackView>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="oC1-zX-L41">
-                                                    <rect key="frame" x="119.5" y="5" width="56" height="100"/>
-                                                    <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6je-IK-dIv" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="56" height="25"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Move" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QcR-QC-fbM" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="25" width="56" height="25"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3B-Ha-QxH" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="50" width="56" height="25"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Range" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Id2-61-ry7" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="75" width="56" height="25"/>
-                                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                            <nil key="textColor"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
-                                                    </subviews>
-                                                </stackView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traits" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKn-hh-beg" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                    <rect key="frame" x="185.5" y="5" width="47" height="24"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="oC1-zX-L41" secondAttribute="bottom" constant="5" id="5SV-j4-acU"/>
-                                                <constraint firstItem="5I6-OX-V7H" firstAttribute="leading" secondItem="CcO-gB-ML0" secondAttribute="trailing" constant="5" id="6gK-ug-0c5"/>
-                                                <constraint firstItem="aKn-hh-beg" firstAttribute="top" secondItem="zu2-dc-W4s" secondAttribute="top" constant="5" id="FAV-Y8-Ta5"/>
-                                                <constraint firstItem="oC1-zX-L41" firstAttribute="top" secondItem="zu2-dc-W4s" secondAttribute="top" constant="5" id="N5d-Fl-oZA"/>
-                                                <constraint firstItem="5I6-OX-V7H" firstAttribute="top" secondItem="zu2-dc-W4s" secondAttribute="top" constant="5" id="SF1-tr-JPI"/>
-                                                <constraint firstAttribute="bottom" secondItem="5I6-OX-V7H" secondAttribute="bottom" constant="5" id="UCW-TW-u9L"/>
                                                 <constraint firstItem="DyG-4I-fNh" firstAttribute="trailing" secondItem="CcO-gB-ML0" secondAttribute="trailing" constant="-5" id="Y1T-Gm-ZRX"/>
                                                 <constraint firstAttribute="bottom" secondItem="CcO-gB-ML0" secondAttribute="bottom" constant="5" id="fMl-eH-6Gm"/>
                                                 <constraint firstItem="DyG-4I-fNh" firstAttribute="top" secondItem="CcO-gB-ML0" secondAttribute="top" constant="2" id="hd9-HV-Dmn"/>
-                                                <constraint firstItem="oC1-zX-L41" firstAttribute="leading" secondItem="5I6-OX-V7H" secondAttribute="trailing" id="hfh-v4-E4x"/>
-                                                <constraint firstItem="aKn-hh-beg" firstAttribute="leading" secondItem="oC1-zX-L41" secondAttribute="trailing" constant="10" id="j4t-cf-dKX"/>
                                                 <constraint firstItem="CcO-gB-ML0" firstAttribute="leading" secondItem="zu2-dc-W4s" secondAttribute="leading" constant="10" id="nyw-l7-r6w"/>
                                                 <constraint firstItem="CcO-gB-ML0" firstAttribute="top" secondItem="zu2-dc-W4s" secondAttribute="top" constant="5" id="w8d-ey-CE2"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="attackLabel" destination="H3B-Ha-QxH" id="Ebq-O5-yT4"/>
                                             <outlet property="levelLabel" destination="DyG-4I-fNh" id="Wr8-Jv-EnG"/>
-                                            <outlet property="lifeLabel" destination="6je-IK-dIv" id="FkS-Se-Oqd"/>
                                             <outlet property="monsterImageView" destination="CcO-gB-ML0" id="20Y-Dd-b9Q"/>
-                                            <outlet property="moveLabel" destination="QcR-QC-fbM" id="g6r-51-0Kr"/>
-                                            <outlet property="rangeLabel" destination="Id2-61-ry7" id="1e4-Gr-wBy"/>
-                                            <outlet property="traitsLabel" destination="aKn-hh-beg" id="oqp-BI-iOJ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -147,9 +79,5 @@
     </scenes>
     <resources>
         <image name="Ancient-Artillery" width="643" height="900"/>
-        <image name="attack" width="300" height="300"/>
-        <image name="life" width="300" height="300"/>
-        <image name="move" width="300" height="300"/>
-        <image name="range" width="300" height="300"/>
     </resources>
 </document>

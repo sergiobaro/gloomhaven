@@ -68,10 +68,7 @@ extension MonstersGalleryViewController { //  UICollectionViewDelegate, UICollec
     cellForItemAt indexPath: IndexPath
     ) -> UICollectionViewCell {
 
-    let cell = collectionView.dequeueReusableCell(
-      withReuseIdentifier: "MonsterCell",
-      for: indexPath
-      ) as! MonsterCell
+    let cell = collectionView.dequeue(MonsterCell.self, for: indexPath)!
 
     let monster = monsters[indexPath.row]
     cell.nameLabel.text = monster.name

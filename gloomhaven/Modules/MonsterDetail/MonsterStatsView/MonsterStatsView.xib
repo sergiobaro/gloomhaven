@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14835.7" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14790.5"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MonsterStatsView" customModule="gloomhaven" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="136"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LQz-8N-vCx">
+                    <rect key="frame" x="0.0" y="0.0" width="30" height="136"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="life" translatesAutoresizingMaskIntoConstraints="NO" id="2IE-Rn-F8h">
+                            <rect key="frame" x="0.0" y="0.0" width="30" height="34"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="move" translatesAutoresizingMaskIntoConstraints="NO" id="F4z-KT-lmY">
+                            <rect key="frame" x="0.0" y="34" width="30" height="34"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="attack" translatesAutoresizingMaskIntoConstraints="NO" id="W9S-jJ-2BG">
+                            <rect key="frame" x="0.0" y="68" width="30" height="34"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="range" translatesAutoresizingMaskIntoConstraints="NO" id="5Dz-us-seD">
+                            <rect key="frame" x="0.0" y="102" width="30" height="34"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="HhM-mR-dvI"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="hNj-IN-fWv">
+                    <rect key="frame" x="30" y="0.0" width="56" height="136"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1F-P8-Nay" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="56" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Move" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVv-BU-f3i" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="34" width="56" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LgE-6t-3Xk" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="68" width="56" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Range" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YRA-6X-Xpy" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="102" width="56" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traits" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yud-Z7-TOW" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
+                    <rect key="frame" x="91" y="5" width="323" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LQz-8N-vCx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1b7-lZ-MAK"/>
+                <constraint firstItem="hNj-IN-fWv" firstAttribute="leading" secondItem="LQz-8N-vCx" secondAttribute="trailing" id="AUW-uJ-J4S"/>
+                <constraint firstAttribute="trailing" secondItem="Yud-Z7-TOW" secondAttribute="trailing" id="OYx-Nh-n26"/>
+                <constraint firstItem="Yud-Z7-TOW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="W8w-qi-UVv"/>
+                <constraint firstItem="LQz-8N-vCx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Xud-hV-vvi"/>
+                <constraint firstItem="hNj-IN-fWv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="c5M-uQ-1f6"/>
+                <constraint firstAttribute="bottom" secondItem="hNj-IN-fWv" secondAttribute="bottom" id="oec-Sy-tWz"/>
+                <constraint firstAttribute="bottom" secondItem="LQz-8N-vCx" secondAttribute="bottom" id="u4P-k2-9ka"/>
+                <constraint firstItem="Yud-Z7-TOW" firstAttribute="leading" secondItem="hNj-IN-fWv" secondAttribute="trailing" constant="5" id="xTk-NE-dwn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="attackLabel" destination="LgE-6t-3Xk" id="eba-Nk-BeO"/>
+                <outlet property="lifeLabel" destination="J1F-P8-Nay" id="6yR-Wy-VmB"/>
+                <outlet property="moveLabel" destination="PVv-BU-f3i" id="T6d-ao-cpE"/>
+                <outlet property="rangeLabel" destination="YRA-6X-Xpy" id="kf7-9d-bY3"/>
+                <outlet property="traitsLabel" destination="Yud-Z7-TOW" id="ff1-tn-qcu"/>
+            </connections>
+            <point key="canvasLocation" x="149.27536231884059" y="-73.660714285714278"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="attack" width="300" height="300"/>
+        <image name="life" width="300" height="300"/>
+        <image name="move" width="300" height="300"/>
+        <image name="range" width="300" height="300"/>
+    </resources>
+</document>

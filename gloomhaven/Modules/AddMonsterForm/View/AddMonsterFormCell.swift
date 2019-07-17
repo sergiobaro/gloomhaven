@@ -7,6 +7,9 @@ protocol AddMonsterFormCellDelegate: class {
 }
 
 class AddMonsterFormCell: UITableViewCell {
+
+  static var height: CGFloat = 110
+  
   private struct Style {
     static let segmentWidth: CGFloat = 40.0
   }

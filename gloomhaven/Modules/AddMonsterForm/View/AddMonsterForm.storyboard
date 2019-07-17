@@ -21,7 +21,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="MonsterFormCell" rowHeight="110" id="lXn-Cl-VS5" customClass="AddMonsterFormCell" customModule="gloomhaven" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddMonsterFormCell" rowHeight="110" id="lXn-Cl-VS5" customClass="AddMonsterFormCell" customModule="gloomhaven" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="540" height="110"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lXn-Cl-VS5" id="5ZF-IR-Z2F">
@@ -32,7 +32,7 @@
                                                     <rect key="frame" x="50" y="10" width="440" height="90"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd8-lM-xAC" customClass="Button" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="0.0" y="0.0" width="215" height="44.5"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="215" height="44"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="44" id="eOU-Xu-bFw"/>
                                                             </constraints>
@@ -45,7 +45,7 @@
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVa-7V-ru3" customClass="Button" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="225" y="0.0" width="215" height="44.5"/>
+                                                            <rect key="frame" x="225" y="0.0" width="215" height="44"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                             <state key="normal" title="Elite">
                                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -55,9 +55,9 @@
                                                             </connections>
                                                         </button>
                                                         <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="mQa-rt-Ulv" customClass="SegmentedControl" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="155.5" y="54.5" width="129" height="36.5"/>
+                                                            <rect key="frame" x="155.5" y="54" width="129" height="37"/>
                                                             <constraints>
-                                                                <constraint firstAttribute="height" constant="35.5" id="yvf-wE-LHI"/>
+                                                                <constraint firstAttribute="height" constant="36" id="yvf-wE-LHI"/>
                                                             </constraints>
                                                             <segments>
                                                                 <segment title="First"/>
@@ -74,7 +74,7 @@
                                                             </connections>
                                                         </segmentedControl>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Token: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obU-zl-DMR" customClass="RegularLabel" customModule="gloomhaven" customModuleProvider="target">
-                                                            <rect key="frame" x="84.5" y="60.5" width="61" height="24"/>
+                                                            <rect key="frame" x="84.5" y="60" width="61" height="24"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>

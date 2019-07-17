@@ -62,6 +62,11 @@
 		5AAAD4F6221802B400ECC54C /* MonstersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAAD4F5221802B400ECC54C /* MonstersRepository.swift */; };
 		5AAF81012213675C007301E8 /* MonsterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAF81002213675C007301E8 /* MonsterCell.swift */; };
 		5AB6A8AD22D26E200057B49E /* AddMonsterFormPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6A8AC22D26E200057B49E /* AddMonsterFormPresenterTests.swift */; };
+		5AC2E9F222DFA8F80017794F /* MonsterStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2E9F122DFA8F80017794F /* MonsterStatsView.swift */; };
+		5AC2E9F422DFA9C00017794F /* MonsterStatsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2E9F322DFA9C00017794F /* MonsterStatsView.xib */; };
+		5AC2E9F622DFACA70017794F /* UIView+load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2E9F522DFACA70017794F /* UIView+load.swift */; };
+		5AC2E9F922DFB75A0017794F /* UITableView+dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2E9F822DFB75A0017794F /* UITableView+dequeue.swift */; };
+		5AC2E9FB22DFB8150017794F /* UICollectionView+dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2E9FA22DFB8150017794F /* UICollectionView+dequeue.swift */; };
 		5AEE56BC22B835D900A9232F /* AddMonsterFormPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE56BB22B835D900A9232F /* AddMonsterFormPresenter.swift */; };
 		5AEE7F1F22DB897300A5A6D2 /* Bundle+json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEE7F1E22DB897300A5A6D2 /* Bundle+json.swift */; };
 		5AF1062222BC0E2B003B5A2F /* MonsterGalleryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF1062122BC0E2B003B5A2F /* MonsterGalleryRouter.swift */; };
@@ -142,6 +147,11 @@
 		5AAAD4F5221802B400ECC54C /* MonstersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersRepository.swift; sourceTree = "<group>"; };
 		5AAF81002213675C007301E8 /* MonsterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCell.swift; sourceTree = "<group>"; };
 		5AB6A8AC22D26E200057B49E /* AddMonsterFormPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormPresenterTests.swift; sourceTree = "<group>"; };
+		5AC2E9F122DFA8F80017794F /* MonsterStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterStatsView.swift; sourceTree = "<group>"; };
+		5AC2E9F322DFA9C00017794F /* MonsterStatsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MonsterStatsView.xib; sourceTree = "<group>"; };
+		5AC2E9F522DFACA70017794F /* UIView+load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+load.swift"; sourceTree = "<group>"; };
+		5AC2E9F822DFB75A0017794F /* UITableView+dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+dequeue.swift"; sourceTree = "<group>"; };
+		5AC2E9FA22DFB8150017794F /* UICollectionView+dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+dequeue.swift"; sourceTree = "<group>"; };
 		5AEE56BB22B835D900A9232F /* AddMonsterFormPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMonsterFormPresenter.swift; sourceTree = "<group>"; };
 		5AEE7F1E22DB897300A5A6D2 /* Bundle+json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+json.swift"; sourceTree = "<group>"; };
 		5AF1062122BC0E2B003B5A2F /* MonsterGalleryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterGalleryRouter.swift; sourceTree = "<group>"; };
@@ -429,6 +439,9 @@
 				5A09889022B578DF000A1F90 /* UIColor+hex.swift */,
 				5A9F4A7F22DB54FF00B9AAED /* Array+appending.swift */,
 				5AEE7F1E22DB897300A5A6D2 /* Bundle+json.swift */,
+				5AC2E9F522DFACA70017794F /* UIView+load.swift */,
+				5AC2E9F822DFB75A0017794F /* UITableView+dequeue.swift */,
+				5AC2E9FA22DFB8150017794F /* UICollectionView+dequeue.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -449,6 +462,15 @@
 				5A9F4A8122DB55FB00B9AAED /* AddMonsterFormMapperTests.swift */,
 			);
 			path = AddMonsterForm;
+			sourceTree = "<group>";
+		};
+		5AC2E9F022DFA8EB0017794F /* MonsterStatsView */ = {
+			isa = PBXGroup;
+			children = (
+				5AC2E9F122DFA8F80017794F /* MonsterStatsView.swift */,
+				5AC2E9F322DFA9C00017794F /* MonsterStatsView.xib */,
+			);
+			path = MonsterStatsView;
 			sourceTree = "<group>";
 		};
 		5ADCAD952219BD430036171B /* MonstersGallery */ = {
@@ -472,6 +494,7 @@
 				5AF1062622BC0FFC003B5A2F /* MonsterDetailViewController.swift */,
 				5AF1062C22BC2437003B5A2F /* MonsterDetailCell.swift */,
 				5A85921322DBB6990064E5D1 /* MonsterDetailPresenter.swift */,
+				5AC2E9F022DFA8EB0017794F /* MonsterStatsView */,
 			);
 			path = MonsterDetail;
 			sourceTree = "<group>";
@@ -497,6 +520,7 @@
 				5A6A1C6522120E5B00A58EAD /* Sources */,
 				5A6A1C6622120E5B00A58EAD /* Frameworks */,
 				5A6A1C6722120E5B00A58EAD /* Resources */,
+				FD43626906B0BF5941595613 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -580,6 +604,7 @@
 				5A34CECE22121F7C002F2980 /* MonstersGallery.storyboard in Resources */,
 				5A6A1C7422120E5C00A58EAD /* Assets.xcassets in Resources */,
 				5A45685422B4FDD8007BD436 /* Main.storyboard in Resources */,
+				5AC2E9F422DFA9C00017794F /* MonsterStatsView.xib in Resources */,
 				5A34CEC822121D45002F2980 /* LaunchScreen.storyboard in Resources */,
 				5A417BCA22B52C6900CE332A /* Scene.storyboard in Resources */,
 				5A97A28F2219EEC5004B75D1 /* Nyala.ttf in Resources */,
@@ -701,6 +726,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FD43626906B0BF5941595613 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gloomhaven/Pods-gloomhaven-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gloomhaven/Pods-gloomhaven-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -728,6 +775,7 @@
 				5A62B64C221A144900B98CCD /* Fonts.swift in Sources */,
 				5A34CECB22121DD3002F2980 /* MonstersGalleryViewController.swift in Sources */,
 				5A417BC122B51DE800CE332A /* MainModule.swift in Sources */,
+				5AC2E9FB22DFB8150017794F /* UICollectionView+dequeue.swift in Sources */,
 				5A09888F22B57301000A1F90 /* AddMonsterFormCell.swift in Sources */,
 				5A97A2802219DF77004B75D1 /* MonstersParser.swift in Sources */,
 				5A6A1C6D22120E5B00A58EAD /* AppDelegate.swift in Sources */,
@@ -738,12 +786,15 @@
 				5A417BBB22B519D900CE332A /* StartSceneFormModule.swift in Sources */,
 				5A417BC822B52C4800CE332A /* SceneModule.swift in Sources */,
 				5AF1062222BC0E2B003B5A2F /* MonsterGalleryRouter.swift in Sources */,
+				5AC2E9F922DFB75A0017794F /* UITableView+dequeue.swift in Sources */,
 				5A97A2992219FDC1004B75D1 /* UIImage+tinted.swift in Sources */,
 				5A85921422DBB6990064E5D1 /* MonsterDetailPresenter.swift in Sources */,
 				5A417BCC22B52DB400CE332A /* SceneViewController.swift in Sources */,
 				5A45685B22B50053007BD436 /* Appearance.swift in Sources */,
 				5A417BC522B5268900CE332A /* UIImage+color.swift in Sources */,
+				5AC2E9F222DFA8F80017794F /* MonsterStatsView.swift in Sources */,
 				5A09889122B578DF000A1F90 /* UIColor+hex.swift in Sources */,
+				5AC2E9F622DFACA70017794F /* UIView+load.swift in Sources */,
 				5AEE7F1F22DB897300A5A6D2 /* Bundle+json.swift in Sources */,
 				5A97A2822219DFC7004B75D1 /* MonsterTraitsParser.swift in Sources */,
 				5A45685822B4FF69007BD436 /* MonstersGalleryModule.swift in Sources */,
